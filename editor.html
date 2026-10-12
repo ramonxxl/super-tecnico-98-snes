@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Editor de Elenco</title>
+<style>
+  :root {
+    --bg: #0d2416; --painel: #133420; --linha: #1f4a2e; --texto: #eef5ee; --suave: #9fbfa8;
+    --destaque: #f8d020; --erro: #ff7a66; --ok: #70e090; --campo: #0a1c11;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--texto); font: 15px/1.4 system-ui, Segoe UI, sans-serif; }
+  header { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 12px 16px; background: #071a0e; border-bottom: 2px solid var(--destaque); }
+  header h1 { font-size: 18px; margin: 0 12px 0 0; letter-spacing: .5px; }
+  button { background: var(--linha); color: var(--texto); border: 1px solid #2f6a44; border-radius: 6px; padding: 7px 12px; font: inherit; cursor: pointer; }
+  button:hover { background: #2a5c3b; }
+  button.pri { background: var(--destaque); color: #1a1a00; border-color: var(--destaque); font-weight: 600; }
+  button.perigo { background: transparent; border-color: #7a3a30; color: var(--erro); padding: 3px 8px; }
+  #status { color: var(--suave); font-size: 13px; }
+  main { display: grid; grid-template-columns: 260px 1fr; min-height: calc(100vh - 60px); }
+  @media (max-width: 760px) { main { grid-template-columns: 1fr; } }
+  aside { background: var(--painel); border-right: 1px solid var(--linha); padding: 12px; overflow: auto; }
+  .abas { display: flex; gap: 4px; margin-bottom: 8px; }
+  .abas button { flex: 1; padding: 6px 0; }
+  .abas button.on { background: var(--destaque); color: #1a1a00; }
+  .clube { display: flex; justify-content: space-between; padding: 6px 8px; border-radius: 5px; cursor: pointer; }
+  .clube:hover { background: var(--linha); }
+  .clube.on { background: #2a5c3b; outline: 1px solid var(--destaque); }
+  .clube small { color: var(--suave); }
+  .cores { display: inline-flex; gap: 2px; }
+  .cores i { width: 10px; height: 14px; border: 1px solid #000; display: inline-block; }
+  section { padding: 16px; overflow: auto; }
+  .grade { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; margin-bottom: 14px; }
+  label { display: flex; flex-direction: column; gap: 3px; font-size: 12px; color: var(--suave); }
+  input, select { background: var(--campo); color: var(--texto); border: 1px solid var(--linha); border-radius: 4px; padding: 6px; font: inherit; width: 100%; }
+  input.ruim { border-color: var(--erro); }
+  table { border-collapse: collapse; width: 100%; max-width: 720px; }
+  th { text-align: left; font-size: 12px; color: var(--suave); padding: 4px; border-bottom: 1px solid var(--linha); }
+  td { padding: 3px 4px; border-bottom: 1px solid #16391f; }
+  td.num { width: 70px; }
+  td.pos { width: 140px; }
+  #msgs { margin: 10px 0; font-size: 13px; }
+  #msgs .e { color: var(--erro); }
+  #msgs .o { color: var(--ok); }
+  .ajuda { color: var(--suave); font-size: 13px; max-width: 720px; }
+  code { background: var(--campo); padding: 1px 5px; border-radius: 3px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>⚽ Editor de Elenco · Super Técnico 98</h1>
+  <button class="pri" id="abrir">Abrir elenco.json</button>
+  <button id="salvar" disabled>Salvar</button>
+  <input type="file" id="arquivo" accept=".json" hidden>
+  <input id="busca" placeholder="Procurar jogador..." style="max-width:200px">
+  <span id="status">Abra o arquivo elenco.json da pasta do jogo.</span>
+</header>
+<main>
+  <aside>
+    <div class="abas" id="abas"></div>
+    <div id="lista"></div>
+  </aside>
+  <section id="painel">
+    <div class="ajuda">
+      <p><b>Como usar:</b> clique em <b>Abrir elenco.json</b> e escolha o arquivo que está na pasta <code>snes</code>.
+      Escolha um clube à esquerda e edite nomes, forças e idades. Depois clique em <b>Salvar</b>
+      e dê dois cliques em <code>GERAR ROM.bat</code> para criar a ROM nova.</p>
+      <p>Regras: nomes com até 12 letras, sigla com 3, de 16 a 26 jogadores por clube (pelo menos 1 goleiro),
+      força de 1 a 50 e exatamente 16 clubes em cada série.</p>
+    </div>
+  </section>
+</main>
+<script>
+const LETRAS = " ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789ÃÁÂÀÉÊÍÓÔÕÚÇ.,:;!?-+/$%()<>='\"*";
+const POS = { G: 'Goleiro', D: 'Defensor', M: 'Meio-campo', A: 'Atacante' };
+let dados = null, handle = null, serie = 'A', atual = -1, sujo = false;
+
+const $ = (id) => document.getElementById(id);
+const limpa = (s, n) => String(s || '').toUpperCase().split('').filter((c) => LETRAS.includes(c)).join('').slice(0, n);
+function status(t) { $('status').textContent = t; }
+function marca() { sujo = true; $('salvar').disabled = false; status('Alterações não salvas.'); }
+
+$('abrir').onclick = async () => {
+  if (window.showOpenFilePicker) {
+    try {
+      [handle] = await showOpenFilePicker({ types: [{ description: 'Elenco', accept: { 'application/json': ['.json'] } }] });
+      carrega(await (await handle.getFile()).text());
+    } catch (e) { if (e.name !== 'AbortError') status('Erro ao abrir: ' + e.message); }
+  } else $('arquivo').click();
+};
+$('arquivo').onchange = async (ev) => { const f = ev.target.files[0]; if (f) carrega(await f.text()); };
+
+function carrega(txt) {
+  try { dados = JSON.parse(txt); } catch (e) { status('Arquivo inválido: ' + e.message); return; }
+  if (!Array.isArray(dados.clubes)) { status('Este arquivo não é um elenco.'); return; }
+  sujo = false; $('salvar').disabled = false; atual = -1;
+  status(`Elenco aberto: ${dados.clubes.length} clubes.`);
+  desenhaAbas(); desenhaLista(); valida();
+}
+
+$('salvar').onclick = async () => {
+  const erros = valida();
+  if (erros.length && !confirm(`Há ${erros.length} problema(s) — a ROM não vai ser gerada assim. Salvar mesmo assim?`)) return;
+  const txt = JSON.stringify(dados, null, 1);
+  if (handle && handle.createWritable) {
+    try { const w = await handle.createWritable(); await w.write(txt); await w.close(); sujo = false; status('Salvo! Agora rode GERAR ROM.bat.'); return; }
+    catch (e) { status('Não deu para gravar direto (' + e.message + '); baixando o arquivo.'); }
+  }
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([txt], { type: 'application/json' }));
+  a.download = 'elenco.json'; a.click();
+  sujo = false; status('Arquivo baixado. Coloque-o na pasta snes (substituindo o antigo) e rode GERAR ROM.bat.');
+};
+window.onbeforeunload = () => (sujo ? 'Há alterações não salvas.' : undefined);
+
+function desenhaAbas() {
+  $('abas').innerHTML = '';
+  for (const s of 'ABCD') {
+    const b = document.createElement('button');
+    b.textContent = 'Série ' + s; b.className = s === serie ? 'on' : '';
+    b.onclick = () => { serie = s; desenhaAbas(); desenhaLista(); };
+    $('abas').appendChild(b);
+  }
+}
+function desenhaLista() {
+  const l = $('lista'); l.innerHTML = '';
+  const filtro = limpa($('busca').value, 12);
+  dados.clubes.forEach((c, i) => {
+    if (c.divisao !== serie) return;
+    const achou = filtro && c.jogadores.some((j) => j.nome.includes(filtro));
+    if (filtro && !achou && !c.nome.includes(filtro)) return;
+    const d = document.createElement('div');
+    d.className = 'clube' + (i === atual ? ' on' : '');
+    d.innerHTML = `<span><span class="cores"><i style="background:${c.cores[0]}"></i><i style="background:${c.cores[1]}"></i></span> ${c.nome}</span><small>${c.jogadores.length} jog.</small>`;
+    d.onclick = () => { atual = i; desenhaLista(); desenhaClube(); };
+    l.appendChild(d);
+  });
+}
+$('busca').oninput = () => dados && desenhaLista();
+
+function campo(rotulo, valor, onchange, attrs = {}) {
+  const lb = document.createElement('label'); lb.textContent = rotulo;
+  const inp = document.createElement(attrs.tag || 'input');
+  if (attrs.opcoes) for (const [v, t] of attrs.opcoes) { const o = document.createElement('option'); o.value = v; o.textContent = t; inp.appendChild(o); }
+  for (const [k, v] of Object.entries(attrs)) if (!['tag', 'opcoes'].includes(k)) inp.setAttribute(k, v);
+  inp.value = valor;
+  inp.onchange = () => { onchange(inp); marca(); valida(); };
+  lb.appendChild(inp); return lb;
+}
+
+function desenhaClube() {
+  const c = dados.clubes[atual], p = $('painel'); p.innerHTML = '';
+  const h = document.createElement('h2'); h.textContent = c.nome; p.appendChild(h);
+  const g = document.createElement('div'); g.className = 'grade';
+  g.appendChild(campo('Nome (até 12)', c.nome, (i) => { c.nome = i.value = limpa(i.value, 12); h.textContent = c.nome; desenhaLista(); }, { maxlength: 12 }));
+  g.appendChild(campo('Sigla (3)', c.sigla, (i) => { c.sigla = i.value = limpa(i.value, 3); }, { maxlength: 3 }));
+  g.appendChild(campo('Série', c.divisao, (i) => { c.divisao = i.value; desenhaLista(); }, { tag: 'select', opcoes: [['A', 'A'], ['B', 'B'], ['C', 'C'], ['D', 'D']] }));
+  g.appendChild(campo('Torcida (1 a 10)', c.fama, (i) => { c.fama = Math.max(1, Math.min(10, +i.value | 0)); i.value = c.fama; }, { type: 'number', min: 1, max: 10 }));
+  g.appendChild(campo('Capacidade do estádio', c.capacidade, (i) => { c.capacidade = Math.max(1000, Math.min(65000, +i.value | 0)); i.value = c.capacidade; }, { type: 'number', min: 1000, max: 65000, step: 500 }));
+  g.appendChild(campo('Cor principal', c.cores[0], (i) => { c.cores[0] = i.value; desenhaLista(); }, { type: 'color' }));
+  g.appendChild(campo('Cor secundária', c.cores[1], (i) => { c.cores[1] = i.value; desenhaLista(); }, { type: 'color' }));
+  p.appendChild(g);
+
+  const msgs = document.createElement('div'); msgs.id = 'msgs'; p.appendChild(msgs);
+  const t = document.createElement('table');
+  t.innerHTML = '<tr><th>Nome (até 12)</th><th>Posição</th><th>Força</th><th>Idade</th><th></th></tr>';
+  const ordem = { G: 0, D: 1, M: 2, A: 3 };
+  c.jogadores.sort((a, b) => ordem[a.pos] - ordem[b.pos] || b.forca - a.forca);
+  c.jogadores.forEach((j, k) => {
+    const tr = document.createElement('tr');
+    const td = (el, cls) => { const x = document.createElement('td'); if (cls) x.className = cls; x.appendChild(el); tr.appendChild(x); return el; };
+    const nome = td(Object.assign(document.createElement('input'), { value: j.nome, maxLength: 12 }));
+    nome.onchange = () => { j.nome = nome.value = limpa(nome.value, 12); marca(); valida(); };
+    const pos = td(document.createElement('select'), 'pos');
+    for (const [v, n] of Object.entries(POS)) { const o = document.createElement('option'); o.value = v; o.textContent = n; pos.appendChild(o); }
+    pos.value = j.pos; pos.onchange = () => { j.pos = pos.value; marca(); valida(); };
+    const fo = td(Object.assign(document.createElement('input'), { type: 'number', min: 1, max: 50, value: j.forca }), 'num');
+    fo.onchange = () => { j.forca = Math.max(1, Math.min(50, +fo.value | 0)); fo.value = j.forca; marca(); };
+    const id = td(Object.assign(document.createElement('input'), { type: 'number', min: 15, max: 45, value: j.idade }), 'num');
+    id.onchange = () => { j.idade = Math.max(15, Math.min(45, +id.value | 0)); id.value = j.idade; marca(); };
+    const rm = td(Object.assign(document.createElement('button'), { textContent: 'tirar', className: 'perigo' }));
+    rm.onclick = () => { if (c.jogadores.length <= 16) { alert('Mínimo de 16 jogadores.'); return; } c.jogadores.splice(k, 1); marca(); desenhaClube(); valida(); };
+    t.appendChild(tr);
+  });
+  p.appendChild(t);
+  const add = document.createElement('button'); add.textContent = '+ jogador'; add.style.marginTop = '10px';
+  add.onclick = () => { if (c.jogadores.length >= 26) { alert('Máximo de 26 jogadores.'); return; } c.jogadores.push({ nome: 'NOVATO', pos: 'M', forca: 10, idade: 18 }); marca(); desenhaClube(); valida(); };
+  p.appendChild(add);
+  valida();
+}
+
+function valida() {
+  const erros = [];
+  const conta = { A: 0, B: 0, C: 0, D: 0 };
+  dados.clubes.forEach((c) => {
+    conta[c.divisao] = (conta[c.divisao] || 0) + 1;
+    if (!c.nome || c.nome.length > 12) erros.push(`${c.nome || '(sem nome)'}: nome precisa ter de 1 a 12 letras`);
+    if (!c.sigla || c.sigla.length !== 3) erros.push(`${c.nome}: a sigla precisa ter 3 letras`);
+    if (c.jogadores.length < 16 || c.jogadores.length > 26) erros.push(`${c.nome}: precisa de 16 a 26 jogadores`);
+    if (!c.jogadores.some((j) => j.pos === 'G')) erros.push(`${c.nome}: precisa de pelo menos um goleiro`);
+    c.jogadores.forEach((j) => { if (!j.nome) erros.push(`${c.nome}: jogador sem nome`); });
+  });
+  for (const s of 'ABCD') if (conta[s] !== 16) erros.push(`Série ${s} tem ${conta[s]} clubes (precisa de 16)`);
+  const m = $('msgs');
+  if (m) m.innerHTML = erros.length ? erros.slice(0, 8).map((e) => `<div class="e">⚠ ${e}</div>`).join('') + (erros.length > 8 ? `<div class="e">… e mais ${erros.length - 8}</div>` : '') : '<div class="o">✔ Elenco válido</div>';
+  return erros;
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+# Ferramentas de terceiros (baixe à parte: cc65 e Mesen 2)
+tools/
+teste/mesen/
+
+# ROMs comerciais não fazem parte do projeto
+*.smc
+
+# Arquivos gerados pelo build
+gen/
+__pycache__/
+
+# Saves e cópias de segurança
+*.srm
+.restauracao/
+
+# Saídas dos testes automáticos
+teste/fotos/
+teste/*.txt
+teste/*.wav
+
+# Material bruto do trailer (o .mp4 final fica)
+trailer/quadros/
+trailer/audio/
+trailer/audio_mix.wav

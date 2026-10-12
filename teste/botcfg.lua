@@ -1,0 +1,10 @@
+ROUNDS = 3
+DIVSTEPS = 0
+VISIT = true
+VISITROUND = 2
+VISITLIST = {1, 2, 3, 5, 7, 8}
+SAVETEST = false
+SUBTEST = false
+SHOTALL = false
+TITLEWAIT = 150
+SLOWMATCH = true

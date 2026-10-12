@@ -1,0 +1,10388 @@
+{
+ "versao": 1,
+ "observacao": "Edite com editor.html e rode node build.js para gerar a ROM nova.",
+ "clubes": [
+  {
+   "nome": "FLAMENGO",
+   "sigla": "FLA",
+   "divisao": "A",
+   "fama": 10,
+   "capacidade": 78000,
+   "cores": [
+    "#D01818",
+    "#101010"
+   ],
+   "jogadores": [
+    {
+     "nome": "C. LIMA",
+     "pos": "G",
+     "forca": 43,
+     "idade": 23
+    },
+    {
+     "nome": "OTÁVIO",
+     "pos": "G",
+     "forca": 40,
+     "idade": 29
+    },
+    {
+     "nome": "TITA",
+     "pos": "G",
+     "forca": 37,
+     "idade": 23
+    },
+    {
+     "nome": "ROGÉRIO",
+     "pos": "D",
+     "forca": 50,
+     "idade": 26
+    },
+    {
+     "nome": "GILBERTO",
+     "pos": "D",
+     "forca": 46,
+     "idade": 21
+    },
+    {
+     "nome": "YAGO ARAÚJO",
+     "pos": "D",
+     "forca": 50,
+     "idade": 23
+    },
+    {
+     "nome": "FUMAÇA",
+     "pos": "D",
+     "forca": 45,
+     "idade": 32
+    },
+    {
+     "nome": "FABRÍCIO",
+     "pos": "D",
+     "forca": 42,
+     "idade": 27
+    },
+    {
+     "nome": "BRENO PIRES",
+     "pos": "D",
+     "forca": 40,
+     "idade": 28
+    },
+    {
+     "nome": "R. BARROS",
+     "pos": "D",
+     "forca": 40,
+     "idade": 34
+    },
+    {
+     "nome": "BIGODE",
+     "pos": "M",
+     "forca": 50,
+     "idade": 19
+    },
+    {
+     "nome": "L. PRADO",
+     "pos": "M",
+     "forca": 46,
+     "idade": 18
+    },
+    {
+     "nome": "WESLEY PIRES",
+     "pos": "M",
+     "forca": 47,
+     "idade": 22
+    },
+    {
+     "nome": "WESLEY",
+     "pos": "M",
+     "forca": 48,
+     "idade": 22
+    },
+    {
+     "nome": "W. BORGES",
+     "pos": "M",
+     "forca": 38,
+     "idade": 34
+    },
+    {
+     "nome": "EDUARDO",
+     "pos": "M",
+     "forca": 38,
+     "idade": 22
+    },
+    {
+     "nome": "CLEITON",
+     "pos": "M",
+     "forca": 37,
+     "idade": 24
+    },
+    {
+     "nome": "PATO",
+     "pos": "A",
+     "forca": 44,
+     "idade": 23
+    },
+    {
+     "nome": "BAIANO",
+     "pos": "A",
+     "forca": 49,
+     "idade": 32
+    },
+    {
+     "nome": "KAUÃ MARTINS",
+     "pos": "A",
+     "forca": 37,
+     "idade": 23
+    },
+    {
+     "nome": "GAÚCHO",
+     "pos": "A",
+     "forca": 39,
+     "idade": 18
+    },
+    {
+     "nome": "HUGO",
+     "pos": "A",
+     "forca": 39,
+     "idade": 28
+    }
+   ]
+  },
+  {
+   "nome": "PALMEIRAS",
+   "sigla": "PAL",
+   "divisao": "A",
+   "fama": 10,
+   "capacidade": 43000,
+   "cores": [
+    "#107030",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "ÍTALO",
+     "pos": "G",
+     "forca": 43,
+     "idade": 18
+    },
+    {
+     "nome": "CACAU",
+     "pos": "G",
+     "forca": 46,
+     "idade": 33
+    },
+    {
+     "nome": "RICARDO",
+     "pos": "G",
+     "forca": 41,
+     "idade": 26
+    },
+    {
+     "nome": "FELIPE",
+     "pos": "D",
+     "forca": 46,
+     "idade": 19
+    },
+    {
+     "nome": "ROMARINHO",
+     "pos": "D",
+     "forca": 44,
+     "idade": 22
+    },
+    {
+     "nome": "RAUL MENDES",
+     "pos": "D",
+     "forca": 49,
+     "idade": 31
+    },
+    {
+     "nome": "MÁRCIO",
+     "pos": "D",
+     "forca": 45,
+     "idade": 28
+    },
+    {
+     "nome": "F. CRUZ",
+     "pos": "D",
+     "forca": 45,
+     "idade": 30
+    },
+    {
+     "nome": "PAULO",
+     "pos": "D",
+     "forca": 43,
+     "idade": 25
+    },
+    {
+     "nome": "NILTON",
+     "pos": "D",
+     "forca": 38,
+     "idade": 32
+    },
+    {
+     "nome": "JAJÁ",
+     "pos": "M",
+     "forca": 48,
+     "idade": 25
+    },
+    {
+     "nome": "MOSQUITO",
+     "pos": "M",
+     "forca": 47,
+     "idade": 24
+    },
+    {
+     "nome": "BEBETO",
+     "pos": "M",
+     "forca": 46,
+     "idade": 34
+    },
+    {
+     "nome": "MATHEUS",
+     "pos": "M",
+     "forca": 45,
+     "idade": 29
+    },
+    {
+     "nome": "CARLOS MATOS",
+     "pos": "M",
+     "forca": 41,
+     "idade": 34
+    },
+    {
+     "nome": "LUIZ",
+     "pos": "M",
+     "forca": 40,
+     "idade": 29
+    },
+    {
+     "nome": "A. SALES",
+     "pos": "M",
+     "forca": 44,
+     "idade": 30
+    },
+    {
+     "nome": "IGOR BARROS",
+     "pos": "A",
+     "forca": 50,
+     "idade": 23
+    },
+    {
+     "nome": "PAULISTA",
+     "pos": "A",
+     "forca": 47,
+     "idade": 18
+    },
+    {
+     "nome": "IGOR GOMES",
+     "pos": "A",
+     "forca": 43,
+     "idade": 32
+    },
+    {
+     "nome": "DANIEL",
+     "pos": "A",
+     "forca": 40,
+     "idade": 32
+    },
+    {
+     "nome": "CAFU",
+     "pos": "A",
+     "forca": 40,
+     "idade": 23
+    }
+   ]
+  },
+  {
+   "nome": "CORINTHIANS",
+   "sigla": "COR",
+   "divisao": "A",
+   "fama": 10,
+   "capacidade": 49000,
+   "cores": [
+    "#F8F8F8",
+    "#101010"
+   ],
+   "jogadores": [
+    {
+     "nome": "NILTON PIRES",
+     "pos": "G",
+     "forca": 50,
+     "idade": 30
+    },
+    {
+     "nome": "GABRIEL",
+     "pos": "G",
+     "forca": 45,
+     "idade": 23
+    },
+    {
+     "nome": "CORISCO",
+     "pos": "G",
+     "forca": 44,
+     "idade": 28
+    },
+    {
+     "nome": "BETINHO",
+     "pos": "D",
+     "forca": 50,
+     "idade": 24
+    },
+    {
+     "nome": "PELEZINHO",
+     "pos": "D",
+     "forca": 45,
+     "idade": 26
+    },
+    {
+     "nome": "ANDRÉ",
+     "pos": "D",
+     "forca": 48,
+     "idade": 29
+    },
+    {
+     "nome": "LUIZ LIMA",
+     "pos": "D",
+     "forca": 48,
+     "idade": 22
+    },
+    {
+     "nome": "K. LOPES",
+     "pos": "D",
+     "forca": 43,
+     "idade": 24
+    },
+    {
+     "nome": "V. CARDOSO",
+     "pos": "D",
+     "forca": 46,
+     "idade": 25
+    },
+    {
+     "nome": "CARECA",
+     "pos": "D",
+     "forca": 37,
+     "idade": 23
+    },
+    {
+     "nome": "GALEGO",
+     "pos": "M",
+     "forca": 46,
+     "idade": 24
+    },
+    {
+     "nome": "KAUÃ",
+     "pos": "M",
+     "forca": 47,
+     "idade": 34
+    },
+    {
+     "nome": "LUIZ CRUZ",
+     "pos": "M",
+     "forca": 50,
+     "idade": 27
+    },
+    {
+     "nome": "DODÔ",
+     "pos": "M",
+     "forca": 47,
+     "idade": 27
+    },
+    {
+     "nome": "SÉRGIO",
+     "pos": "M",
+     "forca": 44,
+     "idade": 30
+    },
+    {
+     "nome": "QUEIXADA",
+     "pos": "M",
+     "forca": 40,
+     "idade": 28
+    },
+    {
+     "nome": "NATAN",
+     "pos": "M",
+     "forca": 42,
+     "idade": 18
+    },
+    {
+     "nome": "JOÃO XAVIER",
+     "pos": "A",
+     "forca": 49,
+     "idade": 25
+    },
+    {
+     "nome": "DIEGO PIRES",
+     "pos": "A",
+     "forca": 47,
+     "idade": 29
+    },
+    {
+     "nome": "JEFERSON",
+     "pos": "A",
+     "forca": 44,
+     "idade": 29
+    },
+    {
+     "nome": "SIDNEY",
+     "pos": "A",
+     "forca": 39,
+     "idade": 21
+    },
+    {
+     "nome": "SAMUEL CRUZ",
+     "pos": "A",
+     "forca": 37,
+     "idade": 29
+    }
+   ]
+  },
+  {
+   "nome": "SÃO PAULO",
+   "sigla": "SAO",
+   "divisao": "A",
+   "fama": 9,
+   "capacidade": 66000,
+   "cores": [
+    "#F8F8F8",
+    "#D01818"
+   ],
+   "jogadores": [
+    {
+     "nome": "ÉRICK",
+     "pos": "G",
+     "forca": 43,
+     "idade": 20
+    },
+    {
+     "nome": "E. PIRES",
+     "pos": "G",
+     "forca": 35,
+     "idade": 26
+    },
+    {
+     "nome": "E. LOPES",
+     "pos": "G",
+     "forca": 40,
+     "idade": 21
+    },
+    {
+     "nome": "ÉVERTON",
+     "pos": "D",
+     "forca": 50,
+     "idade": 18
+    },
+    {
+     "nome": "YAGO LOPES",
+     "pos": "D",
+     "forca": 49,
+     "idade": 22
+    },
+    {
+     "nome": "MARCOS",
+     "pos": "D",
+     "forca": 48,
+     "idade": 30
+    },
+    {
+     "nome": "JACARÉ",
+     "pos": "D",
+     "forca": 44,
+     "idade": 18
+    },
+    {
+     "nome": "MAURO",
+     "pos": "D",
+     "forca": 44,
+     "idade": 29
+    },
+    {
+     "nome": "ZINHO",
+     "pos": "D",
+     "forca": 38,
+     "idade": 28
+    },
+    {
+     "nome": "MAGRÃO",
+     "pos": "D",
+     "forca": 36,
+     "idade": 31
+    },
+    {
+     "nome": "RAUL FREITAS",
+     "pos": "M",
+     "forca": 41,
+     "idade": 34
+    },
+    {
+     "nome": "E. REIS",
+     "pos": "M",
+     "forca": 44,
+     "idade": 18
+    },
+    {
+     "nome": "THIAGO DIAS",
+     "pos": "M",
+     "forca": 44,
+     "idade": 24
+    },
+    {
+     "nome": "JORGE",
+     "pos": "M",
+     "forca": 44,
+     "idade": 25
+    },
+    {
+     "nome": "RENATO",
+     "pos": "M",
+     "forca": 37,
+     "idade": 18
+    },
+    {
+     "nome": "GABRIEL LIMA",
+     "pos": "M",
+     "forca": 38,
+     "idade": 18
+    },
+    {
+     "nome": "V. BRAGA",
+     "pos": "M",
+     "forca": 37,
+     "idade": 25
+    },
+    {
+     "nome": "ALEX MARTINS",
+     "pos": "A",
+     "forca": 43,
+     "idade": 20
+    },
+    {
+     "nome": "D. VALE",
+     "pos": "A",
+     "forca": 43,
+     "idade": 25
+    },
+    {
+     "nome": "KAUÃ LIMA",
+     "pos": "A",
+     "forca": 44,
+     "idade": 27
+    },
+    {
+     "nome": "DIEGO",
+     "pos": "A",
+     "forca": 41,
+     "idade": 20
+    },
+    {
+     "nome": "BERNARDO",
+     "pos": "A",
+     "forca": 43,
+     "idade": 27
+    }
+   ]
+  },
+  {
+   "nome": "ATLÉTICO-MG",
+   "sigla": "CAM",
+   "divisao": "A",
+   "fama": 9,
+   "capacidade": 46000,
+   "cores": [
+    "#101010",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "LEANDRO",
+     "pos": "G",
+     "forca": 48,
+     "idade": 21
+    },
+    {
+     "nome": "RODRIGO",
+     "pos": "G",
+     "forca": 44,
+     "idade": 18
+    },
+    {
+     "nome": "É. FONSECA",
+     "pos": "G",
+     "forca": 36,
+     "idade": 33
+    },
+    {
+     "nome": "TATU",
+     "pos": "D",
+     "forca": 42,
+     "idade": 18
+    },
+    {
+     "nome": "DAVI",
+     "pos": "D",
+     "forca": 42,
+     "idade": 26
+    },
+    {
+     "nome": "LUCAS",
+     "pos": "D",
+     "forca": 42,
+     "idade": 27
+    },
+    {
+     "nome": "BRENO SOUZA",
+     "pos": "D",
+     "forca": 41,
+     "idade": 30
+    },
+    {
+     "nome": "BRUNO",
+     "pos": "D",
+     "forca": 44,
+     "idade": 19
+    },
+    {
+     "nome": "A. DIAS",
+     "pos": "D",
+     "forca": 39,
+     "idade": 19
+    },
+    {
+     "nome": "RODRIGO CRUZ",
+     "pos": "D",
+     "forca": 42,
+     "idade": 22
+    },
+    {
+     "nome": "TÚLIO",
+     "pos": "M",
+     "forca": 49,
+     "idade": 34
+    },
+    {
+     "nome": "VITOR NUNES",
+     "pos": "M",
+     "forca": 43,
+     "idade": 19
+    },
+    {
+     "nome": "ALEX",
+     "pos": "M",
+     "forca": 41,
+     "idade": 24
+    },
+    {
+     "nome": "GORDO",
+     "pos": "M",
+     "forca": 48,
+     "idade": 24
+    },
+    {
+     "nome": "PEDRO",
+     "pos": "M",
+     "forca": 36,
+     "idade": 23
+    },
+    {
+     "nome": "O. RIBEIRO",
+     "pos": "M",
+     "forca": 44,
+     "idade": 18
+    },
+    {
+     "nome": "CHICÃO",
+     "pos": "M",
+     "forca": 40,
+     "idade": 20
+    },
+    {
+     "nome": "DOUGLAS",
+     "pos": "A",
+     "forca": 41,
+     "idade": 32
+    },
+    {
+     "nome": "É. QUEIROZ",
+     "pos": "A",
+     "forca": 48,
+     "idade": 28
+    },
+    {
+     "nome": "CARLOS",
+     "pos": "A",
+     "forca": 44,
+     "idade": 20
+    },
+    {
+     "nome": "BOMBA",
+     "pos": "A",
+     "forca": 37,
+     "idade": 30
+    },
+    {
+     "nome": "G. PEREIRA",
+     "pos": "A",
+     "forca": 41,
+     "idade": 27
+    }
+   ]
+  },
+  {
+   "nome": "BOTAFOGO",
+   "sigla": "BOT",
+   "divisao": "A",
+   "fama": 8,
+   "capacidade": 44000,
+   "cores": [
+    "#101010",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "LULINHA",
+     "pos": "G",
+     "forca": 41,
+     "idade": 18
+    },
+    {
+     "nome": "MINEIRO",
+     "pos": "G",
+     "forca": 41,
+     "idade": 20
+    },
+    {
+     "nome": "A. MELO",
+     "pos": "G",
+     "forca": 40,
+     "idade": 27
+    },
+    {
+     "nome": "B. GOMES",
+     "pos": "D",
+     "forca": 40,
+     "idade": 34
+    },
+    {
+     "nome": "E. SOUZA",
+     "pos": "D",
+     "forca": 41,
+     "idade": 27
+    },
+    {
+     "nome": "MARCÃO",
+     "pos": "D",
+     "forca": 49,
+     "idade": 31
+    },
+    {
+     "nome": "JOÃO",
+     "pos": "D",
+     "forca": 41,
+     "idade": 21
+    },
+    {
+     "nome": "DAVI QUEIROZ",
+     "pos": "D",
+     "forca": 36,
+     "idade": 22
+    },
+    {
+     "nome": "F. GOMES",
+     "pos": "D",
+     "forca": 36,
+     "idade": 19
+    },
+    {
+     "nome": "DECO",
+     "pos": "D",
+     "forca": 38,
+     "idade": 24
+    },
+    {
+     "nome": "VITOR MATOS",
+     "pos": "M",
+     "forca": 44,
+     "idade": 33
+    },
+    {
+     "nome": "GUGA",
+     "pos": "M",
+     "forca": 43,
+     "idade": 33
+    },
+    {
+     "nome": "HENRIQUE",
+     "pos": "M",
+     "forca": 44,
+     "idade": 19
+    },
+    {
+     "nome": "ÉRICK MENDES",
+     "pos": "M",
+     "forca": 40,
+     "idade": 20
+    },
+    {
+     "nome": "RAFAEL",
+     "pos": "M",
+     "forca": 39,
+     "idade": 32
+    },
+    {
+     "nome": "ELIAS",
+     "pos": "M",
+     "forca": 34,
+     "idade": 24
+    },
+    {
+     "nome": "DUDU",
+     "pos": "M",
+     "forca": 39,
+     "idade": 32
+    },
+    {
+     "nome": "PARAÍBA",
+     "pos": "A",
+     "forca": 49,
+     "idade": 33
+    },
+    {
+     "nome": "S. OLIVEIRA",
+     "pos": "A",
+     "forca": 47,
+     "idade": 27
+    },
+    {
+     "nome": "E. ALVES",
+     "pos": "A",
+     "forca": 40,
+     "idade": 21
+    },
+    {
+     "nome": "TÚLIO VIEIRA",
+     "pos": "A",
+     "forca": 40,
+     "idade": 19
+    },
+    {
+     "nome": "ELIAS BORGES",
+     "pos": "A",
+     "forca": 43,
+     "idade": 21
+    }
+   ]
+  },
+  {
+   "nome": "FLUMINENSE",
+   "sigla": "FLU",
+   "divisao": "A",
+   "fama": 8,
+   "capacidade": 78000,
+   "cores": [
+    "#801830",
+    "#107030"
+   ],
+   "jogadores": [
+    {
+     "nome": "SAMUEL BRAGA",
+     "pos": "G",
+     "forca": 47,
+     "idade": 34
+    },
+    {
+     "nome": "FÁBIO FARIAS",
+     "pos": "G",
+     "forca": 40,
+     "idade": 30
+    },
+    {
+     "nome": "CANHOTO",
+     "pos": "G",
+     "forca": 40,
+     "idade": 27
+    },
+    {
+     "nome": "BRUNO LIMA",
+     "pos": "D",
+     "forca": 47,
+     "idade": 18
+    },
+    {
+     "nome": "W. ARAÚJO",
+     "pos": "D",
+     "forca": 45,
+     "idade": 27
+    },
+    {
+     "nome": "MAURO ALVES",
+     "pos": "D",
+     "forca": 47,
+     "idade": 22
+    },
+    {
+     "nome": "D. MELO",
+     "pos": "D",
+     "forca": 49,
+     "idade": 21
+    },
+    {
+     "nome": "R. LIMA",
+     "pos": "D",
+     "forca": 38,
+     "idade": 21
+    },
+    {
+     "nome": "V. MARTINS",
+     "pos": "D",
+     "forca": 39,
+     "idade": 22
+    },
+    {
+     "nome": "PEDRO SALES",
+     "pos": "D",
+     "forca": 41,
+     "idade": 31
+    },
+    {
+     "nome": "CLEITON DIAS",
+     "pos": "M",
+     "forca": 41,
+     "idade": 19
+    },
+    {
+     "nome": "H. DIAS",
+     "pos": "M",
+     "forca": 48,
+     "idade": 32
+    },
+    {
+     "nome": "PEDRO BORGES",
+     "pos": "M",
+     "forca": 47,
+     "idade": 18
+    },
+    {
+     "nome": "V. MOURA",
+     "pos": "M",
+     "forca": 41,
+     "idade": 25
+    },
+    {
+     "nome": "FERNANDO",
+     "pos": "M",
+     "forca": 36,
+     "idade": 20
+    },
+    {
+     "nome": "VITOR MOURA",
+     "pos": "M",
+     "forca": 43,
+     "idade": 24
+    },
+    {
+     "nome": "THIAGO NUNES",
+     "pos": "M",
+     "forca": 41,
+     "idade": 31
+    },
+    {
+     "nome": "J. VALE",
+     "pos": "A",
+     "forca": 47,
+     "idade": 23
+    },
+    {
+     "nome": "D. LIMA",
+     "pos": "A",
+     "forca": 45,
+     "idade": 33
+    },
+    {
+     "nome": "BRENO",
+     "pos": "A",
+     "forca": 43,
+     "idade": 18
+    },
+    {
+     "nome": "T. FARIAS",
+     "pos": "A",
+     "forca": 37,
+     "idade": 19
+    },
+    {
+     "nome": "J. REIS",
+     "pos": "A",
+     "forca": 37,
+     "idade": 19
+    }
+   ]
+  },
+  {
+   "nome": "GRÊMIO",
+   "sigla": "GRE",
+   "divisao": "A",
+   "fama": 8,
+   "capacidade": 55000,
+   "cores": [
+    "#2878D0",
+    "#101010"
+   ],
+   "jogadores": [
+    {
+     "nome": "MULLER",
+     "pos": "G",
+     "forca": 46,
+     "idade": 34
+    },
+    {
+     "nome": "F. CAMPOS",
+     "pos": "G",
+     "forca": 39,
+     "idade": 21
+    },
+    {
+     "nome": "ZÉ ROBERTO",
+     "pos": "G",
+     "forca": 42,
+     "idade": 24
+    },
+    {
+     "nome": "IGOR",
+     "pos": "D",
+     "forca": 41,
+     "idade": 33
+    },
+    {
+     "nome": "O. MARTINS",
+     "pos": "D",
+     "forca": 41,
+     "idade": 32
+    },
+    {
+     "nome": "MAURO COSTA",
+     "pos": "D",
+     "forca": 45,
+     "idade": 28
+    },
+    {
+     "nome": "NENÊ",
+     "pos": "D",
+     "forca": 46,
+     "idade": 24
+    },
+    {
+     "nome": "Y. VIEIRA",
+     "pos": "D",
+     "forca": 36,
+     "idade": 19
+    },
+    {
+     "nome": "G. SOUZA",
+     "pos": "D",
+     "forca": 36,
+     "idade": 19
+    },
+    {
+     "nome": "DIEGO SOUZA",
+     "pos": "D",
+     "forca": 41,
+     "idade": 18
+    },
+    {
+     "nome": "NINO",
+     "pos": "M",
+     "forca": 45,
+     "idade": 24
+    },
+    {
+     "nome": "XUXA",
+     "pos": "M",
+     "forca": 42,
+     "idade": 33
+    },
+    {
+     "nome": "ROBSON",
+     "pos": "M",
+     "forca": 43,
+     "idade": 27
+    },
+    {
+     "nome": "RATINHO",
+     "pos": "M",
+     "forca": 41,
+     "idade": 23
+    },
+    {
+     "nome": "A. ROCHA",
+     "pos": "M",
+     "forca": 43,
+     "idade": 28
+    },
+    {
+     "nome": "NATAN CAMPOS",
+     "pos": "M",
+     "forca": 36,
+     "idade": 34
+    },
+    {
+     "nome": "CEARENSE",
+     "pos": "M",
+     "forca": 34,
+     "idade": 33
+    },
+    {
+     "nome": "D. MATOS",
+     "pos": "A",
+     "forca": 42,
+     "idade": 34
+    },
+    {
+     "nome": "VINÍCIUS",
+     "pos": "A",
+     "forca": 44,
+     "idade": 30
+    },
+    {
+     "nome": "WALLACE",
+     "pos": "A",
+     "forca": 37,
+     "idade": 32
+    },
+    {
+     "nome": "BRENO SILVA",
+     "pos": "A",
+     "forca": 40,
+     "idade": 30
+    },
+    {
+     "nome": "LÉO PIRES",
+     "pos": "A",
+     "forca": 34,
+     "idade": 19
+    }
+   ]
+  },
+  {
+   "nome": "INTER",
+   "sigla": "INT",
+   "divisao": "A",
+   "fama": 8,
+   "capacidade": 50000,
+   "cores": [
+    "#D01818",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "CÉSAR",
+     "pos": "G",
+     "forca": 46,
+     "idade": 25
+    },
+    {
+     "nome": "SIDNEY MATOS",
+     "pos": "G",
+     "forca": 42,
+     "idade": 29
+    },
+    {
+     "nome": "BRUNO MENDES",
+     "pos": "G",
+     "forca": 37,
+     "idade": 20
+    },
+    {
+     "nome": "V. TEIXEIRA",
+     "pos": "D",
+     "forca": 49,
+     "idade": 28
+    },
+    {
+     "nome": "WILLIAN",
+     "pos": "D",
+     "forca": 49,
+     "idade": 27
+    },
+    {
+     "nome": "GUSTAVO REIS",
+     "pos": "D",
+     "forca": 43,
+     "idade": 18
+    },
+    {
+     "nome": "L. MELO",
+     "pos": "D",
+     "forca": 49,
+     "idade": 18
+    },
+    {
+     "nome": "SAMUEL",
+     "pos": "D",
+     "forca": 35,
+     "idade": 31
+    },
+    {
+     "nome": "DOUGLAS VALE",
+     "pos": "D",
+     "forca": 37,
+     "idade": 22
+    },
+    {
+     "nome": "L. MACEDO",
+     "pos": "D",
+     "forca": 42,
+     "idade": 28
+    },
+    {
+     "nome": "CARIOCA",
+     "pos": "M",
+     "forca": 46,
+     "idade": 34
+    },
+    {
+     "nome": "JUNINHO",
+     "pos": "M",
+     "forca": 43,
+     "idade": 30
+    },
+    {
+     "nome": "E. CARDOSO",
+     "pos": "M",
+     "forca": 42,
+     "idade": 30
+    },
+    {
+     "nome": "R. MATOS",
+     "pos": "M",
+     "forca": 45,
+     "idade": 18
+    },
+    {
+     "nome": "PEDRO SANTOS",
+     "pos": "M",
+     "forca": 37,
+     "idade": 25
+    },
+    {
+     "nome": "M. REIS",
+     "pos": "M",
+     "forca": 37,
+     "idade": 20
+    },
+    {
+     "nome": "S. DIAS",
+     "pos": "M",
+     "forca": 34,
+     "idade": 32
+    },
+    {
+     "nome": "SAMUEL NUNES",
+     "pos": "A",
+     "forca": 40,
+     "idade": 25
+    },
+    {
+     "nome": "D. VIEIRA",
+     "pos": "A",
+     "forca": 49,
+     "idade": 26
+    },
+    {
+     "nome": "W. OLIVEIRA",
+     "pos": "A",
+     "forca": 36,
+     "idade": 29
+    },
+    {
+     "nome": "G. REIS",
+     "pos": "A",
+     "forca": 39,
+     "idade": 30
+    },
+    {
+     "nome": "DAVI SANTOS",
+     "pos": "A",
+     "forca": 38,
+     "idade": 28
+    }
+   ]
+  },
+  {
+   "nome": "CRUZEIRO",
+   "sigla": "CRU",
+   "divisao": "A",
+   "fama": 8,
+   "capacidade": 61000,
+   "cores": [
+    "#1840B0",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "LUCAS MELO",
+     "pos": "G",
+     "forca": 44,
+     "idade": 32
+    },
+    {
+     "nome": "BOLA",
+     "pos": "G",
+     "forca": 38,
+     "idade": 32
+    },
+    {
+     "nome": "H. VALE",
+     "pos": "G",
+     "forca": 40,
+     "idade": 34
+    },
+    {
+     "nome": "IGOR ALVES",
+     "pos": "D",
+     "forca": 47,
+     "idade": 18
+    },
+    {
+     "nome": "BRENO SALES",
+     "pos": "D",
+     "forca": 45,
+     "idade": 21
+    },
+    {
+     "nome": "ÉRICK SALES",
+     "pos": "D",
+     "forca": 48,
+     "idade": 27
+    },
+    {
+     "nome": "VAVÁ",
+     "pos": "D",
+     "forca": 43,
+     "idade": 30
+    },
+    {
+     "nome": "BRUNO SILVA",
+     "pos": "D",
+     "forca": 39,
+     "idade": 24
+    },
+    {
+     "nome": "ELIAS SALES",
+     "pos": "D",
+     "forca": 37,
+     "idade": 20
+    },
+    {
+     "nome": "FÁBIO",
+     "pos": "D",
+     "forca": 41,
+     "idade": 26
+    },
+    {
+     "nome": "TIAGO",
+     "pos": "M",
+     "forca": 43,
+     "idade": 21
+    },
+    {
+     "nome": "SAMUEL MATOS",
+     "pos": "M",
+     "forca": 42,
+     "idade": 30
+    },
+    {
+     "nome": "VITOR",
+     "pos": "M",
+     "forca": 49,
+     "idade": 20
+    },
+    {
+     "nome": "JOÃO REIS",
+     "pos": "M",
+     "forca": 42,
+     "idade": 32
+    },
+    {
+     "nome": "G. MATOS",
+     "pos": "M",
+     "forca": 41,
+     "idade": 23
+    },
+    {
+     "nome": "T. MATOS",
+     "pos": "M",
+     "forca": 36,
+     "idade": 26
+    },
+    {
+     "nome": "VITOR PRADO",
+     "pos": "M",
+     "forca": 34,
+     "idade": 29
+    },
+    {
+     "nome": "KAKÁ",
+     "pos": "A",
+     "forca": 42,
+     "idade": 22
+    },
+    {
+     "nome": "FÁBIO NUNES",
+     "pos": "A",
+     "forca": 40,
+     "idade": 23
+    },
+    {
+     "nome": "B. OLIVEIRA",
+     "pos": "A",
+     "forca": 38,
+     "idade": 32
+    },
+    {
+     "nome": "L. PIRES",
+     "pos": "A",
+     "forca": 40,
+     "idade": 33
+    },
+    {
+     "nome": "MARCOS ALVES",
+     "pos": "A",
+     "forca": 36,
+     "idade": 24
+    }
+   ]
+  },
+  {
+   "nome": "VASCO",
+   "sigla": "VAS",
+   "divisao": "A",
+   "fama": 8,
+   "capacidade": 21000,
+   "cores": [
+    "#101010",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "W. SOUZA",
+     "pos": "G",
+     "forca": 48,
+     "idade": 18
+    },
+    {
+     "nome": "ADRIANO",
+     "pos": "G",
+     "forca": 37,
+     "idade": 34
+    },
+    {
+     "nome": "C. CARDOSO",
+     "pos": "G",
+     "forca": 40,
+     "idade": 30
+    },
+    {
+     "nome": "GUSTAVO",
+     "pos": "D",
+     "forca": 41,
+     "idade": 31
+    },
+    {
+     "nome": "TIQUINHO",
+     "pos": "D",
+     "forca": 42,
+     "idade": 23
+    },
+    {
+     "nome": "EDUARDO DIAS",
+     "pos": "D",
+     "forca": 48,
+     "idade": 24
+    },
+    {
+     "nome": "OTÁVIO SILVA",
+     "pos": "D",
+     "forca": 42,
+     "idade": 18
+    },
+    {
+     "nome": "V. PIRES",
+     "pos": "D",
+     "forca": 39,
+     "idade": 31
+    },
+    {
+     "nome": "SAMUEL SOUZA",
+     "pos": "D",
+     "forca": 43,
+     "idade": 25
+    },
+    {
+     "nome": "FRED",
+     "pos": "D",
+     "forca": 37,
+     "idade": 19
+    },
+    {
+     "nome": "P. MENDES",
+     "pos": "M",
+     "forca": 41,
+     "idade": 22
+    },
+    {
+     "nome": "PIKACHU",
+     "pos": "M",
+     "forca": 41,
+     "idade": 22
+    },
+    {
+     "nome": "Í. RIBEIRO",
+     "pos": "M",
+     "forca": 47,
+     "idade": 18
+    },
+    {
+     "nome": "VAGNER COSTA",
+     "pos": "M",
+     "forca": 46,
+     "idade": 25
+    },
+    {
+     "nome": "R. DIAS",
+     "pos": "M",
+     "forca": 43,
+     "idade": 26
+    },
+    {
+     "nome": "MÁRCIO MATOS",
+     "pos": "M",
+     "forca": 43,
+     "idade": 20
+    },
+    {
+     "nome": "YAGO FARIAS",
+     "pos": "M",
+     "forca": 35,
+     "idade": 23
+    },
+    {
+     "nome": "ARTHUR",
+     "pos": "A",
+     "forca": 44,
+     "idade": 26
+    },
+    {
+     "nome": "M. CARDOSO",
+     "pos": "A",
+     "forca": 41,
+     "idade": 18
+    },
+    {
+     "nome": "FÁBIO SANTOS",
+     "pos": "A",
+     "forca": 37,
+     "idade": 25
+    },
+    {
+     "nome": "TINGA",
+     "pos": "A",
+     "forca": 39,
+     "idade": 30
+    },
+    {
+     "nome": "A. BORGES",
+     "pos": "A",
+     "forca": 40,
+     "idade": 22
+    }
+   ]
+  },
+  {
+   "nome": "SANTOS",
+   "sigla": "SAN",
+   "divisao": "A",
+   "fama": 8,
+   "capacidade": 16000,
+   "cores": [
+    "#F8F8F8",
+    "#101010"
+   ],
+   "jogadores": [
+    {
+     "nome": "GABRIEL REIS",
+     "pos": "G",
+     "forca": 47,
+     "idade": 19
+    },
+    {
+     "nome": "TÚLIO GOMES",
+     "pos": "G",
+     "forca": 41,
+     "idade": 18
+    },
+    {
+     "nome": "SAMUEL LIMA",
+     "pos": "G",
+     "forca": 41,
+     "idade": 21
+    },
+    {
+     "nome": "W. PIRES",
+     "pos": "D",
+     "forca": 43,
+     "idade": 31
+    },
+    {
+     "nome": "RAUL LIMA",
+     "pos": "D",
+     "forca": 47,
+     "idade": 25
+    },
+    {
+     "nome": "YAGO",
+     "pos": "D",
+     "forca": 40,
+     "idade": 26
+    },
+    {
+     "nome": "DANIEL PRADO",
+     "pos": "D",
+     "forca": 41,
+     "idade": 22
+    },
+    {
+     "nome": "MARANHÃO",
+     "pos": "D",
+     "forca": 34,
+     "idade": 32
+    },
+    {
+     "nome": "TIAGO PIRES",
+     "pos": "D",
+     "forca": 36,
+     "idade": 31
+    },
+    {
+     "nome": "FOGUINHO",
+     "pos": "D",
+     "forca": 34,
+     "idade": 22
+    },
+    {
+     "nome": "H. FREITAS",
+     "pos": "M",
+     "forca": 47,
+     "idade": 20
+    },
+    {
+     "nome": "TIAGO DIAS",
+     "pos": "M",
+     "forca": 44,
+     "idade": 33
+    },
+    {
+     "nome": "D. GOMES",
+     "pos": "M",
+     "forca": 44,
+     "idade": 29
+    },
+    {
+     "nome": "LÉO",
+     "pos": "M",
+     "forca": 43,
+     "idade": 19
+    },
+    {
+     "nome": "D. ARAÚJO",
+     "pos": "M",
+     "forca": 38,
+     "idade": 30
+    },
+    {
+     "nome": "VAGNER",
+     "pos": "M",
+     "forca": 35,
+     "idade": 34
+    },
+    {
+     "nome": "N. OLIVEIRA",
+     "pos": "M",
+     "forca": 43,
+     "idade": 23
+    },
+    {
+     "nome": "A. FREITAS",
+     "pos": "A",
+     "forca": 46,
+     "idade": 18
+    },
+    {
+     "nome": "Í. FARIAS",
+     "pos": "A",
+     "forca": 40,
+     "idade": 22
+    },
+    {
+     "nome": "YAGO PIRES",
+     "pos": "A",
+     "forca": 39,
+     "idade": 31
+    },
+    {
+     "nome": "R. FONSECA",
+     "pos": "A",
+     "forca": 38,
+     "idade": 21
+    },
+    {
+     "nome": "BRENO LIMA",
+     "pos": "A",
+     "forca": 40,
+     "idade": 32
+    }
+   ]
+  },
+  {
+   "nome": "BAHIA",
+   "sigla": "BAH",
+   "divisao": "A",
+   "fama": 7,
+   "capacidade": 48000,
+   "cores": [
+    "#1840B0",
+    "#D01818"
+   ],
+   "jogadores": [
+    {
+     "nome": "É. COSTA",
+     "pos": "G",
+     "forca": 40,
+     "idade": 33
+    },
+    {
+     "nome": "L. CRUZ",
+     "pos": "G",
+     "forca": 41,
+     "idade": 34
+    },
+    {
+     "nome": "B. QUEIROZ",
+     "pos": "G",
+     "forca": 39,
+     "idade": 29
+    },
+    {
+     "nome": "F. REIS",
+     "pos": "D",
+     "forca": 45,
+     "idade": 18
+    },
+    {
+     "nome": "E. ARAÚJO",
+     "pos": "D",
+     "forca": 45,
+     "idade": 21
+    },
+    {
+     "nome": "JOÃO SALES",
+     "pos": "D",
+     "forca": 41,
+     "idade": 30
+    },
+    {
+     "nome": "R. MARTINS",
+     "pos": "D",
+     "forca": 43,
+     "idade": 27
+    },
+    {
+     "nome": "C. VIEIRA",
+     "pos": "D",
+     "forca": 40,
+     "idade": 22
+    },
+    {
+     "nome": "C. COSTA",
+     "pos": "D",
+     "forca": 37,
+     "idade": 24
+    },
+    {
+     "nome": "W. XAVIER",
+     "pos": "D",
+     "forca": 33,
+     "idade": 29
+    },
+    {
+     "nome": "DANIEL ROCHA",
+     "pos": "M",
+     "forca": 41,
+     "idade": 26
+    },
+    {
+     "nome": "A. LOPES",
+     "pos": "M",
+     "forca": 47,
+     "idade": 20
+    },
+    {
+     "nome": "ANDRÉ GOMES",
+     "pos": "M",
+     "forca": 45,
+     "idade": 25
+    },
+    {
+     "nome": "CÉSAR BRAGA",
+     "pos": "M",
+     "forca": 38,
+     "idade": 31
+    },
+    {
+     "nome": "RAUL",
+     "pos": "M",
+     "forca": 37,
+     "idade": 23
+    },
+    {
+     "nome": "KAUÃ ARAÚJO",
+     "pos": "M",
+     "forca": 40,
+     "idade": 30
+    },
+    {
+     "nome": "M. SALES",
+     "pos": "M",
+     "forca": 34,
+     "idade": 27
+    },
+    {
+     "nome": "Y. TEIXEIRA",
+     "pos": "A",
+     "forca": 41,
+     "idade": 19
+    },
+    {
+     "nome": "V. BARROS",
+     "pos": "A",
+     "forca": 38,
+     "idade": 18
+    },
+    {
+     "nome": "LEANDRO MELO",
+     "pos": "A",
+     "forca": 39,
+     "idade": 34
+    },
+    {
+     "nome": "ZEZINHO",
+     "pos": "A",
+     "forca": 34,
+     "idade": 21
+    },
+    {
+     "nome": "C. MARTINS",
+     "pos": "A",
+     "forca": 34,
+     "idade": 23
+    }
+   ]
+  },
+  {
+   "nome": "ATHLETICO-PR",
+   "sigla": "CAP",
+   "divisao": "A",
+   "fama": 7,
+   "capacidade": 42000,
+   "cores": [
+    "#D01818",
+    "#101010"
+   ],
+   "jogadores": [
+    {
+     "nome": "LUCAS XAVIER",
+     "pos": "G",
+     "forca": 44,
+     "idade": 24
+    },
+    {
+     "nome": "H. SILVA",
+     "pos": "G",
+     "forca": 38,
+     "idade": 29
+    },
+    {
+     "nome": "RAUL PRADO",
+     "pos": "G",
+     "forca": 38,
+     "idade": 28
+    },
+    {
+     "nome": "R. VIEIRA",
+     "pos": "D",
+     "forca": 47,
+     "idade": 19
+    },
+    {
+     "nome": "F. OLIVEIRA",
+     "pos": "D",
+     "forca": 43,
+     "idade": 29
+    },
+    {
+     "nome": "JOÃO MELO",
+     "pos": "D",
+     "forca": 39,
+     "idade": 28
+    },
+    {
+     "nome": "É. BORGES",
+     "pos": "D",
+     "forca": 43,
+     "idade": 34
+    },
+    {
+     "nome": "Í. MARTINS",
+     "pos": "D",
+     "forca": 34,
+     "idade": 21
+    },
+    {
+     "nome": "DIEGO MOURA",
+     "pos": "D",
+     "forca": 40,
+     "idade": 30
+    },
+    {
+     "nome": "SIDNEY BRAGA",
+     "pos": "D",
+     "forca": 33,
+     "idade": 23
+    },
+    {
+     "nome": "DANIEL NUNES",
+     "pos": "M",
+     "forca": 39,
+     "idade": 21
+    },
+    {
+     "nome": "A. TEIXEIRA",
+     "pos": "M",
+     "forca": 39,
+     "idade": 24
+    },
+    {
+     "nome": "F. BRAGA",
+     "pos": "M",
+     "forca": 40,
+     "idade": 20
+    },
+    {
+     "nome": "YAGO BORGES",
+     "pos": "M",
+     "forca": 47,
+     "idade": 31
+    },
+    {
+     "nome": "M. BARROS",
+     "pos": "M",
+     "forca": 40,
+     "idade": 26
+    },
+    {
+     "nome": "L. TEIXEIRA",
+     "pos": "M",
+     "forca": 39,
+     "idade": 21
+    },
+    {
+     "nome": "GOIANO",
+     "pos": "M",
+     "forca": 40,
+     "idade": 18
+    },
+    {
+     "nome": "LELÊ",
+     "pos": "A",
+     "forca": 38,
+     "idade": 34
+    },
+    {
+     "nome": "RAUL BORGES",
+     "pos": "A",
+     "forca": 43,
+     "idade": 30
+    },
+    {
+     "nome": "LUIZ QUEIROZ",
+     "pos": "A",
+     "forca": 41,
+     "idade": 19
+    },
+    {
+     "nome": "JOÃO COSTA",
+     "pos": "A",
+     "forca": 41,
+     "idade": 26
+    },
+    {
+     "nome": "JOÃO PRADO",
+     "pos": "A",
+     "forca": 36,
+     "idade": 32
+    }
+   ]
+  },
+  {
+   "nome": "BRAGANTINO",
+   "sigla": "RBB",
+   "divisao": "A",
+   "fama": 6,
+   "capacidade": 15000,
+   "cores": [
+    "#F8F8F8",
+    "#D01818"
+   ],
+   "jogadores": [
+    {
+     "nome": "DIDI",
+     "pos": "G",
+     "forca": 40,
+     "idade": 30
+    },
+    {
+     "nome": "D. SILVA",
+     "pos": "G",
+     "forca": 31,
+     "idade": 27
+    },
+    {
+     "nome": "LÉO BRAGA",
+     "pos": "G",
+     "forca": 37,
+     "idade": 20
+    },
+    {
+     "nome": "NATAN MELO",
+     "pos": "D",
+     "forca": 37,
+     "idade": 33
+    },
+    {
+     "nome": "S. CARDOSO",
+     "pos": "D",
+     "forca": 37,
+     "idade": 22
+    },
+    {
+     "nome": "ELIAS GOMES",
+     "pos": "D",
+     "forca": 46,
+     "idade": 24
+    },
+    {
+     "nome": "PEPÊ",
+     "pos": "D",
+     "forca": 42,
+     "idade": 30
+    },
+    {
+     "nome": "J. VIEIRA",
+     "pos": "D",
+     "forca": 37,
+     "idade": 24
+    },
+    {
+     "nome": "G. CRUZ",
+     "pos": "D",
+     "forca": 37,
+     "idade": 22
+    },
+    {
+     "nome": "CARLOS ROCHA",
+     "pos": "D",
+     "forca": 39,
+     "idade": 34
+    },
+    {
+     "nome": "PAULO VIEIRA",
+     "pos": "M",
+     "forca": 44,
+     "idade": 29
+    },
+    {
+     "nome": "S. MOURA",
+     "pos": "M",
+     "forca": 42,
+     "idade": 25
+    },
+    {
+     "nome": "DIEGO ARAÚJO",
+     "pos": "M",
+     "forca": 42,
+     "idade": 18
+    },
+    {
+     "nome": "R. COSTA",
+     "pos": "M",
+     "forca": 43,
+     "idade": 30
+    },
+    {
+     "nome": "SABIÁ",
+     "pos": "M",
+     "forca": 40,
+     "idade": 24
+    },
+    {
+     "nome": "JOÃO PIRES",
+     "pos": "M",
+     "forca": 33,
+     "idade": 27
+    },
+    {
+     "nome": "OTÁVIO PIRES",
+     "pos": "M",
+     "forca": 35,
+     "idade": 23
+    },
+    {
+     "nome": "W. BARROS",
+     "pos": "A",
+     "forca": 41,
+     "idade": 33
+    },
+    {
+     "nome": "DAVI GOMES",
+     "pos": "A",
+     "forca": 39,
+     "idade": 21
+    },
+    {
+     "nome": "ALEX LIMA",
+     "pos": "A",
+     "forca": 37,
+     "idade": 32
+    },
+    {
+     "nome": "CAIO SILVA",
+     "pos": "A",
+     "forca": 33,
+     "idade": 25
+    },
+    {
+     "nome": "L. MENDES",
+     "pos": "A",
+     "forca": 32,
+     "idade": 28
+    }
+   ]
+  },
+  {
+   "nome": "VITÓRIA",
+   "sigla": "VIT",
+   "divisao": "A",
+   "fama": 6,
+   "capacidade": 30000,
+   "cores": [
+    "#D01818",
+    "#101010"
+   ],
+   "jogadores": [
+    {
+     "nome": "NATAN SALES",
+     "pos": "G",
+     "forca": 45,
+     "idade": 24
+    },
+    {
+     "nome": "J. NUNES",
+     "pos": "G",
+     "forca": 36,
+     "idade": 30
+    },
+    {
+     "nome": "A. GOMES",
+     "pos": "G",
+     "forca": 39,
+     "idade": 23
+    },
+    {
+     "nome": "FELIPE MATOS",
+     "pos": "D",
+     "forca": 37,
+     "idade": 24
+    },
+    {
+     "nome": "A. XAVIER",
+     "pos": "D",
+     "forca": 39,
+     "idade": 19
+    },
+    {
+     "nome": "L. BRAGA",
+     "pos": "D",
+     "forca": 42,
+     "idade": 32
+    },
+    {
+     "nome": "BIRO",
+     "pos": "D",
+     "forca": 44,
+     "idade": 30
+    },
+    {
+     "nome": "GABRIEL MELO",
+     "pos": "D",
+     "forca": 38,
+     "idade": 31
+    },
+    {
+     "nome": "VITOR CAMPOS",
+     "pos": "D",
+     "forca": 35,
+     "idade": 20
+    },
+    {
+     "nome": "V. LIMA",
+     "pos": "D",
+     "forca": 39,
+     "idade": 21
+    },
+    {
+     "nome": "F. MENDES",
+     "pos": "M",
+     "forca": 40,
+     "idade": 20
+    },
+    {
+     "nome": "ÍTALO LOPES",
+     "pos": "M",
+     "forca": 39,
+     "idade": 19
+    },
+    {
+     "nome": "SIDNEY REIS",
+     "pos": "M",
+     "forca": 44,
+     "idade": 32
+    },
+    {
+     "nome": "VAGNER NUNES",
+     "pos": "M",
+     "forca": 42,
+     "idade": 33
+    },
+    {
+     "nome": "D. TORRES",
+     "pos": "M",
+     "forca": 35,
+     "idade": 32
+    },
+    {
+     "nome": "KAUÃ TORRES",
+     "pos": "M",
+     "forca": 36,
+     "idade": 24
+    },
+    {
+     "nome": "R. MENDES",
+     "pos": "M",
+     "forca": 39,
+     "idade": 33
+    },
+    {
+     "nome": "S. MACEDO",
+     "pos": "A",
+     "forca": 46,
+     "idade": 19
+    },
+    {
+     "nome": "LUCAS ALVES",
+     "pos": "A",
+     "forca": 38,
+     "idade": 30
+    },
+    {
+     "nome": "LÉO MELO",
+     "pos": "A",
+     "forca": 38,
+     "idade": 18
+    },
+    {
+     "nome": "ÉRICK BRAGA",
+     "pos": "A",
+     "forca": 33,
+     "idade": 28
+    },
+    {
+     "nome": "B. SANTOS",
+     "pos": "A",
+     "forca": 33,
+     "idade": 24
+    }
+   ]
+  },
+  {
+   "nome": "FORTALEZA",
+   "sigla": "FOR",
+   "divisao": "B",
+   "fama": 7,
+   "capacidade": 63000,
+   "cores": [
+    "#1840B0",
+    "#D01818"
+   ],
+   "jogadores": [
+    {
+     "nome": "VITOR FARIAS",
+     "pos": "G",
+     "forca": 31,
+     "idade": 34
+    },
+    {
+     "nome": "JOÃO TORRES",
+     "pos": "G",
+     "forca": 24,
+     "idade": 26
+    },
+    {
+     "nome": "SÉRGIO LIMA",
+     "pos": "G",
+     "forca": 23,
+     "idade": 26
+    },
+    {
+     "nome": "THIAGO",
+     "pos": "D",
+     "forca": 31,
+     "idade": 19
+    },
+    {
+     "nome": "C. ALVES",
+     "pos": "D",
+     "forca": 36,
+     "idade": 34
+    },
+    {
+     "nome": "DIEGO SANTOS",
+     "pos": "D",
+     "forca": 29,
+     "idade": 25
+    },
+    {
+     "nome": "C. TEIXEIRA",
+     "pos": "D",
+     "forca": 29,
+     "idade": 20
+    },
+    {
+     "nome": "TOQUINHO",
+     "pos": "D",
+     "forca": 24,
+     "idade": 18
+    },
+    {
+     "nome": "FELIPE PIRES",
+     "pos": "D",
+     "forca": 22,
+     "idade": 18
+    },
+    {
+     "nome": "D. LOPES",
+     "pos": "D",
+     "forca": 31,
+     "idade": 30
+    },
+    {
+     "nome": "DAVI CAMPOS",
+     "pos": "M",
+     "forca": 34,
+     "idade": 24
+    },
+    {
+     "nome": "PIPOCA",
+     "pos": "M",
+     "forca": 35,
+     "idade": 34
+    },
+    {
+     "nome": "IGOR CAMPOS",
+     "pos": "M",
+     "forca": 37,
+     "idade": 33
+    },
+    {
+     "nome": "D. PIRES",
+     "pos": "M",
+     "forca": 34,
+     "idade": 20
+    },
+    {
+     "nome": "S. MELO",
+     "pos": "M",
+     "forca": 31,
+     "idade": 18
+    },
+    {
+     "nome": "CAIO",
+     "pos": "M",
+     "forca": 24,
+     "idade": 29
+    },
+    {
+     "nome": "A. MACEDO",
+     "pos": "M",
+     "forca": 31,
+     "idade": 24
+    },
+    {
+     "nome": "LUCAS SOUZA",
+     "pos": "A",
+     "forca": 34,
+     "idade": 18
+    },
+    {
+     "nome": "C. CAMPOS",
+     "pos": "A",
+     "forca": 31,
+     "idade": 21
+    },
+    {
+     "nome": "G. TEIXEIRA",
+     "pos": "A",
+     "forca": 25,
+     "idade": 28
+    },
+    {
+     "nome": "LUCAS TORRES",
+     "pos": "A",
+     "forca": 27,
+     "idade": 30
+    },
+    {
+     "nome": "ALEX PEREIRA",
+     "pos": "A",
+     "forca": 29,
+     "idade": 26
+    }
+   ]
+  },
+  {
+   "nome": "SPORT",
+   "sigla": "SPO",
+   "divisao": "B",
+   "fama": 7,
+   "capacidade": 28000,
+   "cores": [
+    "#D01818",
+    "#101010"
+   ],
+   "jogadores": [
+    {
+     "nome": "E. LIMA",
+     "pos": "G",
+     "forca": 29,
+     "idade": 21
+    },
+    {
+     "nome": "SAMUEL SILVA",
+     "pos": "G",
+     "forca": 22,
+     "idade": 30
+    },
+    {
+     "nome": "C. PIRES",
+     "pos": "G",
+     "forca": 26,
+     "idade": 23
+    },
+    {
+     "nome": "VITOR BORGES",
+     "pos": "D",
+     "forca": 37,
+     "idade": 28
+    },
+    {
+     "nome": "DAVI TORRES",
+     "pos": "D",
+     "forca": 36,
+     "idade": 24
+    },
+    {
+     "nome": "VITOR TORRES",
+     "pos": "D",
+     "forca": 34,
+     "idade": 31
+    },
+    {
+     "nome": "ARTHUR SILVA",
+     "pos": "D",
+     "forca": 36,
+     "idade": 30
+    },
+    {
+     "nome": "WESLEY GOMES",
+     "pos": "D",
+     "forca": 26,
+     "idade": 30
+    },
+    {
+     "nome": "MÁRCIO SOUZA",
+     "pos": "D",
+     "forca": 31,
+     "idade": 21
+    },
+    {
+     "nome": "LÉO BORGES",
+     "pos": "D",
+     "forca": 22,
+     "idade": 24
+    },
+    {
+     "nome": "LUIZ FONSECA",
+     "pos": "M",
+     "forca": 33,
+     "idade": 29
+    },
+    {
+     "nome": "HUGO FONSECA",
+     "pos": "M",
+     "forca": 33,
+     "idade": 26
+    },
+    {
+     "nome": "R. MOURA",
+     "pos": "M",
+     "forca": 29,
+     "idade": 28
+    },
+    {
+     "nome": "THIAGO PRADO",
+     "pos": "M",
+     "forca": 34,
+     "idade": 18
+    },
+    {
+     "nome": "I. CARDOSO",
+     "pos": "M",
+     "forca": 30,
+     "idade": 33
+    },
+    {
+     "nome": "A. MENDES",
+     "pos": "M",
+     "forca": 26,
+     "idade": 34
+    },
+    {
+     "nome": "G. FONSECA",
+     "pos": "M",
+     "forca": 24,
+     "idade": 31
+    },
+    {
+     "nome": "H. RIBEIRO",
+     "pos": "A",
+     "forca": 33,
+     "idade": 24
+    },
+    {
+     "nome": "IGOR TORRES",
+     "pos": "A",
+     "forca": 36,
+     "idade": 28
+    },
+    {
+     "nome": "M. BORGES",
+     "pos": "A",
+     "forca": 23,
+     "idade": 20
+    },
+    {
+     "nome": "J. MARTINS",
+     "pos": "A",
+     "forca": 22,
+     "idade": 23
+    },
+    {
+     "nome": "A. SANTOS",
+     "pos": "A",
+     "forca": 29,
+     "idade": 25
+    }
+   ]
+  },
+  {
+   "nome": "CEARÁ",
+   "sigla": "CEA",
+   "divisao": "B",
+   "fama": 6,
+   "capacidade": 63000,
+   "cores": [
+    "#101010",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "SIDNEY PRADO",
+     "pos": "G",
+     "forca": 34,
+     "idade": 33
+    },
+    {
+     "nome": "KAUÃ BARROS",
+     "pos": "G",
+     "forca": 22,
+     "idade": 26
+    },
+    {
+     "nome": "I. PEREIRA",
+     "pos": "G",
+     "forca": 28,
+     "idade": 33
+    },
+    {
+     "nome": "BRUNO DIAS",
+     "pos": "D",
+     "forca": 31,
+     "idade": 18
+    },
+    {
+     "nome": "B. VALE",
+     "pos": "D",
+     "forca": 30,
+     "idade": 19
+    },
+    {
+     "nome": "JOÃO BARROS",
+     "pos": "D",
+     "forca": 36,
+     "idade": 21
+    },
+    {
+     "nome": "ÍTALO REIS",
+     "pos": "D",
+     "forca": 34,
+     "idade": 34
+    },
+    {
+     "nome": "MAURO PIRES",
+     "pos": "D",
+     "forca": 30,
+     "idade": 21
+    },
+    {
+     "nome": "PAULO SALES",
+     "pos": "D",
+     "forca": 26,
+     "idade": 27
+    },
+    {
+     "nome": "A. CRUZ",
+     "pos": "D",
+     "forca": 26,
+     "idade": 24
+    },
+    {
+     "nome": "D. FREITAS",
+     "pos": "M",
+     "forca": 30,
+     "idade": 20
+    },
+    {
+     "nome": "M. PRADO",
+     "pos": "M",
+     "forca": 30,
+     "idade": 18
+    },
+    {
+     "nome": "T. PEREIRA",
+     "pos": "M",
+     "forca": 30,
+     "idade": 29
+    },
+    {
+     "nome": "L. PEREIRA",
+     "pos": "M",
+     "forca": 32,
+     "idade": 28
+    },
+    {
+     "nome": "F. QUEIROZ",
+     "pos": "M",
+     "forca": 28,
+     "idade": 29
+    },
+    {
+     "nome": "TIAGO MENDES",
+     "pos": "M",
+     "forca": 24,
+     "idade": 29
+    },
+    {
+     "nome": "P. SOUZA",
+     "pos": "M",
+     "forca": 23,
+     "idade": 25
+    },
+    {
+     "nome": "N. COSTA",
+     "pos": "A",
+     "forca": 36,
+     "idade": 26
+    },
+    {
+     "nome": "S. NUNES",
+     "pos": "A",
+     "forca": 32,
+     "idade": 18
+    },
+    {
+     "nome": "MATHEUS REIS",
+     "pos": "A",
+     "forca": 25,
+     "idade": 27
+    },
+    {
+     "nome": "H. NUNES",
+     "pos": "A",
+     "forca": 25,
+     "idade": 29
+    },
+    {
+     "nome": "VITOR SOUZA",
+     "pos": "A",
+     "forca": 29,
+     "idade": 29
+    }
+   ]
+  },
+  {
+   "nome": "CORITIBA",
+   "sigla": "CFC",
+   "divisao": "B",
+   "fama": 6,
+   "capacidade": 40000,
+   "cores": [
+    "#107030",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "SAMUEL ALVES",
+     "pos": "G",
+     "forca": 32,
+     "idade": 27
+    },
+    {
+     "nome": "FÁBIO GOMES",
+     "pos": "G",
+     "forca": 24,
+     "idade": 19
+    },
+    {
+     "nome": "SÉRGIO ROCHA",
+     "pos": "G",
+     "forca": 26,
+     "idade": 32
+    },
+    {
+     "nome": "VITOR CRUZ",
+     "pos": "D",
+     "forca": 29,
+     "idade": 33
+    },
+    {
+     "nome": "J. ARAÚJO",
+     "pos": "D",
+     "forca": 28,
+     "idade": 21
+    },
+    {
+     "nome": "D. BORGES",
+     "pos": "D",
+     "forca": 36,
+     "idade": 31
+    },
+    {
+     "nome": "CARLOS PIRES",
+     "pos": "D",
+     "forca": 27,
+     "idade": 25
+    },
+    {
+     "nome": "G. FARIAS",
+     "pos": "D",
+     "forca": 25,
+     "idade": 30
+    },
+    {
+     "nome": "F. MATOS",
+     "pos": "D",
+     "forca": 30,
+     "idade": 31
+    },
+    {
+     "nome": "LUIZ MARTINS",
+     "pos": "D",
+     "forca": 22,
+     "idade": 30
+    },
+    {
+     "nome": "TIAGO SOUZA",
+     "pos": "M",
+     "forca": 33,
+     "idade": 29
+    },
+    {
+     "nome": "MÁRCIO BRAGA",
+     "pos": "M",
+     "forca": 33,
+     "idade": 27
+    },
+    {
+     "nome": "B. MARTINS",
+     "pos": "M",
+     "forca": 29,
+     "idade": 32
+    },
+    {
+     "nome": "B. ROCHA",
+     "pos": "M",
+     "forca": 33,
+     "idade": 24
+    },
+    {
+     "nome": "OTÁVIO BRAGA",
+     "pos": "M",
+     "forca": 22,
+     "idade": 21
+    },
+    {
+     "nome": "LUCAS BORGES",
+     "pos": "M",
+     "forca": 22,
+     "idade": 18
+    },
+    {
+     "nome": "CÉSAR ARAÚJO",
+     "pos": "M",
+     "forca": 24,
+     "idade": 24
+    },
+    {
+     "nome": "SÉRGIO SILVA",
+     "pos": "A",
+     "forca": 28,
+     "idade": 33
+    },
+    {
+     "nome": "G. VIEIRA",
+     "pos": "A",
+     "forca": 30,
+     "idade": 34
+    },
+    {
+     "nome": "N. MACEDO",
+     "pos": "A",
+     "forca": 27,
+     "idade": 19
+    },
+    {
+     "nome": "ÉRICK SOUZA",
+     "pos": "A",
+     "forca": 24,
+     "idade": 23
+    },
+    {
+     "nome": "Í. SILVA",
+     "pos": "A",
+     "forca": 26,
+     "idade": 23
+    }
+   ]
+  },
+  {
+   "nome": "JUVENTUDE",
+   "sigla": "JUV",
+   "divisao": "B",
+   "fama": 5,
+   "capacidade": 19000,
+   "cores": [
+    "#107030",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "PAULO MOURA",
+     "pos": "G",
+     "forca": 30,
+     "idade": 32
+    },
+    {
+     "nome": "ANDRÉ SOUZA",
+     "pos": "G",
+     "forca": 19,
+     "idade": 34
+    },
+    {
+     "nome": "C. MENDES",
+     "pos": "G",
+     "forca": 26,
+     "idade": 32
+    },
+    {
+     "nome": "A. CAMPOS",
+     "pos": "D",
+     "forca": 33,
+     "idade": 30
+    },
+    {
+     "nome": "DANIEL MATOS",
+     "pos": "D",
+     "forca": 28,
+     "idade": 28
+    },
+    {
+     "nome": "MÁRCIO GOMES",
+     "pos": "D",
+     "forca": 29,
+     "idade": 33
+    },
+    {
+     "nome": "Y. DIAS",
+     "pos": "D",
+     "forca": 29,
+     "idade": 27
+    },
+    {
+     "nome": "KAUÃ SOUZA",
+     "pos": "D",
+     "forca": 26,
+     "idade": 25
+    },
+    {
+     "nome": "HUGO FREITAS",
+     "pos": "D",
+     "forca": 21,
+     "idade": 24
+    },
+    {
+     "nome": "YAGO COSTA",
+     "pos": "D",
+     "forca": 26,
+     "idade": 19
+    },
+    {
+     "nome": "DAVI LIMA",
+     "pos": "M",
+     "forca": 30,
+     "idade": 25
+    },
+    {
+     "nome": "VITOR BRAGA",
+     "pos": "M",
+     "forca": 31,
+     "idade": 26
+    },
+    {
+     "nome": "C. FREITAS",
+     "pos": "M",
+     "forca": 29,
+     "idade": 28
+    },
+    {
+     "nome": "THIAGO LIMA",
+     "pos": "M",
+     "forca": 29,
+     "idade": 33
+    },
+    {
+     "nome": "W. NUNES",
+     "pos": "M",
+     "forca": 27,
+     "idade": 32
+    },
+    {
+     "nome": "NEGUEBA",
+     "pos": "M",
+     "forca": 19,
+     "idade": 21
+    },
+    {
+     "nome": "M. XAVIER",
+     "pos": "M",
+     "forca": 28,
+     "idade": 29
+    },
+    {
+     "nome": "M. PEREIRA",
+     "pos": "A",
+     "forca": 30,
+     "idade": 24
+    },
+    {
+     "nome": "É. LOPES",
+     "pos": "A",
+     "forca": 26,
+     "idade": 31
+    },
+    {
+     "nome": "ELIAS ALVES",
+     "pos": "A",
+     "forca": 23,
+     "idade": 22
+    },
+    {
+     "nome": "SIDNEY MOURA",
+     "pos": "A",
+     "forca": 27,
+     "idade": 28
+    },
+    {
+     "nome": "L. FONSECA",
+     "pos": "A",
+     "forca": 22,
+     "idade": 33
+    }
+   ]
+  },
+  {
+   "nome": "MIRASSOL",
+   "sigla": "MIR",
+   "divisao": "B",
+   "fama": 5,
+   "capacidade": 15000,
+   "cores": [
+    "#F8D820",
+    "#107030"
+   ],
+   "jogadores": [
+    {
+     "nome": "J. LOPES",
+     "pos": "G",
+     "forca": 25,
+     "idade": 28
+    },
+    {
+     "nome": "V. REIS",
+     "pos": "G",
+     "forca": 25,
+     "idade": 25
+    },
+    {
+     "nome": "B. MELO",
+     "pos": "G",
+     "forca": 23,
+     "idade": 31
+    },
+    {
+     "nome": "D. OLIVEIRA",
+     "pos": "D",
+     "forca": 25,
+     "idade": 30
+    },
+    {
+     "nome": "G. ROCHA",
+     "pos": "D",
+     "forca": 25,
+     "idade": 19
+    },
+    {
+     "nome": "J. SILVA",
+     "pos": "D",
+     "forca": 31,
+     "idade": 19
+    },
+    {
+     "nome": "Í. LOPES",
+     "pos": "D",
+     "forca": 26,
+     "idade": 21
+    },
+    {
+     "nome": "SIDNEY ALVES",
+     "pos": "D",
+     "forca": 25,
+     "idade": 32
+    },
+    {
+     "nome": "ÉVERTON LIMA",
+     "pos": "D",
+     "forca": 27,
+     "idade": 26
+    },
+    {
+     "nome": "J. FONSECA",
+     "pos": "D",
+     "forca": 22,
+     "idade": 18
+    },
+    {
+     "nome": "KAUÃ DIAS",
+     "pos": "M",
+     "forca": 34,
+     "idade": 25
+    },
+    {
+     "nome": "CÉSAR SALES",
+     "pos": "M",
+     "forca": 30,
+     "idade": 28
+    },
+    {
+     "nome": "O. ALVES",
+     "pos": "M",
+     "forca": 30,
+     "idade": 31
+    },
+    {
+     "nome": "R. ROCHA",
+     "pos": "M",
+     "forca": 33,
+     "idade": 28
+    },
+    {
+     "nome": "B. XAVIER",
+     "pos": "M",
+     "forca": 26,
+     "idade": 23
+    },
+    {
+     "nome": "VITOR LIMA",
+     "pos": "M",
+     "forca": 24,
+     "idade": 30
+    },
+    {
+     "nome": "RAUL LOPES",
+     "pos": "M",
+     "forca": 20,
+     "idade": 21
+    },
+    {
+     "nome": "FÁBIO SILVA",
+     "pos": "A",
+     "forca": 34,
+     "idade": 19
+    },
+    {
+     "nome": "F. MOURA",
+     "pos": "A",
+     "forca": 28,
+     "idade": 30
+    },
+    {
+     "nome": "Í. TORRES",
+     "pos": "A",
+     "forca": 23,
+     "idade": 29
+    },
+    {
+     "nome": "CÉSAR PIRES",
+     "pos": "A",
+     "forca": 27,
+     "idade": 22
+    },
+    {
+     "nome": "ÍTALO ARAÚJO",
+     "pos": "A",
+     "forca": 27,
+     "idade": 27
+    }
+   ]
+  },
+  {
+   "nome": "REMO",
+   "sigla": "REM",
+   "divisao": "B",
+   "fama": 6,
+   "capacidade": 45000,
+   "cores": [
+    "#1838A0",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "R. FARIAS",
+     "pos": "G",
+     "forca": 29,
+     "idade": 29
+    },
+    {
+     "nome": "A. CARDOSO",
+     "pos": "G",
+     "forca": 24,
+     "idade": 26
+    },
+    {
+     "nome": "K. BRAGA",
+     "pos": "G",
+     "forca": 28,
+     "idade": 29
+    },
+    {
+     "nome": "HUGO VIEIRA",
+     "pos": "D",
+     "forca": 32,
+     "idade": 20
+    },
+    {
+     "nome": "F. BORGES",
+     "pos": "D",
+     "forca": 33,
+     "idade": 28
+    },
+    {
+     "nome": "LÉO PRADO",
+     "pos": "D",
+     "forca": 31,
+     "idade": 23
+    },
+    {
+     "nome": "YAGO MACEDO",
+     "pos": "D",
+     "forca": 35,
+     "idade": 20
+    },
+    {
+     "nome": "LÉO ARAÚJO",
+     "pos": "D",
+     "forca": 25,
+     "idade": 33
+    },
+    {
+     "nome": "JOÃO FREITAS",
+     "pos": "D",
+     "forca": 22,
+     "idade": 22
+    },
+    {
+     "nome": "T. SOUZA",
+     "pos": "D",
+     "forca": 27,
+     "idade": 27
+    },
+    {
+     "nome": "YAGO LIMA",
+     "pos": "M",
+     "forca": 29,
+     "idade": 19
+    },
+    {
+     "nome": "ADRIANO CRUZ",
+     "pos": "M",
+     "forca": 34,
+     "idade": 19
+    },
+    {
+     "nome": "F. CARDOSO",
+     "pos": "M",
+     "forca": 29,
+     "idade": 23
+    },
+    {
+     "nome": "DAVI PIRES",
+     "pos": "M",
+     "forca": 35,
+     "idade": 25
+    },
+    {
+     "nome": "O. PRADO",
+     "pos": "M",
+     "forca": 26,
+     "idade": 25
+    },
+    {
+     "nome": "F. COSTA",
+     "pos": "M",
+     "forca": 27,
+     "idade": 22
+    },
+    {
+     "nome": "PAULO BARROS",
+     "pos": "M",
+     "forca": 25,
+     "idade": 28
+    },
+    {
+     "nome": "R. TEIXEIRA",
+     "pos": "A",
+     "forca": 28,
+     "idade": 22
+    },
+    {
+     "nome": "LUIZ PIRES",
+     "pos": "A",
+     "forca": 35,
+     "idade": 30
+    },
+    {
+     "nome": "KAUÃ ALVES",
+     "pos": "A",
+     "forca": 27,
+     "idade": 32
+    },
+    {
+     "nome": "DANIEL PIRES",
+     "pos": "A",
+     "forca": 26,
+     "idade": 23
+    },
+    {
+     "nome": "TIAGO SANTOS",
+     "pos": "A",
+     "forca": 28,
+     "idade": 21
+    }
+   ]
+  },
+  {
+   "nome": "CHAPECOENSE",
+   "sigla": "CHA",
+   "divisao": "B",
+   "fama": 5,
+   "capacidade": 22000,
+   "cores": [
+    "#107030",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "Y. ALVES",
+     "pos": "G",
+     "forca": 30,
+     "idade": 20
+    },
+    {
+     "nome": "LÉO VALE",
+     "pos": "G",
+     "forca": 28,
+     "idade": 25
+    },
+    {
+     "nome": "CARLOS MOURA",
+     "pos": "G",
+     "forca": 20,
+     "idade": 31
+    },
+    {
+     "nome": "DIEGO LIMA",
+     "pos": "D",
+     "forca": 30,
+     "idade": 32
+    },
+    {
+     "nome": "P. MARTINS",
+     "pos": "D",
+     "forca": 25,
+     "idade": 21
+    },
+    {
+     "nome": "É. ALVES",
+     "pos": "D",
+     "forca": 33,
+     "idade": 23
+    },
+    {
+     "nome": "F. FONSECA",
+     "pos": "D",
+     "forca": 31,
+     "idade": 26
+    },
+    {
+     "nome": "R. LOPES",
+     "pos": "D",
+     "forca": 28,
+     "idade": 33
+    },
+    {
+     "nome": "BRUNO MELO",
+     "pos": "D",
+     "forca": 20,
+     "idade": 23
+    },
+    {
+     "nome": "V. BORGES",
+     "pos": "D",
+     "forca": 20,
+     "idade": 20
+    },
+    {
+     "nome": "D. QUEIROZ",
+     "pos": "M",
+     "forca": 34,
+     "idade": 21
+    },
+    {
+     "nome": "KAUÃ PRADO",
+     "pos": "M",
+     "forca": 34,
+     "idade": 27
+    },
+    {
+     "nome": "ALEX SALES",
+     "pos": "M",
+     "forca": 31,
+     "idade": 23
+    },
+    {
+     "nome": "É. MACEDO",
+     "pos": "M",
+     "forca": 29,
+     "idade": 29
+    },
+    {
+     "nome": "ALEX CARDOSO",
+     "pos": "M",
+     "forca": 25,
+     "idade": 24
+    },
+    {
+     "nome": "S. SALES",
+     "pos": "M",
+     "forca": 21,
+     "idade": 18
+    },
+    {
+     "nome": "V. MACEDO",
+     "pos": "M",
+     "forca": 20,
+     "idade": 21
+    },
+    {
+     "nome": "RICARDO DIAS",
+     "pos": "A",
+     "forca": 25,
+     "idade": 27
+    },
+    {
+     "nome": "W. MACEDO",
+     "pos": "A",
+     "forca": 28,
+     "idade": 21
+    },
+    {
+     "nome": "SAMUEL MOURA",
+     "pos": "A",
+     "forca": 22,
+     "idade": 27
+    },
+    {
+     "nome": "T. NUNES",
+     "pos": "A",
+     "forca": 27,
+     "idade": 30
+    },
+    {
+     "nome": "VITOR GOMES",
+     "pos": "A",
+     "forca": 23,
+     "idade": 23
+    }
+   ]
+  },
+  {
+   "nome": "GOIÁS",
+   "sigla": "GOI",
+   "divisao": "B",
+   "fama": 5,
+   "capacidade": 14000,
+   "cores": [
+    "#107030",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "J. ALVES",
+     "pos": "G",
+     "forca": 31,
+     "idade": 22
+    },
+    {
+     "nome": "F. MARTINS",
+     "pos": "G",
+     "forca": 19,
+     "idade": 22
+    },
+    {
+     "nome": "V. QUEIROZ",
+     "pos": "G",
+     "forca": 24,
+     "idade": 29
+    },
+    {
+     "nome": "V. DIAS",
+     "pos": "D",
+     "forca": 25,
+     "idade": 24
+    },
+    {
+     "nome": "SAMUEL VALE",
+     "pos": "D",
+     "forca": 32,
+     "idade": 29
+    },
+    {
+     "nome": "E. SANTOS",
+     "pos": "D",
+     "forca": 27,
+     "idade": 26
+    },
+    {
+     "nome": "ANDRÉ ARAÚJO",
+     "pos": "D",
+     "forca": 25,
+     "idade": 24
+    },
+    {
+     "nome": "L. NUNES",
+     "pos": "D",
+     "forca": 25,
+     "idade": 30
+    },
+    {
+     "nome": "DIEGO MACEDO",
+     "pos": "D",
+     "forca": 25,
+     "idade": 27
+    },
+    {
+     "nome": "L. FARIAS",
+     "pos": "D",
+     "forca": 23,
+     "idade": 30
+    },
+    {
+     "nome": "G. LOPES",
+     "pos": "M",
+     "forca": 27,
+     "idade": 29
+    },
+    {
+     "nome": "FÁBIO LIMA",
+     "pos": "M",
+     "forca": 34,
+     "idade": 28
+    },
+    {
+     "nome": "RENATO SALES",
+     "pos": "M",
+     "forca": 27,
+     "idade": 19
+    },
+    {
+     "nome": "MÁRCIO PIRES",
+     "pos": "M",
+     "forca": 34,
+     "idade": 32
+    },
+    {
+     "nome": "PEDRO MACEDO",
+     "pos": "M",
+     "forca": 28,
+     "idade": 32
+    },
+    {
+     "nome": "F. MACEDO",
+     "pos": "M",
+     "forca": 19,
+     "idade": 19
+    },
+    {
+     "nome": "V. FARIAS",
+     "pos": "M",
+     "forca": 19,
+     "idade": 19
+    },
+    {
+     "nome": "VITOR DIAS",
+     "pos": "A",
+     "forca": 33,
+     "idade": 30
+    },
+    {
+     "nome": "THIAGO MOURA",
+     "pos": "A",
+     "forca": 34,
+     "idade": 29
+    },
+    {
+     "nome": "ELIAS DIAS",
+     "pos": "A",
+     "forca": 27,
+     "idade": 31
+    },
+    {
+     "nome": "HUGO SOUZA",
+     "pos": "A",
+     "forca": 27,
+     "idade": 32
+    },
+    {
+     "nome": "MARCOS SILVA",
+     "pos": "A",
+     "forca": 20,
+     "idade": 29
+    }
+   ]
+  },
+  {
+   "nome": "CUIABÁ",
+   "sigla": "CUI",
+   "divisao": "B",
+   "fama": 4,
+   "capacidade": 44000,
+   "cores": [
+    "#F8D820",
+    "#107030"
+   ],
+   "jogadores": [
+    {
+     "nome": "T. DIAS",
+     "pos": "G",
+     "forca": 29,
+     "idade": 19
+    },
+    {
+     "nome": "FÁBIO CAMPOS",
+     "pos": "G",
+     "forca": 22,
+     "idade": 22
+    },
+    {
+     "nome": "C. CRUZ",
+     "pos": "G",
+     "forca": 24,
+     "idade": 33
+    },
+    {
+     "nome": "DAVI FONSECA",
+     "pos": "D",
+     "forca": 24,
+     "idade": 20
+    },
+    {
+     "nome": "DANIEL VALE",
+     "pos": "D",
+     "forca": 27,
+     "idade": 29
+    },
+    {
+     "nome": "ELIAS CAMPOS",
+     "pos": "D",
+     "forca": 30,
+     "idade": 27
+    },
+    {
+     "nome": "Y. SOUZA",
+     "pos": "D",
+     "forca": 24,
+     "idade": 25
+    },
+    {
+     "nome": "E. VIEIRA",
+     "pos": "D",
+     "forca": 21,
+     "idade": 25
+    },
+    {
+     "nome": "CARLOS PRADO",
+     "pos": "D",
+     "forca": 24,
+     "idade": 33
+    },
+    {
+     "nome": "LÉO SALES",
+     "pos": "D",
+     "forca": 24,
+     "idade": 24
+    },
+    {
+     "nome": "IGOR DIAS",
+     "pos": "M",
+     "forca": 27,
+     "idade": 31
+    },
+    {
+     "nome": "S. CRUZ",
+     "pos": "M",
+     "forca": 30,
+     "idade": 25
+    },
+    {
+     "nome": "IGOR MATOS",
+     "pos": "M",
+     "forca": 27,
+     "idade": 34
+    },
+    {
+     "nome": "DANIEL SILVA",
+     "pos": "M",
+     "forca": 24,
+     "idade": 29
+    },
+    {
+     "nome": "TIAGO SILVA",
+     "pos": "M",
+     "forca": 19,
+     "idade": 24
+    },
+    {
+     "nome": "ROBSON LOPES",
+     "pos": "M",
+     "forca": 19,
+     "idade": 30
+    },
+    {
+     "nome": "B. TEIXEIRA",
+     "pos": "M",
+     "forca": 21,
+     "idade": 26
+    },
+    {
+     "nome": "F. FREITAS",
+     "pos": "A",
+     "forca": 24,
+     "idade": 23
+    },
+    {
+     "nome": "SÉRGIO SOUZA",
+     "pos": "A",
+     "forca": 24,
+     "idade": 19
+    },
+    {
+     "nome": "BRUNO MOURA",
+     "pos": "A",
+     "forca": 25,
+     "idade": 28
+    },
+    {
+     "nome": "J. MACEDO",
+     "pos": "A",
+     "forca": 24,
+     "idade": 21
+    },
+    {
+     "nome": "JORGE NUNES",
+     "pos": "A",
+     "forca": 26,
+     "idade": 27
+    }
+   ]
+  },
+  {
+   "nome": "AMÉRICA-MG",
+   "sigla": "AME",
+   "divisao": "B",
+   "fama": 5,
+   "capacidade": 18000,
+   "cores": [
+    "#107030",
+    "#101010"
+   ],
+   "jogadores": [
+    {
+     "nome": "PAULO MELO",
+     "pos": "G",
+     "forca": 34,
+     "idade": 25
+    },
+    {
+     "nome": "JOÃO MARTINS",
+     "pos": "G",
+     "forca": 28,
+     "idade": 26
+    },
+    {
+     "nome": "D. SALES",
+     "pos": "G",
+     "forca": 23,
+     "idade": 18
+    },
+    {
+     "nome": "L. LOPES",
+     "pos": "D",
+     "forca": 26,
+     "idade": 27
+    },
+    {
+     "nome": "BRENO BORGES",
+     "pos": "D",
+     "forca": 30,
+     "idade": 27
+    },
+    {
+     "nome": "RAFAEL VALE",
+     "pos": "D",
+     "forca": 25,
+     "idade": 19
+    },
+    {
+     "nome": "WESLEY DIAS",
+     "pos": "D",
+     "forca": 25,
+     "idade": 19
+    },
+    {
+     "nome": "SÉRGIO PRADO",
+     "pos": "D",
+     "forca": 27,
+     "idade": 32
+    },
+    {
+     "nome": "JORGE MATOS",
+     "pos": "D",
+     "forca": 25,
+     "idade": 26
+    },
+    {
+     "nome": "R. SALES",
+     "pos": "D",
+     "forca": 28,
+     "idade": 33
+    },
+    {
+     "nome": "R. MELO",
+     "pos": "M",
+     "forca": 28,
+     "idade": 22
+    },
+    {
+     "nome": "A. TORRES",
+     "pos": "M",
+     "forca": 34,
+     "idade": 21
+    },
+    {
+     "nome": "M. ARAÚJO",
+     "pos": "M",
+     "forca": 27,
+     "idade": 30
+    },
+    {
+     "nome": "BRUNO MACEDO",
+     "pos": "M",
+     "forca": 28,
+     "idade": 23
+    },
+    {
+     "nome": "ÉVERTON MELO",
+     "pos": "M",
+     "forca": 21,
+     "idade": 29
+    },
+    {
+     "nome": "CÉSAR CAMPOS",
+     "pos": "M",
+     "forca": 25,
+     "idade": 28
+    },
+    {
+     "nome": "E. VALE",
+     "pos": "M",
+     "forca": 21,
+     "idade": 27
+    },
+    {
+     "nome": "Y. COSTA",
+     "pos": "A",
+     "forca": 27,
+     "idade": 34
+    },
+    {
+     "nome": "J. MATOS",
+     "pos": "A",
+     "forca": 33,
+     "idade": 22
+    },
+    {
+     "nome": "É. TORRES",
+     "pos": "A",
+     "forca": 24,
+     "idade": 19
+    },
+    {
+     "nome": "C. SALES",
+     "pos": "A",
+     "forca": 20,
+     "idade": 27
+    },
+    {
+     "nome": "CÉSAR XAVIER",
+     "pos": "A",
+     "forca": 23,
+     "idade": 18
+    }
+   ]
+  },
+  {
+   "nome": "ATLÉTICO-GO",
+   "sigla": "ACG",
+   "divisao": "B",
+   "fama": 4,
+   "capacidade": 12000,
+   "cores": [
+    "#D01818",
+    "#101010"
+   ],
+   "jogadores": [
+    {
+     "nome": "FÁBIO VALE",
+     "pos": "G",
+     "forca": 30,
+     "idade": 26
+    },
+    {
+     "nome": "C. MACEDO",
+     "pos": "G",
+     "forca": 26,
+     "idade": 31
+    },
+    {
+     "nome": "S. ROCHA",
+     "pos": "G",
+     "forca": 26,
+     "idade": 21
+    },
+    {
+     "nome": "G. SILVA",
+     "pos": "D",
+     "forca": 27,
+     "idade": 21
+    },
+    {
+     "nome": "P. NUNES",
+     "pos": "D",
+     "forca": 29,
+     "idade": 19
+    },
+    {
+     "nome": "B. SOUZA",
+     "pos": "D",
+     "forca": 24,
+     "idade": 29
+    },
+    {
+     "nome": "TIAGO NUNES",
+     "pos": "D",
+     "forca": 29,
+     "idade": 24
+    },
+    {
+     "nome": "L. ROCHA",
+     "pos": "D",
+     "forca": 21,
+     "idade": 29
+    },
+    {
+     "nome": "IGOR PIRES",
+     "pos": "D",
+     "forca": 17,
+     "idade": 20
+    },
+    {
+     "nome": "KAUÃ XAVIER",
+     "pos": "D",
+     "forca": 18,
+     "idade": 24
+    },
+    {
+     "nome": "NILTON GOMES",
+     "pos": "M",
+     "forca": 26,
+     "idade": 19
+    },
+    {
+     "nome": "BRENO FARIAS",
+     "pos": "M",
+     "forca": 23,
+     "idade": 28
+    },
+    {
+     "nome": "L. LIMA",
+     "pos": "M",
+     "forca": 25,
+     "idade": 33
+    },
+    {
+     "nome": "I. VIEIRA",
+     "pos": "M",
+     "forca": 29,
+     "idade": 26
+    },
+    {
+     "nome": "PEDRO ALVES",
+     "pos": "M",
+     "forca": 22,
+     "idade": 29
+    },
+    {
+     "nome": "W. REIS",
+     "pos": "M",
+     "forca": 21,
+     "idade": 23
+    },
+    {
+     "nome": "ARTHUR VALE",
+     "pos": "M",
+     "forca": 17,
+     "idade": 22
+    },
+    {
+     "nome": "BRENO SANTOS",
+     "pos": "A",
+     "forca": 25,
+     "idade": 24
+    },
+    {
+     "nome": "E. TEIXEIRA",
+     "pos": "A",
+     "forca": 28,
+     "idade": 30
+    },
+    {
+     "nome": "J. FARIAS",
+     "pos": "A",
+     "forca": 20,
+     "idade": 19
+    },
+    {
+     "nome": "Í. VIEIRA",
+     "pos": "A",
+     "forca": 23,
+     "idade": 28
+    },
+    {
+     "nome": "O. TEIXEIRA",
+     "pos": "A",
+     "forca": 20,
+     "idade": 27
+    }
+   ]
+  },
+  {
+   "nome": "NOVORIZONTIN",
+   "sigla": "NOV",
+   "divisao": "B",
+   "fama": 4,
+   "capacidade": 16000,
+   "cores": [
+    "#F8D820",
+    "#101010"
+   ],
+   "jogadores": [
+    {
+     "nome": "T. PIRES",
+     "pos": "G",
+     "forca": 27,
+     "idade": 23
+    },
+    {
+     "nome": "IGOR NUNES",
+     "pos": "G",
+     "forca": 20,
+     "idade": 21
+    },
+    {
+     "nome": "CÉSAR DIAS",
+     "pos": "G",
+     "forca": 23,
+     "idade": 28
+    },
+    {
+     "nome": "M. BRAGA",
+     "pos": "D",
+     "forca": 24,
+     "idade": 34
+    },
+    {
+     "nome": "W. CRUZ",
+     "pos": "D",
+     "forca": 29,
+     "idade": 18
+    },
+    {
+     "nome": "Y. TORRES",
+     "pos": "D",
+     "forca": 32,
+     "idade": 18
+    },
+    {
+     "nome": "E. QUEIROZ",
+     "pos": "D",
+     "forca": 26,
+     "idade": 24
+    },
+    {
+     "nome": "M. ALVES",
+     "pos": "D",
+     "forca": 19,
+     "idade": 18
+    },
+    {
+     "nome": "M. VIEIRA",
+     "pos": "D",
+     "forca": 17,
+     "idade": 34
+    },
+    {
+     "nome": "R. BRAGA",
+     "pos": "D",
+     "forca": 18,
+     "idade": 22
+    },
+    {
+     "nome": "R. VALE",
+     "pos": "M",
+     "forca": 27,
+     "idade": 20
+    },
+    {
+     "nome": "B. MATOS",
+     "pos": "M",
+     "forca": 29,
+     "idade": 29
+    },
+    {
+     "nome": "M. MATOS",
+     "pos": "M",
+     "forca": 26,
+     "idade": 28
+    },
+    {
+     "nome": "B. BRAGA",
+     "pos": "M",
+     "forca": 24,
+     "idade": 21
+    },
+    {
+     "nome": "M. MENDES",
+     "pos": "M",
+     "forca": 20,
+     "idade": 24
+    },
+    {
+     "nome": "RAFAEL NUNES",
+     "pos": "M",
+     "forca": 25,
+     "idade": 25
+    },
+    {
+     "nome": "CARLOS NUNES",
+     "pos": "M",
+     "forca": 22,
+     "idade": 22
+    },
+    {
+     "nome": "RENATO GOMES",
+     "pos": "A",
+     "forca": 23,
+     "idade": 20
+    },
+    {
+     "nome": "L. QUEIROZ",
+     "pos": "A",
+     "forca": 24,
+     "idade": 31
+    },
+    {
+     "nome": "PEDRO MOURA",
+     "pos": "A",
+     "forca": 23,
+     "idade": 27
+    },
+    {
+     "nome": "BRUNO CAMPOS",
+     "pos": "A",
+     "forca": 17,
+     "idade": 20
+    },
+    {
+     "nome": "PAULO BORGES",
+     "pos": "A",
+     "forca": 17,
+     "idade": 34
+    }
+   ]
+  },
+  {
+   "nome": "CRICIÚMA",
+   "sigla": "CRI",
+   "divisao": "B",
+   "fama": 4,
+   "capacidade": 19000,
+   "cores": [
+    "#F8D820",
+    "#101010"
+   ],
+   "jogadores": [
+    {
+     "nome": "VITOR MENDES",
+     "pos": "G",
+     "forca": 27,
+     "idade": 26
+    },
+    {
+     "nome": "L. DIAS",
+     "pos": "G",
+     "forca": 23,
+     "idade": 30
+    },
+    {
+     "nome": "MAURO SOUZA",
+     "pos": "G",
+     "forca": 20,
+     "idade": 18
+    },
+    {
+     "nome": "C. MELO",
+     "pos": "D",
+     "forca": 29,
+     "idade": 26
+    },
+    {
+     "nome": "A. MATOS",
+     "pos": "D",
+     "forca": 29,
+     "idade": 24
+    },
+    {
+     "nome": "LÉO OLIVEIRA",
+     "pos": "D",
+     "forca": 24,
+     "idade": 29
+    },
+    {
+     "nome": "W. PEREIRA",
+     "pos": "D",
+     "forca": 30,
+     "idade": 26
+    },
+    {
+     "nome": "R. XAVIER",
+     "pos": "D",
+     "forca": 21,
+     "idade": 18
+    },
+    {
+     "nome": "S. COSTA",
+     "pos": "D",
+     "forca": 25,
+     "idade": 26
+    },
+    {
+     "nome": "RODRIGO DIAS",
+     "pos": "D",
+     "forca": 25,
+     "idade": 22
+    },
+    {
+     "nome": "BRUNO TORRES",
+     "pos": "M",
+     "forca": 23,
+     "idade": 31
+    },
+    {
+     "nome": "ALEX FONSECA",
+     "pos": "M",
+     "forca": 23,
+     "idade": 24
+    },
+    {
+     "nome": "RENATO NUNES",
+     "pos": "M",
+     "forca": 31,
+     "idade": 29
+    },
+    {
+     "nome": "MAURO MENDES",
+     "pos": "M",
+     "forca": 24,
+     "idade": 23
+    },
+    {
+     "nome": "W. ROCHA",
+     "pos": "M",
+     "forca": 17,
+     "idade": 22
+    },
+    {
+     "nome": "T. ROCHA",
+     "pos": "M",
+     "forca": 25,
+     "idade": 27
+    },
+    {
+     "nome": "Í. SALES",
+     "pos": "M",
+     "forca": 26,
+     "idade": 30
+    },
+    {
+     "nome": "B. PRADO",
+     "pos": "A",
+     "forca": 32,
+     "idade": 21
+    },
+    {
+     "nome": "CAIO CARDOSO",
+     "pos": "A",
+     "forca": 24,
+     "idade": 29
+    },
+    {
+     "nome": "ROBSON SOUZA",
+     "pos": "A",
+     "forca": 23,
+     "idade": 19
+    },
+    {
+     "nome": "S. BORGES",
+     "pos": "A",
+     "forca": 26,
+     "idade": 29
+    },
+    {
+     "nome": "THIAGO MATOS",
+     "pos": "A",
+     "forca": 18,
+     "idade": 21
+    }
+   ]
+  },
+  {
+   "nome": "AVAÍ",
+   "sigla": "AVA",
+   "divisao": "B",
+   "fama": 4,
+   "capacidade": 17000,
+   "cores": [
+    "#2878D0",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "D. SANTOS",
+     "pos": "G",
+     "forca": 25,
+     "idade": 24
+    },
+    {
+     "nome": "L. ARAÚJO",
+     "pos": "G",
+     "forca": 18,
+     "idade": 24
+    },
+    {
+     "nome": "ÉRICK MELO",
+     "pos": "G",
+     "forca": 20,
+     "idade": 22
+    },
+    {
+     "nome": "BRUNO MATOS",
+     "pos": "D",
+     "forca": 31,
+     "idade": 26
+    },
+    {
+     "nome": "FÁBIO PRADO",
+     "pos": "D",
+     "forca": 29,
+     "idade": 28
+    },
+    {
+     "nome": "P. ARAÚJO",
+     "pos": "D",
+     "forca": 32,
+     "idade": 18
+    },
+    {
+     "nome": "ÉRICK SANTOS",
+     "pos": "D",
+     "forca": 23,
+     "idade": 29
+    },
+    {
+     "nome": "MAURO LIMA",
+     "pos": "D",
+     "forca": 23,
+     "idade": 23
+    },
+    {
+     "nome": "EDUARDO MELO",
+     "pos": "D",
+     "forca": 20,
+     "idade": 30
+    },
+    {
+     "nome": "PEDRO CRUZ",
+     "pos": "D",
+     "forca": 26,
+     "idade": 29
+    },
+    {
+     "nome": "NILTON BRAGA",
+     "pos": "M",
+     "forca": 23,
+     "idade": 19
+    },
+    {
+     "nome": "DAVI MARTINS",
+     "pos": "M",
+     "forca": 24,
+     "idade": 29
+    },
+    {
+     "nome": "LUCAS PRADO",
+     "pos": "M",
+     "forca": 25,
+     "idade": 32
+    },
+    {
+     "nome": "S. FONSECA",
+     "pos": "M",
+     "forca": 30,
+     "idade": 20
+    },
+    {
+     "nome": "W. CARDOSO",
+     "pos": "M",
+     "forca": 24,
+     "idade": 34
+    },
+    {
+     "nome": "T. CRUZ",
+     "pos": "M",
+     "forca": 24,
+     "idade": 26
+    },
+    {
+     "nome": "YAGO TORRES",
+     "pos": "M",
+     "forca": 26,
+     "idade": 18
+    },
+    {
+     "nome": "WILLIAN LIMA",
+     "pos": "A",
+     "forca": 24,
+     "idade": 30
+    },
+    {
+     "nome": "A. COSTA",
+     "pos": "A",
+     "forca": 29,
+     "idade": 23
+    },
+    {
+     "nome": "ELIAS NUNES",
+     "pos": "A",
+     "forca": 24,
+     "idade": 26
+    },
+    {
+     "nome": "CARLOS LIMA",
+     "pos": "A",
+     "forca": 23,
+     "idade": 28
+    },
+    {
+     "nome": "IGOR SOUZA",
+     "pos": "A",
+     "forca": 24,
+     "idade": 33
+    }
+   ]
+  },
+  {
+   "nome": "VILA NOVA",
+   "sigla": "VIL",
+   "divisao": "B",
+   "fama": 4,
+   "capacidade": 11000,
+   "cores": [
+    "#D01818",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "F. ARAÚJO",
+     "pos": "G",
+     "forca": 32,
+     "idade": 26
+    },
+    {
+     "nome": "CAIO FARIAS",
+     "pos": "G",
+     "forca": 23,
+     "idade": 34
+    },
+    {
+     "nome": "RAUL ALVES",
+     "pos": "G",
+     "forca": 20,
+     "idade": 21
+    },
+    {
+     "nome": "W. FONSECA",
+     "pos": "D",
+     "forca": 27,
+     "idade": 29
+    },
+    {
+     "nome": "SÉRGIO VALE",
+     "pos": "D",
+     "forca": 31,
+     "idade": 30
+    },
+    {
+     "nome": "SAMUEL LOPES",
+     "pos": "D",
+     "forca": 23,
+     "idade": 23
+    },
+    {
+     "nome": "A. NUNES",
+     "pos": "D",
+     "forca": 27,
+     "idade": 23
+    },
+    {
+     "nome": "H. OLIVEIRA",
+     "pos": "D",
+     "forca": 24,
+     "idade": 19
+    },
+    {
+     "nome": "TIAGO MATOS",
+     "pos": "D",
+     "forca": 18,
+     "idade": 24
+    },
+    {
+     "nome": "R. REIS",
+     "pos": "D",
+     "forca": 17,
+     "idade": 20
+    },
+    {
+     "nome": "FÁBIO DIAS",
+     "pos": "M",
+     "forca": 29,
+     "idade": 19
+    },
+    {
+     "nome": "É. RIBEIRO",
+     "pos": "M",
+     "forca": 27,
+     "idade": 31
+    },
+    {
+     "nome": "R. SILVA",
+     "pos": "M",
+     "forca": 27,
+     "idade": 29
+    },
+    {
+     "nome": "NATAN TORRES",
+     "pos": "M",
+     "forca": 31,
+     "idade": 22
+    },
+    {
+     "nome": "L. VIEIRA",
+     "pos": "M",
+     "forca": 19,
+     "idade": 29
+    },
+    {
+     "nome": "FELIPE GOMES",
+     "pos": "M",
+     "forca": 24,
+     "idade": 26
+    },
+    {
+     "nome": "PEDRO SILVA",
+     "pos": "M",
+     "forca": 23,
+     "idade": 32
+    },
+    {
+     "nome": "E. CRUZ",
+     "pos": "A",
+     "forca": 27,
+     "idade": 34
+    },
+    {
+     "nome": "F. FARIAS",
+     "pos": "A",
+     "forca": 23,
+     "idade": 21
+    },
+    {
+     "nome": "R. FREITAS",
+     "pos": "A",
+     "forca": 25,
+     "idade": 33
+    },
+    {
+     "nome": "ÉRICK LIMA",
+     "pos": "A",
+     "forca": 24,
+     "idade": 23
+    },
+    {
+     "nome": "N. REIS",
+     "pos": "A",
+     "forca": 19,
+     "idade": 28
+    }
+   ]
+  },
+  {
+   "nome": "PONTE PRETA",
+   "sigla": "PON",
+   "divisao": "C",
+   "fama": 5,
+   "capacidade": 19000,
+   "cores": [
+    "#101010",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "ALEX VIEIRA",
+     "pos": "G",
+     "forca": 19,
+     "idade": 34
+    },
+    {
+     "nome": "A. BRAGA",
+     "pos": "G",
+     "forca": 20,
+     "idade": 26
+    },
+    {
+     "nome": "HUGO BORGES",
+     "pos": "G",
+     "forca": 14,
+     "idade": 23
+    },
+    {
+     "nome": "IGOR FARIAS",
+     "pos": "D",
+     "forca": 20,
+     "idade": 24
+    },
+    {
+     "nome": "B. LIMA",
+     "pos": "D",
+     "forca": 22,
+     "idade": 30
+    },
+    {
+     "nome": "T. TEIXEIRA",
+     "pos": "D",
+     "forca": 20,
+     "idade": 29
+    },
+    {
+     "nome": "G. BARROS",
+     "pos": "D",
+     "forca": 24,
+     "idade": 21
+    },
+    {
+     "nome": "VITOR COSTA",
+     "pos": "D",
+     "forca": 17,
+     "idade": 28
+    },
+    {
+     "nome": "N. XAVIER",
+     "pos": "D",
+     "forca": 11,
+     "idade": 21
+    },
+    {
+     "nome": "LUCAS SALES",
+     "pos": "D",
+     "forca": 11,
+     "idade": 21
+    },
+    {
+     "nome": "DIEGO NUNES",
+     "pos": "M",
+     "forca": 22,
+     "idade": 32
+    },
+    {
+     "nome": "N. SILVA",
+     "pos": "M",
+     "forca": 25,
+     "idade": 19
+    },
+    {
+     "nome": "LÉO REIS",
+     "pos": "M",
+     "forca": 25,
+     "idade": 26
+    },
+    {
+     "nome": "NATAN SANTOS",
+     "pos": "M",
+     "forca": 26,
+     "idade": 26
+    },
+    {
+     "nome": "S. SANTOS",
+     "pos": "M",
+     "forca": 18,
+     "idade": 25
+    },
+    {
+     "nome": "BRENO GOMES",
+     "pos": "M",
+     "forca": 20,
+     "idade": 20
+    },
+    {
+     "nome": "JOÃO FONSECA",
+     "pos": "M",
+     "forca": 11,
+     "idade": 21
+    },
+    {
+     "nome": "N. ROCHA",
+     "pos": "A",
+     "forca": 25,
+     "idade": 34
+    },
+    {
+     "nome": "CAIO XAVIER",
+     "pos": "A",
+     "forca": 25,
+     "idade": 25
+    },
+    {
+     "nome": "L. FREITAS",
+     "pos": "A",
+     "forca": 12,
+     "idade": 34
+    },
+    {
+     "nome": "V. VALE",
+     "pos": "A",
+     "forca": 13,
+     "idade": 24
+    },
+    {
+     "nome": "RENATO CRUZ",
+     "pos": "A",
+     "forca": 12,
+     "idade": 28
+    }
+   ]
+  },
+  {
+   "nome": "GUARANI",
+   "sigla": "GUA",
+   "divisao": "C",
+   "fama": 5,
+   "capacidade": 29000,
+   "cores": [
+    "#107030",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "DAVI ROCHA",
+     "pos": "G",
+     "forca": 25,
+     "idade": 28
+    },
+    {
+     "nome": "W. FARIAS",
+     "pos": "G",
+     "forca": 11,
+     "idade": 20
+    },
+    {
+     "nome": "C. VALE",
+     "pos": "G",
+     "forca": 11,
+     "idade": 25
+    },
+    {
+     "nome": "W. VALE",
+     "pos": "D",
+     "forca": 20,
+     "idade": 30
+    },
+    {
+     "nome": "P. SILVA",
+     "pos": "D",
+     "forca": 19,
+     "idade": 22
+    },
+    {
+     "nome": "G. COSTA",
+     "pos": "D",
+     "forca": 19,
+     "idade": 21
+    },
+    {
+     "nome": "G. ARAÚJO",
+     "pos": "D",
+     "forca": 26,
+     "idade": 25
+    },
+    {
+     "nome": "J. CRUZ",
+     "pos": "D",
+     "forca": 17,
+     "idade": 34
+    },
+    {
+     "nome": "C. MATOS",
+     "pos": "D",
+     "forca": 16,
+     "idade": 19
+    },
+    {
+     "nome": "KAUÃ MELO",
+     "pos": "D",
+     "forca": 18,
+     "idade": 34
+    },
+    {
+     "nome": "DAVI LOPES",
+     "pos": "M",
+     "forca": 18,
+     "idade": 29
+    },
+    {
+     "nome": "TÚLIO CAMPOS",
+     "pos": "M",
+     "forca": 21,
+     "idade": 24
+    },
+    {
+     "nome": "IGOR MACEDO",
+     "pos": "M",
+     "forca": 17,
+     "idade": 19
+    },
+    {
+     "nome": "L. MOURA",
+     "pos": "M",
+     "forca": 17,
+     "idade": 22
+    },
+    {
+     "nome": "T. VIEIRA",
+     "pos": "M",
+     "forca": 20,
+     "idade": 33
+    },
+    {
+     "nome": "CAIO BORGES",
+     "pos": "M",
+     "forca": 17,
+     "idade": 21
+    },
+    {
+     "nome": "SÉRGIO CRUZ",
+     "pos": "M",
+     "forca": 11,
+     "idade": 22
+    },
+    {
+     "nome": "G. ALVES",
+     "pos": "A",
+     "forca": 19,
+     "idade": 22
+    },
+    {
+     "nome": "T. MELO",
+     "pos": "A",
+     "forca": 24,
+     "idade": 26
+    },
+    {
+     "nome": "F. VIEIRA",
+     "pos": "A",
+     "forca": 19,
+     "idade": 22
+    },
+    {
+     "nome": "A. FONSECA",
+     "pos": "A",
+     "forca": 20,
+     "idade": 33
+    },
+    {
+     "nome": "F. TEIXEIRA",
+     "pos": "A",
+     "forca": 15,
+     "idade": 25
+    }
+   ]
+  },
+  {
+   "nome": "PAYSANDU",
+   "sigla": "PAY",
+   "divisao": "C",
+   "fama": 5,
+   "capacidade": 16000,
+   "cores": [
+    "#2878D0",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "G. CARDOSO",
+     "pos": "G",
+     "forca": 19,
+     "idade": 29
+    },
+    {
+     "nome": "TIAGO LIMA",
+     "pos": "G",
+     "forca": 17,
+     "idade": 34
+    },
+    {
+     "nome": "T. SALES",
+     "pos": "G",
+     "forca": 16,
+     "idade": 18
+    },
+    {
+     "nome": "O. CRUZ",
+     "pos": "D",
+     "forca": 25,
+     "idade": 24
+    },
+    {
+     "nome": "ÍTALO NUNES",
+     "pos": "D",
+     "forca": 23,
+     "idade": 26
+    },
+    {
+     "nome": "Y. BARROS",
+     "pos": "D",
+     "forca": 22,
+     "idade": 21
+    },
+    {
+     "nome": "CÉSAR PRADO",
+     "pos": "D",
+     "forca": 17,
+     "idade": 18
+    },
+    {
+     "nome": "L. SALES",
+     "pos": "D",
+     "forca": 11,
+     "idade": 33
+    },
+    {
+     "nome": "J. TEIXEIRA",
+     "pos": "D",
+     "forca": 17,
+     "idade": 27
+    },
+    {
+     "nome": "SIDNEY ROCHA",
+     "pos": "D",
+     "forca": 18,
+     "idade": 23
+    },
+    {
+     "nome": "A. BARROS",
+     "pos": "M",
+     "forca": 20,
+     "idade": 31
+    },
+    {
+     "nome": "DAVI COSTA",
+     "pos": "M",
+     "forca": 22,
+     "idade": 30
+    },
+    {
+     "nome": "V. CRUZ",
+     "pos": "M",
+     "forca": 26,
+     "idade": 25
+    },
+    {
+     "nome": "ALEX BORGES",
+     "pos": "M",
+     "forca": 18,
+     "idade": 29
+    },
+    {
+     "nome": "P. LIMA",
+     "pos": "M",
+     "forca": 20,
+     "idade": 28
+    },
+    {
+     "nome": "N. LOPES",
+     "pos": "M",
+     "forca": 15,
+     "idade": 23
+    },
+    {
+     "nome": "PAULO SANTOS",
+     "pos": "M",
+     "forca": 14,
+     "idade": 27
+    },
+    {
+     "nome": "MAURO ROCHA",
+     "pos": "A",
+     "forca": 24,
+     "idade": 21
+    },
+    {
+     "nome": "TIAGO PRADO",
+     "pos": "A",
+     "forca": 17,
+     "idade": 27
+    },
+    {
+     "nome": "LÉO LIMA",
+     "pos": "A",
+     "forca": 19,
+     "idade": 30
+    },
+    {
+     "nome": "K. SANTOS",
+     "pos": "A",
+     "forca": 18,
+     "idade": 18
+    },
+    {
+     "nome": "JOÃO MATOS",
+     "pos": "A",
+     "forca": 17,
+     "idade": 21
+    }
+   ]
+  },
+  {
+   "nome": "NÁUTICO",
+   "sigla": "NAU",
+   "divisao": "C",
+   "fama": 4,
+   "capacidade": 19000,
+   "cores": [
+    "#D01818",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "LÉO COSTA",
+     "pos": "G",
+     "forca": 24,
+     "idade": 34
+    },
+    {
+     "nome": "LÉO MATOS",
+     "pos": "G",
+     "forca": 16,
+     "idade": 26
+    },
+    {
+     "nome": "ROBSON CRUZ",
+     "pos": "G",
+     "forca": 17,
+     "idade": 22
+    },
+    {
+     "nome": "DAVI BRAGA",
+     "pos": "D",
+     "forca": 20,
+     "idade": 29
+    },
+    {
+     "nome": "HUGO ARAÚJO",
+     "pos": "D",
+     "forca": 21,
+     "idade": 26
+    },
+    {
+     "nome": "L. BARROS",
+     "pos": "D",
+     "forca": 18,
+     "idade": 18
+    },
+    {
+     "nome": "DANIEL SOUZA",
+     "pos": "D",
+     "forca": 15,
+     "idade": 18
+    },
+    {
+     "nome": "L. MATOS",
+     "pos": "D",
+     "forca": 9,
+     "idade": 32
+    },
+    {
+     "nome": "G. RIBEIRO",
+     "pos": "D",
+     "forca": 17,
+     "idade": 25
+    },
+    {
+     "nome": "VAGNER VALE",
+     "pos": "D",
+     "forca": 18,
+     "idade": 18
+    },
+    {
+     "nome": "D. MACEDO",
+     "pos": "M",
+     "forca": 18,
+     "idade": 19
+    },
+    {
+     "nome": "J. TORRES",
+     "pos": "M",
+     "forca": 18,
+     "idade": 30
+    },
+    {
+     "nome": "E. RIBEIRO",
+     "pos": "M",
+     "forca": 19,
+     "idade": 21
+    },
+    {
+     "nome": "M. NUNES",
+     "pos": "M",
+     "forca": 17,
+     "idade": 28
+    },
+    {
+     "nome": "BRUNO GOMES",
+     "pos": "M",
+     "forca": 18,
+     "idade": 32
+    },
+    {
+     "nome": "FELIPE SALES",
+     "pos": "M",
+     "forca": 9,
+     "idade": 19
+    },
+    {
+     "nome": "A. REIS",
+     "pos": "M",
+     "forca": 10,
+     "idade": 31
+    },
+    {
+     "nome": "ALEX MENDES",
+     "pos": "A",
+     "forca": 18,
+     "idade": 24
+    },
+    {
+     "nome": "R. OLIVEIRA",
+     "pos": "A",
+     "forca": 15,
+     "idade": 24
+    },
+    {
+     "nome": "M. TORRES",
+     "pos": "A",
+     "forca": 18,
+     "idade": 25
+    },
+    {
+     "nome": "CAIO MOURA",
+     "pos": "A",
+     "forca": 14,
+     "idade": 33
+    },
+    {
+     "nome": "VITOR MELO",
+     "pos": "A",
+     "forca": 18,
+     "idade": 19
+    }
+   ]
+  },
+  {
+   "nome": "CRB",
+   "sigla": "CRB",
+   "divisao": "C",
+   "fama": 4,
+   "capacidade": 19000,
+   "cores": [
+    "#D01818",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "PAULO BRAGA",
+     "pos": "G",
+     "forca": 24,
+     "idade": 24
+    },
+    {
+     "nome": "DOUGLAS DIAS",
+     "pos": "G",
+     "forca": 15,
+     "idade": 33
+    },
+    {
+     "nome": "JORGE LOPES",
+     "pos": "G",
+     "forca": 11,
+     "idade": 27
+    },
+    {
+     "nome": "ROBSON PIRES",
+     "pos": "D",
+     "forca": 23,
+     "idade": 24
+    },
+    {
+     "nome": "M. RIBEIRO",
+     "pos": "D",
+     "forca": 20,
+     "idade": 23
+    },
+    {
+     "nome": "DIEGO GOMES",
+     "pos": "D",
+     "forca": 20,
+     "idade": 29
+    },
+    {
+     "nome": "MAURO NUNES",
+     "pos": "D",
+     "forca": 19,
+     "idade": 27
+    },
+    {
+     "nome": "P. TORRES",
+     "pos": "D",
+     "forca": 15,
+     "idade": 31
+    },
+    {
+     "nome": "FELIPE CRUZ",
+     "pos": "D",
+     "forca": 14,
+     "idade": 33
+    },
+    {
+     "nome": "OTÁVIO NUNES",
+     "pos": "D",
+     "forca": 11,
+     "idade": 34
+    },
+    {
+     "nome": "G. LIMA",
+     "pos": "M",
+     "forca": 15,
+     "idade": 21
+    },
+    {
+     "nome": "CAIO FREITAS",
+     "pos": "M",
+     "forca": 20,
+     "idade": 30
+    },
+    {
+     "nome": "ÉRICK NUNES",
+     "pos": "M",
+     "forca": 24,
+     "idade": 32
+    },
+    {
+     "nome": "HUGO REIS",
+     "pos": "M",
+     "forca": 22,
+     "idade": 18
+    },
+    {
+     "nome": "BRENO VIEIRA",
+     "pos": "M",
+     "forca": 13,
+     "idade": 19
+    },
+    {
+     "nome": "E. FREITAS",
+     "pos": "M",
+     "forca": 18,
+     "idade": 18
+    },
+    {
+     "nome": "T. CARDOSO",
+     "pos": "M",
+     "forca": 13,
+     "idade": 21
+    },
+    {
+     "nome": "MARCOS REIS",
+     "pos": "A",
+     "forca": 16,
+     "idade": 25
+    },
+    {
+     "nome": "F. RIBEIRO",
+     "pos": "A",
+     "forca": 24,
+     "idade": 30
+    },
+    {
+     "nome": "RAUL REIS",
+     "pos": "A",
+     "forca": 10,
+     "idade": 31
+    },
+    {
+     "nome": "TIAGO XAVIER",
+     "pos": "A",
+     "forca": 14,
+     "idade": 23
+    },
+    {
+     "nome": "LUCAS GOMES",
+     "pos": "A",
+     "forca": 12,
+     "idade": 24
+    }
+   ]
+  },
+  {
+   "nome": "OPERÁRIO-PR",
+   "sigla": "OPE",
+   "divisao": "C",
+   "fama": 3,
+   "capacidade": 10000,
+   "cores": [
+    "#101010",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "ÉRICK SILVA",
+     "pos": "G",
+     "forca": 16,
+     "idade": 23
+    },
+    {
+     "nome": "JORGE XAVIER",
+     "pos": "G",
+     "forca": 10,
+     "idade": 23
+    },
+    {
+     "nome": "JORGE DIAS",
+     "pos": "G",
+     "forca": 10,
+     "idade": 20
+    },
+    {
+     "nome": "W. MATOS",
+     "pos": "D",
+     "forca": 17,
+     "idade": 33
+    },
+    {
+     "nome": "ROBSON LIMA",
+     "pos": "D",
+     "forca": 21,
+     "idade": 20
+    },
+    {
+     "nome": "VAGNER REIS",
+     "pos": "D",
+     "forca": 21,
+     "idade": 20
+    },
+    {
+     "nome": "WILLIAN DIAS",
+     "pos": "D",
+     "forca": 20,
+     "idade": 24
+    },
+    {
+     "nome": "C. REIS",
+     "pos": "D",
+     "forca": 8,
+     "idade": 32
+    },
+    {
+     "nome": "JORGE ROCHA",
+     "pos": "D",
+     "forca": 13,
+     "idade": 22
+    },
+    {
+     "nome": "RENATO PRADO",
+     "pos": "D",
+     "forca": 10,
+     "idade": 34
+    },
+    {
+     "nome": "P. FARIAS",
+     "pos": "M",
+     "forca": 21,
+     "idade": 30
+    },
+    {
+     "nome": "IGOR RIBEIRO",
+     "pos": "M",
+     "forca": 19,
+     "idade": 21
+    },
+    {
+     "nome": "THIAGO ROCHA",
+     "pos": "M",
+     "forca": 23,
+     "idade": 22
+    },
+    {
+     "nome": "VAGNER ALVES",
+     "pos": "M",
+     "forca": 21,
+     "idade": 31
+    },
+    {
+     "nome": "FELIPE COSTA",
+     "pos": "M",
+     "forca": 16,
+     "idade": 27
+    },
+    {
+     "nome": "LUCAS SANTOS",
+     "pos": "M",
+     "forca": 9,
+     "idade": 30
+    },
+    {
+     "nome": "W. SILVA",
+     "pos": "M",
+     "forca": 11,
+     "idade": 34
+    },
+    {
+     "nome": "L. SOUZA",
+     "pos": "A",
+     "forca": 18,
+     "idade": 31
+    },
+    {
+     "nome": "É. VIEIRA",
+     "pos": "A",
+     "forca": 18,
+     "idade": 22
+    },
+    {
+     "nome": "JORGE BRAGA",
+     "pos": "A",
+     "forca": 16,
+     "idade": 30
+    },
+    {
+     "nome": "DAVI SILVA",
+     "pos": "A",
+     "forca": 15,
+     "idade": 22
+    },
+    {
+     "nome": "LUCAS MENDES",
+     "pos": "A",
+     "forca": 17,
+     "idade": 24
+    }
+   ]
+  },
+  {
+   "nome": "BOTAFOGO-SP",
+   "sigla": "BSP",
+   "divisao": "C",
+   "fama": 3,
+   "capacidade": 15000,
+   "cores": [
+    "#D01818",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "SÉRGIO PIRES",
+     "pos": "G",
+     "forca": 14,
+     "idade": 31
+    },
+    {
+     "nome": "LÉO ROCHA",
+     "pos": "G",
+     "forca": 16,
+     "idade": 21
+    },
+    {
+     "nome": "ROBSON VALE",
+     "pos": "G",
+     "forca": 9,
+     "idade": 20
+    },
+    {
+     "nome": "SIDNEY COSTA",
+     "pos": "D",
+     "forca": 22,
+     "idade": 27
+    },
+    {
+     "nome": "P. XAVIER",
+     "pos": "D",
+     "forca": 15,
+     "idade": 19
+    },
+    {
+     "nome": "CAIO BRAGA",
+     "pos": "D",
+     "forca": 17,
+     "idade": 24
+    },
+    {
+     "nome": "WALLACE CRUZ",
+     "pos": "D",
+     "forca": 14,
+     "idade": 29
+    },
+    {
+     "nome": "ARTHUR MATOS",
+     "pos": "D",
+     "forca": 13,
+     "idade": 27
+    },
+    {
+     "nome": "N. FONSECA",
+     "pos": "D",
+     "forca": 15,
+     "idade": 26
+    },
+    {
+     "nome": "JOÃO MOURA",
+     "pos": "D",
+     "forca": 9,
+     "idade": 29
+    },
+    {
+     "nome": "MAURO GOMES",
+     "pos": "M",
+     "forca": 14,
+     "idade": 30
+    },
+    {
+     "nome": "R. ALVES",
+     "pos": "M",
+     "forca": 19,
+     "idade": 31
+    },
+    {
+     "nome": "K. DIAS",
+     "pos": "M",
+     "forca": 23,
+     "idade": 32
+    },
+    {
+     "nome": "F. PRADO",
+     "pos": "M",
+     "forca": 14,
+     "idade": 29
+    },
+    {
+     "nome": "F. ROCHA",
+     "pos": "M",
+     "forca": 9,
+     "idade": 31
+    },
+    {
+     "nome": "TÚLIO XAVIER",
+     "pos": "M",
+     "forca": 14,
+     "idade": 23
+    },
+    {
+     "nome": "Í. PRADO",
+     "pos": "M",
+     "forca": 17,
+     "idade": 24
+    },
+    {
+     "nome": "CAIO NUNES",
+     "pos": "A",
+     "forca": 18,
+     "idade": 33
+    },
+    {
+     "nome": "V. SILVA",
+     "pos": "A",
+     "forca": 15,
+     "idade": 29
+    },
+    {
+     "nome": "N. LIMA",
+     "pos": "A",
+     "forca": 12,
+     "idade": 32
+    },
+    {
+     "nome": "ALEX MATOS",
+     "pos": "A",
+     "forca": 15,
+     "idade": 21
+    },
+    {
+     "nome": "ÉRICK LOPES",
+     "pos": "A",
+     "forca": 8,
+     "idade": 21
+    }
+   ]
+  },
+  {
+   "nome": "LONDRINA",
+   "sigla": "LON",
+   "divisao": "C",
+   "fama": 3,
+   "capacidade": 30000,
+   "cores": [
+    "#2878D0",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "FELIPE MELO",
+     "pos": "G",
+     "forca": 22,
+     "idade": 25
+    },
+    {
+     "nome": "N. FARIAS",
+     "pos": "G",
+     "forca": 17,
+     "idade": 24
+    },
+    {
+     "nome": "KAUÃ QUEIROZ",
+     "pos": "G",
+     "forca": 14,
+     "idade": 18
+    },
+    {
+     "nome": "DANIEL LIMA",
+     "pos": "D",
+     "forca": 19,
+     "idade": 21
+    },
+    {
+     "nome": "DIEGO BARROS",
+     "pos": "D",
+     "forca": 15,
+     "idade": 33
+    },
+    {
+     "nome": "RENATO SOUZA",
+     "pos": "D",
+     "forca": 19,
+     "idade": 25
+    },
+    {
+     "nome": "JOÃO SOUZA",
+     "pos": "D",
+     "forca": 14,
+     "idade": 21
+    },
+    {
+     "nome": "T. MACEDO",
+     "pos": "D",
+     "forca": 14,
+     "idade": 26
+    },
+    {
+     "nome": "R. QUEIROZ",
+     "pos": "D",
+     "forca": 16,
+     "idade": 32
+    },
+    {
+     "nome": "C. ROCHA",
+     "pos": "D",
+     "forca": 16,
+     "idade": 25
+    },
+    {
+     "nome": "BRUNO LOPES",
+     "pos": "M",
+     "forca": 19,
+     "idade": 26
+    },
+    {
+     "nome": "R. PIRES",
+     "pos": "M",
+     "forca": 16,
+     "idade": 25
+    },
+    {
+     "nome": "MATHEUS VALE",
+     "pos": "M",
+     "forca": 19,
+     "idade": 26
+    },
+    {
+     "nome": "CÉSAR LOPES",
+     "pos": "M",
+     "forca": 16,
+     "idade": 18
+    },
+    {
+     "nome": "H. MELO",
+     "pos": "M",
+     "forca": 15,
+     "idade": 33
+    },
+    {
+     "nome": "ALEX LOPES",
+     "pos": "M",
+     "forca": 12,
+     "idade": 25
+    },
+    {
+     "nome": "E. GOMES",
+     "pos": "M",
+     "forca": 14,
+     "idade": 30
+    },
+    {
+     "nome": "NATAN FARIAS",
+     "pos": "A",
+     "forca": 14,
+     "idade": 31
+    },
+    {
+     "nome": "É. LIMA",
+     "pos": "A",
+     "forca": 17,
+     "idade": 23
+    },
+    {
+     "nome": "DIEGO ALVES",
+     "pos": "A",
+     "forca": 17,
+     "idade": 21
+    },
+    {
+     "nome": "D. RIBEIRO",
+     "pos": "A",
+     "forca": 10,
+     "idade": 28
+    },
+    {
+     "nome": "DIEGO COSTA",
+     "pos": "A",
+     "forca": 11,
+     "idade": 34
+    }
+   ]
+  },
+  {
+   "nome": "FIGUEIRENSE",
+   "sigla": "FIG",
+   "divisao": "C",
+   "fama": 4,
+   "capacidade": 19000,
+   "cores": [
+    "#101010",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "TÚLIO NUNES",
+     "pos": "G",
+     "forca": 18,
+     "idade": 25
+    },
+    {
+     "nome": "MATHEUS CRUZ",
+     "pos": "G",
+     "forca": 10,
+     "idade": 26
+    },
+    {
+     "nome": "NILTON LIMA",
+     "pos": "G",
+     "forca": 17,
+     "idade": 31
+    },
+    {
+     "nome": "J. PEREIRA",
+     "pos": "D",
+     "forca": 21,
+     "idade": 31
+    },
+    {
+     "nome": "T. FONSECA",
+     "pos": "D",
+     "forca": 15,
+     "idade": 34
+    },
+    {
+     "nome": "TIAGO BARROS",
+     "pos": "D",
+     "forca": 23,
+     "idade": 33
+    },
+    {
+     "nome": "CARLOS REIS",
+     "pos": "D",
+     "forca": 16,
+     "idade": 30
+    },
+    {
+     "nome": "TÚLIO SOUZA",
+     "pos": "D",
+     "forca": 18,
+     "idade": 24
+    },
+    {
+     "nome": "RAFAEL BRAGA",
+     "pos": "D",
+     "forca": 9,
+     "idade": 32
+    },
+    {
+     "nome": "PAULO LOPES",
+     "pos": "D",
+     "forca": 17,
+     "idade": 28
+    },
+    {
+     "nome": "VAGNER DIAS",
+     "pos": "M",
+     "forca": 17,
+     "idade": 20
+    },
+    {
+     "nome": "É. BRAGA",
+     "pos": "M",
+     "forca": 18,
+     "idade": 20
+    },
+    {
+     "nome": "YAGO CAMPOS",
+     "pos": "M",
+     "forca": 19,
+     "idade": 28
+    },
+    {
+     "nome": "Y. GOMES",
+     "pos": "M",
+     "forca": 15,
+     "idade": 20
+    },
+    {
+     "nome": "JORGE GOMES",
+     "pos": "M",
+     "forca": 18,
+     "idade": 22
+    },
+    {
+     "nome": "SAMUEL ROCHA",
+     "pos": "M",
+     "forca": 13,
+     "idade": 28
+    },
+    {
+     "nome": "CARLOS LOPES",
+     "pos": "M",
+     "forca": 15,
+     "idade": 29
+    },
+    {
+     "nome": "ANDRÉ PIRES",
+     "pos": "A",
+     "forca": 23,
+     "idade": 21
+    },
+    {
+     "nome": "PEDRO COSTA",
+     "pos": "A",
+     "forca": 17,
+     "idade": 27
+    },
+    {
+     "nome": "J. SANTOS",
+     "pos": "A",
+     "forca": 13,
+     "idade": 23
+    },
+    {
+     "nome": "VITOR PIRES",
+     "pos": "A",
+     "forca": 15,
+     "idade": 31
+    },
+    {
+     "nome": "CAIO CAMPOS",
+     "pos": "A",
+     "forca": 13,
+     "idade": 18
+    }
+   ]
+  },
+  {
+   "nome": "ITUANO",
+   "sigla": "ITU",
+   "divisao": "C",
+   "fama": 3,
+   "capacidade": 18000,
+   "cores": [
+    "#D01818",
+    "#101010"
+   ],
+   "jogadores": [
+    {
+     "nome": "YAGO REIS",
+     "pos": "G",
+     "forca": 18,
+     "idade": 27
+    },
+    {
+     "nome": "ANDRÉ SILVA",
+     "pos": "G",
+     "forca": 15,
+     "idade": 34
+    },
+    {
+     "nome": "CAIO MELO",
+     "pos": "G",
+     "forca": 13,
+     "idade": 25
+    },
+    {
+     "nome": "LUIZ BRAGA",
+     "pos": "D",
+     "forca": 21,
+     "idade": 33
+    },
+    {
+     "nome": "H. ALVES",
+     "pos": "D",
+     "forca": 15,
+     "idade": 27
+    },
+    {
+     "nome": "T. FREITAS",
+     "pos": "D",
+     "forca": 22,
+     "idade": 28
+    },
+    {
+     "nome": "D. MARTINS",
+     "pos": "D",
+     "forca": 19,
+     "idade": 28
+    },
+    {
+     "nome": "M. QUEIROZ",
+     "pos": "D",
+     "forca": 17,
+     "idade": 27
+    },
+    {
+     "nome": "DANIEL ALVES",
+     "pos": "D",
+     "forca": 14,
+     "idade": 30
+    },
+    {
+     "nome": "R. BORGES",
+     "pos": "D",
+     "forca": 11,
+     "idade": 21
+    },
+    {
+     "nome": "G. OLIVEIRA",
+     "pos": "M",
+     "forca": 15,
+     "idade": 26
+    },
+    {
+     "nome": "FÁBIO VIEIRA",
+     "pos": "M",
+     "forca": 14,
+     "idade": 24
+    },
+    {
+     "nome": "J. BRAGA",
+     "pos": "M",
+     "forca": 17,
+     "idade": 26
+    },
+    {
+     "nome": "PEDRO REIS",
+     "pos": "M",
+     "forca": 19,
+     "idade": 27
+    },
+    {
+     "nome": "L. OLIVEIRA",
+     "pos": "M",
+     "forca": 14,
+     "idade": 29
+    },
+    {
+     "nome": "ÍTALO DIAS",
+     "pos": "M",
+     "forca": 11,
+     "idade": 22
+    },
+    {
+     "nome": "HUGO MENDES",
+     "pos": "M",
+     "forca": 17,
+     "idade": 31
+    },
+    {
+     "nome": "M. CAMPOS",
+     "pos": "A",
+     "forca": 22,
+     "idade": 27
+    },
+    {
+     "nome": "ARTHUR MELO",
+     "pos": "A",
+     "forca": 23,
+     "idade": 29
+    },
+    {
+     "nome": "JOÃO VALE",
+     "pos": "A",
+     "forca": 14,
+     "idade": 20
+    },
+    {
+     "nome": "BRENO BRAGA",
+     "pos": "A",
+     "forca": 9,
+     "idade": 19
+    },
+    {
+     "nome": "JORGE CRUZ",
+     "pos": "A",
+     "forca": 17,
+     "idade": 23
+    }
+   ]
+  },
+  {
+   "nome": "ABC",
+   "sigla": "ABC",
+   "divisao": "C",
+   "fama": 4,
+   "capacidade": 18000,
+   "cores": [
+    "#101010",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "S. FREITAS",
+     "pos": "G",
+     "forca": 19,
+     "idade": 31
+    },
+    {
+     "nome": "MARCOS BRAGA",
+     "pos": "G",
+     "forca": 10,
+     "idade": 24
+    },
+    {
+     "nome": "M. ROCHA",
+     "pos": "G",
+     "forca": 11,
+     "idade": 21
+    },
+    {
+     "nome": "GUSTAVO MELO",
+     "pos": "D",
+     "forca": 15,
+     "idade": 28
+    },
+    {
+     "nome": "S. XAVIER",
+     "pos": "D",
+     "forca": 21,
+     "idade": 24
+    },
+    {
+     "nome": "T. VALE",
+     "pos": "D",
+     "forca": 19,
+     "idade": 26
+    },
+    {
+     "nome": "HUGO PRADO",
+     "pos": "D",
+     "forca": 22,
+     "idade": 24
+    },
+    {
+     "nome": "C. NUNES",
+     "pos": "D",
+     "forca": 9,
+     "idade": 21
+    },
+    {
+     "nome": "DAVI PEREIRA",
+     "pos": "D",
+     "forca": 14,
+     "idade": 28
+    },
+    {
+     "nome": "LUCAS ARAÚJO",
+     "pos": "D",
+     "forca": 12,
+     "idade": 30
+    },
+    {
+     "nome": "A. MOURA",
+     "pos": "M",
+     "forca": 22,
+     "idade": 24
+    },
+    {
+     "nome": "É. MOURA",
+     "pos": "M",
+     "forca": 23,
+     "idade": 28
+    },
+    {
+     "nome": "MARCOS MELO",
+     "pos": "M",
+     "forca": 17,
+     "idade": 30
+    },
+    {
+     "nome": "ANDRÉ MENDES",
+     "pos": "M",
+     "forca": 18,
+     "idade": 22
+    },
+    {
+     "nome": "SÉRGIO BRAGA",
+     "pos": "M",
+     "forca": 13,
+     "idade": 26
+    },
+    {
+     "nome": "IGOR COSTA",
+     "pos": "M",
+     "forca": 18,
+     "idade": 18
+    },
+    {
+     "nome": "ANDRÉ TORRES",
+     "pos": "M",
+     "forca": 15,
+     "idade": 24
+    },
+    {
+     "nome": "I. ROCHA",
+     "pos": "A",
+     "forca": 21,
+     "idade": 20
+    },
+    {
+     "nome": "PAULO TORRES",
+     "pos": "A",
+     "forca": 18,
+     "idade": 31
+    },
+    {
+     "nome": "VAGNER LIMA",
+     "pos": "A",
+     "forca": 15,
+     "idade": 27
+    },
+    {
+     "nome": "W. LOPES",
+     "pos": "A",
+     "forca": 15,
+     "idade": 29
+    },
+    {
+     "nome": "F. VALE",
+     "pos": "A",
+     "forca": 18,
+     "idade": 20
+    }
+   ]
+  },
+  {
+   "nome": "SÃO BERNARDO",
+   "sigla": "SBE",
+   "divisao": "C",
+   "fama": 3,
+   "capacidade": 15000,
+   "cores": [
+    "#F8D820",
+    "#101010"
+   ],
+   "jogadores": [
+    {
+     "nome": "J. OLIVEIRA",
+     "pos": "G",
+     "forca": 23,
+     "idade": 20
+    },
+    {
+     "nome": "P. DIAS",
+     "pos": "G",
+     "forca": 16,
+     "idade": 25
+    },
+    {
+     "nome": "K. MOURA",
+     "pos": "G",
+     "forca": 11,
+     "idade": 33
+    },
+    {
+     "nome": "E. BARROS",
+     "pos": "D",
+     "forca": 21,
+     "idade": 20
+    },
+    {
+     "nome": "R. PEREIRA",
+     "pos": "D",
+     "forca": 22,
+     "idade": 18
+    },
+    {
+     "nome": "MÁRCIO MOURA",
+     "pos": "D",
+     "forca": 20,
+     "idade": 23
+    },
+    {
+     "nome": "LUCAS SILVA",
+     "pos": "D",
+     "forca": 22,
+     "idade": 29
+    },
+    {
+     "nome": "O. CARDOSO",
+     "pos": "D",
+     "forca": 17,
+     "idade": 25
+    },
+    {
+     "nome": "NILTON DIAS",
+     "pos": "D",
+     "forca": 14,
+     "idade": 25
+    },
+    {
+     "nome": "P. PEREIRA",
+     "pos": "D",
+     "forca": 9,
+     "idade": 19
+    },
+    {
+     "nome": "E. MOURA",
+     "pos": "M",
+     "forca": 19,
+     "idade": 29
+    },
+    {
+     "nome": "R. GOMES",
+     "pos": "M",
+     "forca": 23,
+     "idade": 25
+    },
+    {
+     "nome": "THIAGO VALE",
+     "pos": "M",
+     "forca": 21,
+     "idade": 24
+    },
+    {
+     "nome": "DAVI MENDES",
+     "pos": "M",
+     "forca": 14,
+     "idade": 26
+    },
+    {
+     "nome": "W. MELO",
+     "pos": "M",
+     "forca": 10,
+     "idade": 33
+    },
+    {
+     "nome": "ARTHUR REIS",
+     "pos": "M",
+     "forca": 17,
+     "idade": 23
+    },
+    {
+     "nome": "V. ALVES",
+     "pos": "M",
+     "forca": 17,
+     "idade": 20
+    },
+    {
+     "nome": "M. TEIXEIRA",
+     "pos": "A",
+     "forca": 16,
+     "idade": 27
+    },
+    {
+     "nome": "K. ROCHA",
+     "pos": "A",
+     "forca": 20,
+     "idade": 28
+    },
+    {
+     "nome": "WESLEY ROCHA",
+     "pos": "A",
+     "forca": 9,
+     "idade": 25
+    },
+    {
+     "nome": "RAUL PIRES",
+     "pos": "A",
+     "forca": 10,
+     "idade": 23
+    },
+    {
+     "nome": "OTÁVIO MELO",
+     "pos": "A",
+     "forca": 14,
+     "idade": 30
+    }
+   ]
+  },
+  {
+   "nome": "FERROVIÁRIA",
+   "sigla": "FER",
+   "divisao": "C",
+   "fama": 3,
+   "capacidade": 20000,
+   "cores": [
+    "#801830",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "D. NUNES",
+     "pos": "G",
+     "forca": 19,
+     "idade": 30
+    },
+    {
+     "nome": "BRENO ROCHA",
+     "pos": "G",
+     "forca": 17,
+     "idade": 24
+    },
+    {
+     "nome": "V. SALES",
+     "pos": "G",
+     "forca": 9,
+     "idade": 26
+    },
+    {
+     "nome": "A. ARAÚJO",
+     "pos": "D",
+     "forca": 16,
+     "idade": 28
+    },
+    {
+     "nome": "N. BARROS",
+     "pos": "D",
+     "forca": 20,
+     "idade": 32
+    },
+    {
+     "nome": "DIEGO FARIAS",
+     "pos": "D",
+     "forca": 14,
+     "idade": 30
+    },
+    {
+     "nome": "ELIAS REIS",
+     "pos": "D",
+     "forca": 19,
+     "idade": 34
+    },
+    {
+     "nome": "RAFAEL DIAS",
+     "pos": "D",
+     "forca": 15,
+     "idade": 20
+    },
+    {
+     "nome": "M. SOUZA",
+     "pos": "D",
+     "forca": 12,
+     "idade": 20
+    },
+    {
+     "nome": "A. PEREIRA",
+     "pos": "D",
+     "forca": 15,
+     "idade": 19
+    },
+    {
+     "nome": "J. FREITAS",
+     "pos": "M",
+     "forca": 20,
+     "idade": 31
+    },
+    {
+     "nome": "HUGO SANTOS",
+     "pos": "M",
+     "forca": 20,
+     "idade": 34
+    },
+    {
+     "nome": "K. MARTINS",
+     "pos": "M",
+     "forca": 16,
+     "idade": 25
+    },
+    {
+     "nome": "YAGO BARROS",
+     "pos": "M",
+     "forca": 17,
+     "idade": 19
+    },
+    {
+     "nome": "S. GOMES",
+     "pos": "M",
+     "forca": 12,
+     "idade": 24
+    },
+    {
+     "nome": "Í. BORGES",
+     "pos": "M",
+     "forca": 9,
+     "idade": 20
+    },
+    {
+     "nome": "CAIO SANTOS",
+     "pos": "M",
+     "forca": 17,
+     "idade": 19
+    },
+    {
+     "nome": "PAULO CRUZ",
+     "pos": "A",
+     "forca": 15,
+     "idade": 26
+    },
+    {
+     "nome": "JOÃO SANTOS",
+     "pos": "A",
+     "forca": 20,
+     "idade": 31
+    },
+    {
+     "nome": "D. TEIXEIRA",
+     "pos": "A",
+     "forca": 13,
+     "idade": 28
+    },
+    {
+     "nome": "T. PRADO",
+     "pos": "A",
+     "forca": 14,
+     "idade": 28
+    },
+    {
+     "nome": "B. MOURA",
+     "pos": "A",
+     "forca": 9,
+     "idade": 32
+    }
+   ]
+  },
+  {
+   "nome": "AMAZONAS",
+   "sigla": "AMA",
+   "divisao": "C",
+   "fama": 3,
+   "capacidade": 44000,
+   "cores": [
+    "#F8D820",
+    "#101010"
+   ],
+   "jogadores": [
+    {
+     "nome": "LÉO BARROS",
+     "pos": "G",
+     "forca": 21,
+     "idade": 19
+    },
+    {
+     "nome": "JOÃO LOPES",
+     "pos": "G",
+     "forca": 9,
+     "idade": 27
+    },
+    {
+     "nome": "F. SANTOS",
+     "pos": "G",
+     "forca": 11,
+     "idade": 30
+    },
+    {
+     "nome": "B. TORRES",
+     "pos": "D",
+     "forca": 18,
+     "idade": 18
+    },
+    {
+     "nome": "CÉSAR COSTA",
+     "pos": "D",
+     "forca": 15,
+     "idade": 26
+    },
+    {
+     "nome": "PAULO MACEDO",
+     "pos": "D",
+     "forca": 22,
+     "idade": 34
+    },
+    {
+     "nome": "T. XAVIER",
+     "pos": "D",
+     "forca": 23,
+     "idade": 26
+    },
+    {
+     "nome": "WESLEY SILVA",
+     "pos": "D",
+     "forca": 17,
+     "idade": 26
+    },
+    {
+     "nome": "KAUÃ MACEDO",
+     "pos": "D",
+     "forca": 11,
+     "idade": 20
+    },
+    {
+     "nome": "F. SILVA",
+     "pos": "D",
+     "forca": 10,
+     "idade": 30
+    },
+    {
+     "nome": "RODRIGO REIS",
+     "pos": "M",
+     "forca": 20,
+     "idade": 30
+    },
+    {
+     "nome": "A. RIBEIRO",
+     "pos": "M",
+     "forca": 17,
+     "idade": 33
+    },
+    {
+     "nome": "FELIPE PRADO",
+     "pos": "M",
+     "forca": 14,
+     "idade": 19
+    },
+    {
+     "nome": "V. TORRES",
+     "pos": "M",
+     "forca": 15,
+     "idade": 32
+    },
+    {
+     "nome": "ROBSON PRADO",
+     "pos": "M",
+     "forca": 17,
+     "idade": 21
+    },
+    {
+     "nome": "PEDRO MENDES",
+     "pos": "M",
+     "forca": 9,
+     "idade": 23
+    },
+    {
+     "nome": "JORGE SOUZA",
+     "pos": "M",
+     "forca": 15,
+     "idade": 34
+    },
+    {
+     "nome": "ÉRICK MOURA",
+     "pos": "A",
+     "forca": 22,
+     "idade": 34
+    },
+    {
+     "nome": "LUIZ FREITAS",
+     "pos": "A",
+     "forca": 20,
+     "idade": 24
+    },
+    {
+     "nome": "BRENO LOPES",
+     "pos": "A",
+     "forca": 16,
+     "idade": 34
+    },
+    {
+     "nome": "G. XAVIER",
+     "pos": "A",
+     "forca": 15,
+     "idade": 26
+    },
+    {
+     "nome": "M. SILVA",
+     "pos": "A",
+     "forca": 10,
+     "idade": 28
+    }
+   ]
+  },
+  {
+   "nome": "VOLTA REDOND",
+   "sigla": "VRE",
+   "divisao": "C",
+   "fama": 3,
+   "capacidade": 18000,
+   "cores": [
+    "#F8D820",
+    "#101010"
+   ],
+   "jogadores": [
+    {
+     "nome": "É. DIAS",
+     "pos": "G",
+     "forca": 23,
+     "idade": 24
+    },
+    {
+     "nome": "RICARDO VALE",
+     "pos": "G",
+     "forca": 17,
+     "idade": 20
+    },
+    {
+     "nome": "SÉRGIO LOPES",
+     "pos": "G",
+     "forca": 10,
+     "idade": 33
+    },
+    {
+     "nome": "NATAN CRUZ",
+     "pos": "D",
+     "forca": 17,
+     "idade": 22
+    },
+    {
+     "nome": "R. TORRES",
+     "pos": "D",
+     "forca": 22,
+     "idade": 22
+    },
+    {
+     "nome": "H. QUEIROZ",
+     "pos": "D",
+     "forca": 18,
+     "idade": 18
+    },
+    {
+     "nome": "CÉSAR VIEIRA",
+     "pos": "D",
+     "forca": 23,
+     "idade": 29
+    },
+    {
+     "nome": "ALEX CRUZ",
+     "pos": "D",
+     "forca": 17,
+     "idade": 22
+    },
+    {
+     "nome": "MÁRCIO ROCHA",
+     "pos": "D",
+     "forca": 13,
+     "idade": 28
+    },
+    {
+     "nome": "TÚLIO BORGES",
+     "pos": "D",
+     "forca": 16,
+     "idade": 19
+    },
+    {
+     "nome": "TÚLIO LIMA",
+     "pos": "M",
+     "forca": 20,
+     "idade": 34
+    },
+    {
+     "nome": "I. PRADO",
+     "pos": "M",
+     "forca": 21,
+     "idade": 30
+    },
+    {
+     "nome": "MARCOS LOPES",
+     "pos": "M",
+     "forca": 15,
+     "idade": 24
+    },
+    {
+     "nome": "RAUL SALES",
+     "pos": "M",
+     "forca": 17,
+     "idade": 21
+    },
+    {
+     "nome": "DANIEL BRAGA",
+     "pos": "M",
+     "forca": 9,
+     "idade": 24
+    },
+    {
+     "nome": "C. ARAÚJO",
+     "pos": "M",
+     "forca": 13,
+     "idade": 24
+    },
+    {
+     "nome": "YAGO GOMES",
+     "pos": "M",
+     "forca": 9,
+     "idade": 25
+    },
+    {
+     "nome": "R. ARAÚJO",
+     "pos": "A",
+     "forca": 20,
+     "idade": 22
+    },
+    {
+     "nome": "DIEGO CAMPOS",
+     "pos": "A",
+     "forca": 14,
+     "idade": 27
+    },
+    {
+     "nome": "ANDRÉ ROCHA",
+     "pos": "A",
+     "forca": 11,
+     "idade": 21
+    },
+    {
+     "nome": "C. SOUZA",
+     "pos": "A",
+     "forca": 8,
+     "idade": 20
+    },
+    {
+     "nome": "DAVI REIS",
+     "pos": "A",
+     "forca": 16,
+     "idade": 27
+    }
+   ]
+  },
+  {
+   "nome": "ATHLETIC-MG",
+   "sigla": "ATH",
+   "divisao": "C",
+   "fama": 2,
+   "capacidade": 10000,
+   "cores": [
+    "#101010",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "YAGO PEREIRA",
+     "pos": "G",
+     "forca": 12,
+     "idade": 25
+    },
+    {
+     "nome": "JORGE ALVES",
+     "pos": "G",
+     "forca": 12,
+     "idade": 18
+    },
+    {
+     "nome": "ADRIANO LIMA",
+     "pos": "G",
+     "forca": 15,
+     "idade": 33
+    },
+    {
+     "nome": "LUCAS LOPES",
+     "pos": "D",
+     "forca": 20,
+     "idade": 30
+    },
+    {
+     "nome": "W. SANTOS",
+     "pos": "D",
+     "forca": 15,
+     "idade": 28
+    },
+    {
+     "nome": "PAULO NUNES",
+     "pos": "D",
+     "forca": 17,
+     "idade": 29
+    },
+    {
+     "nome": "M. VALE",
+     "pos": "D",
+     "forca": 13,
+     "idade": 19
+    },
+    {
+     "nome": "P. VIEIRA",
+     "pos": "D",
+     "forca": 14,
+     "idade": 19
+    },
+    {
+     "nome": "CAIO ARAÚJO",
+     "pos": "D",
+     "forca": 9,
+     "idade": 23
+    },
+    {
+     "nome": "GUSTAVO CRUZ",
+     "pos": "D",
+     "forca": 6,
+     "idade": 23
+    },
+    {
+     "nome": "RAUL COSTA",
+     "pos": "M",
+     "forca": 20,
+     "idade": 21
+    },
+    {
+     "nome": "I. MARTINS",
+     "pos": "M",
+     "forca": 21,
+     "idade": 26
+    },
+    {
+     "nome": "RENATO ROCHA",
+     "pos": "M",
+     "forca": 12,
+     "idade": 30
+    },
+    {
+     "nome": "TIAGO CRUZ",
+     "pos": "M",
+     "forca": 20,
+     "idade": 21
+    },
+    {
+     "nome": "CAIO SOUZA",
+     "pos": "M",
+     "forca": 7,
+     "idade": 18
+    },
+    {
+     "nome": "CAIO SALES",
+     "pos": "M",
+     "forca": 12,
+     "idade": 19
+    },
+    {
+     "nome": "DOUGLAS MELO",
+     "pos": "M",
+     "forca": 9,
+     "idade": 29
+    },
+    {
+     "nome": "H. BORGES",
+     "pos": "A",
+     "forca": 20,
+     "idade": 18
+    },
+    {
+     "nome": "F. LIMA",
+     "pos": "A",
+     "forca": 20,
+     "idade": 29
+    },
+    {
+     "nome": "BRUNO PRADO",
+     "pos": "A",
+     "forca": 13,
+     "idade": 27
+    },
+    {
+     "nome": "TÚLIO ARAÚJO",
+     "pos": "A",
+     "forca": 8,
+     "idade": 30
+    },
+    {
+     "nome": "PEDRO CAMPOS",
+     "pos": "A",
+     "forca": 12,
+     "idade": 25
+    }
+   ]
+  },
+  {
+   "nome": "SANTA CRUZ",
+   "sigla": "STA",
+   "divisao": "D",
+   "fama": 5,
+   "capacidade": 60000,
+   "cores": [
+    "#D01818",
+    "#101010"
+   ],
+   "jogadores": [
+    {
+     "nome": "RENATO SILVA",
+     "pos": "G",
+     "forca": 11,
+     "idade": 31
+    },
+    {
+     "nome": "DAVI SALES",
+     "pos": "G",
+     "forca": 8,
+     "idade": 29
+    },
+    {
+     "nome": "L. VALE",
+     "pos": "G",
+     "forca": 6,
+     "idade": 25
+    },
+    {
+     "nome": "C. MOURA",
+     "pos": "D",
+     "forca": 14,
+     "idade": 25
+    },
+    {
+     "nome": "V. OLIVEIRA",
+     "pos": "D",
+     "forca": 16,
+     "idade": 22
+    },
+    {
+     "nome": "I. REIS",
+     "pos": "D",
+     "forca": 11,
+     "idade": 23
+    },
+    {
+     "nome": "ELIAS BRAGA",
+     "pos": "D",
+     "forca": 19,
+     "idade": 22
+    },
+    {
+     "nome": "ANDRÉ VIEIRA",
+     "pos": "D",
+     "forca": 12,
+     "idade": 20
+    },
+    {
+     "nome": "M. DIAS",
+     "pos": "D",
+     "forca": 6,
+     "idade": 27
+    },
+    {
+     "nome": "JOÃO ARAÚJO",
+     "pos": "D",
+     "forca": 6,
+     "idade": 29
+    },
+    {
+     "nome": "JOÃO BRAGA",
+     "pos": "M",
+     "forca": 16,
+     "idade": 27
+    },
+    {
+     "nome": "E. MARTINS",
+     "pos": "M",
+     "forca": 11,
+     "idade": 22
+    },
+    {
+     "nome": "VAGNER MATOS",
+     "pos": "M",
+     "forca": 19,
+     "idade": 34
+    },
+    {
+     "nome": "HUGO MATOS",
+     "pos": "M",
+     "forca": 13,
+     "idade": 21
+    },
+    {
+     "nome": "A. ALVES",
+     "pos": "M",
+     "forca": 9,
+     "idade": 32
+    },
+    {
+     "nome": "ARTHUR LOPES",
+     "pos": "M",
+     "forca": 6,
+     "idade": 31
+    },
+    {
+     "nome": "WESLEY MOURA",
+     "pos": "M",
+     "forca": 11,
+     "idade": 18
+    },
+    {
+     "nome": "C. FARIAS",
+     "pos": "A",
+     "forca": 18,
+     "idade": 31
+    },
+    {
+     "nome": "IGOR VIEIRA",
+     "pos": "A",
+     "forca": 14,
+     "idade": 24
+    },
+    {
+     "nome": "T. ALVES",
+     "pos": "A",
+     "forca": 6,
+     "idade": 18
+    },
+    {
+     "nome": "NATAN BRAGA",
+     "pos": "A",
+     "forca": 14,
+     "idade": 22
+    },
+    {
+     "nome": "F. XAVIER",
+     "pos": "A",
+     "forca": 11,
+     "idade": 33
+    }
+   ]
+  },
+  {
+   "nome": "PORTUGUESA",
+   "sigla": "POR",
+   "divisao": "D",
+   "fama": 4,
+   "capacidade": 18000,
+   "cores": [
+    "#D01818",
+    "#107030"
+   ],
+   "jogadores": [
+    {
+     "nome": "D. CAMPOS",
+     "pos": "G",
+     "forca": 14,
+     "idade": 24
+    },
+    {
+     "nome": "LÉO TEIXEIRA",
+     "pos": "G",
+     "forca": 7,
+     "idade": 34
+    },
+    {
+     "nome": "ELIAS FARIAS",
+     "pos": "G",
+     "forca": 8,
+     "idade": 18
+    },
+    {
+     "nome": "V. GOMES",
+     "pos": "D",
+     "forca": 18,
+     "idade": 19
+    },
+    {
+     "nome": "K. GOMES",
+     "pos": "D",
+     "forca": 15,
+     "idade": 30
+    },
+    {
+     "nome": "RAUL XAVIER",
+     "pos": "D",
+     "forca": 15,
+     "idade": 18
+    },
+    {
+     "nome": "OTÁVIO SOUZA",
+     "pos": "D",
+     "forca": 17,
+     "idade": 24
+    },
+    {
+     "nome": "LÉO FREITAS",
+     "pos": "D",
+     "forca": 3,
+     "idade": 30
+    },
+    {
+     "nome": "LUIZ BORGES",
+     "pos": "D",
+     "forca": 7,
+     "idade": 27
+    },
+    {
+     "nome": "O. FREITAS",
+     "pos": "D",
+     "forca": 7,
+     "idade": 28
+    },
+    {
+     "nome": "FÁBIO PIRES",
+     "pos": "M",
+     "forca": 10,
+     "idade": 23
+    },
+    {
+     "nome": "LÉO GOMES",
+     "pos": "M",
+     "forca": 16,
+     "idade": 22
+    },
+    {
+     "nome": "JORGE TORRES",
+     "pos": "M",
+     "forca": 9,
+     "idade": 31
+    },
+    {
+     "nome": "R. NUNES",
+     "pos": "M",
+     "forca": 11,
+     "idade": 32
+    },
+    {
+     "nome": "L. BORGES",
+     "pos": "M",
+     "forca": 11,
+     "idade": 27
+    },
+    {
+     "nome": "NILTON VALE",
+     "pos": "M",
+     "forca": 9,
+     "idade": 22
+    },
+    {
+     "nome": "F. BARROS",
+     "pos": "M",
+     "forca": 3,
+     "idade": 31
+    },
+    {
+     "nome": "O. TORRES",
+     "pos": "A",
+     "forca": 13,
+     "idade": 18
+    },
+    {
+     "nome": "WILLIAN CRUZ",
+     "pos": "A",
+     "forca": 17,
+     "idade": 22
+    },
+    {
+     "nome": "KAUÃ CARDOSO",
+     "pos": "A",
+     "forca": 4,
+     "idade": 21
+    },
+    {
+     "nome": "LÉO NUNES",
+     "pos": "A",
+     "forca": 11,
+     "idade": 23
+    },
+    {
+     "nome": "WESLEY BRAGA",
+     "pos": "A",
+     "forca": 9,
+     "idade": 24
+    }
+   ]
+  },
+  {
+   "nome": "PARANÁ",
+   "sigla": "PAR",
+   "divisao": "D",
+   "fama": 4,
+   "capacidade": 20000,
+   "cores": [
+    "#1840B0",
+    "#D01818"
+   ],
+   "jogadores": [
+    {
+     "nome": "N. SALES",
+     "pos": "G",
+     "forca": 12,
+     "idade": 30
+    },
+    {
+     "nome": "K. BARROS",
+     "pos": "G",
+     "forca": 3,
+     "idade": 26
+    },
+    {
+     "nome": "G. MENDES",
+     "pos": "G",
+     "forca": 3,
+     "idade": 25
+    },
+    {
+     "nome": "CÉSAR GOMES",
+     "pos": "D",
+     "forca": 12,
+     "idade": 22
+    },
+    {
+     "nome": "J. SALES",
+     "pos": "D",
+     "forca": 13,
+     "idade": 18
+    },
+    {
+     "nome": "C. PEREIRA",
+     "pos": "D",
+     "forca": 12,
+     "idade": 33
+    },
+    {
+     "nome": "LUCAS REIS",
+     "pos": "D",
+     "forca": 18,
+     "idade": 25
+    },
+    {
+     "nome": "OTÁVIO ALVES",
+     "pos": "D",
+     "forca": 7,
+     "idade": 26
+    },
+    {
+     "nome": "BRENO MENDES",
+     "pos": "D",
+     "forca": 4,
+     "idade": 31
+    },
+    {
+     "nome": "YAGO FONSECA",
+     "pos": "D",
+     "forca": 4,
+     "idade": 32
+    },
+    {
+     "nome": "ALEX SANTOS",
+     "pos": "M",
+     "forca": 15,
+     "idade": 23
+    },
+    {
+     "nome": "OTÁVIO LIMA",
+     "pos": "M",
+     "forca": 13,
+     "idade": 32
+    },
+    {
+     "nome": "ALEX DIAS",
+     "pos": "M",
+     "forca": 15,
+     "idade": 19
+    },
+    {
+     "nome": "F. SALES",
+     "pos": "M",
+     "forca": 17,
+     "idade": 26
+    },
+    {
+     "nome": "G. MELO",
+     "pos": "M",
+     "forca": 12,
+     "idade": 19
+    },
+    {
+     "nome": "MAURO SANTOS",
+     "pos": "M",
+     "forca": 11,
+     "idade": 23
+    },
+    {
+     "nome": "T. BARROS",
+     "pos": "M",
+     "forca": 7,
+     "idade": 28
+    },
+    {
+     "nome": "D. FARIAS",
+     "pos": "A",
+     "forca": 14,
+     "idade": 26
+    },
+    {
+     "nome": "MARCOS CRUZ",
+     "pos": "A",
+     "forca": 12,
+     "idade": 33
+    },
+    {
+     "nome": "FÁBIO MACEDO",
+     "pos": "A",
+     "forca": 11,
+     "idade": 18
+    },
+    {
+     "nome": "MAURO SALES",
+     "pos": "A",
+     "forca": 10,
+     "idade": 22
+    },
+    {
+     "nome": "T. MENDES",
+     "pos": "A",
+     "forca": 12,
+     "idade": 34
+    }
+   ]
+  },
+  {
+   "nome": "AMÉRICA-RN",
+   "sigla": "AMR",
+   "divisao": "D",
+   "fama": 3,
+   "capacidade": 18000,
+   "cores": [
+    "#D01818",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "DANIEL MOURA",
+     "pos": "G",
+     "forca": 11,
+     "idade": 20
+    },
+    {
+     "nome": "MÁRCIO ALVES",
+     "pos": "G",
+     "forca": 11,
+     "idade": 19
+    },
+    {
+     "nome": "ANDRÉ SALES",
+     "pos": "G",
+     "forca": 6,
+     "idade": 32
+    },
+    {
+     "nome": "D. CARDOSO",
+     "pos": "D",
+     "forca": 17,
+     "idade": 24
+    },
+    {
+     "nome": "THIAGO CRUZ",
+     "pos": "D",
+     "forca": 14,
+     "idade": 29
+    },
+    {
+     "nome": "HUGO MACEDO",
+     "pos": "D",
+     "forca": 15,
+     "idade": 27
+    },
+    {
+     "nome": "ROBSON COSTA",
+     "pos": "D",
+     "forca": 13,
+     "idade": 32
+    },
+    {
+     "nome": "M. PIRES",
+     "pos": "D",
+     "forca": 4,
+     "idade": 24
+    },
+    {
+     "nome": "G. VALE",
+     "pos": "D",
+     "forca": 5,
+     "idade": 34
+    },
+    {
+     "nome": "PAULO LIMA",
+     "pos": "D",
+     "forca": 7,
+     "idade": 26
+    },
+    {
+     "nome": "PEDRO XAVIER",
+     "pos": "M",
+     "forca": 12,
+     "idade": 21
+    },
+    {
+     "nome": "YAGO SILVA",
+     "pos": "M",
+     "forca": 9,
+     "idade": 27
+    },
+    {
+     "nome": "FÁBIO MATOS",
+     "pos": "M",
+     "forca": 17,
+     "idade": 18
+    },
+    {
+     "nome": "DANIEL CRUZ",
+     "pos": "M",
+     "forca": 8,
+     "idade": 20
+    },
+    {
+     "nome": "MARCOS COSTA",
+     "pos": "M",
+     "forca": 7,
+     "idade": 32
+    },
+    {
+     "nome": "J. GOMES",
+     "pos": "M",
+     "forca": 3,
+     "idade": 18
+    },
+    {
+     "nome": "HUGO GOMES",
+     "pos": "M",
+     "forca": 7,
+     "idade": 18
+    },
+    {
+     "nome": "HUGO FARIAS",
+     "pos": "A",
+     "forca": 9,
+     "idade": 25
+    },
+    {
+     "nome": "K. FARIAS",
+     "pos": "A",
+     "forca": 11,
+     "idade": 34
+    },
+    {
+     "nome": "M. OLIVEIRA",
+     "pos": "A",
+     "forca": 9,
+     "idade": 18
+    },
+    {
+     "nome": "M. MELO",
+     "pos": "A",
+     "forca": 3,
+     "idade": 33
+    },
+    {
+     "nome": "O. MENDES",
+     "pos": "A",
+     "forca": 5,
+     "idade": 28
+    }
+   ]
+  },
+  {
+   "nome": "SAMPAIO",
+   "sigla": "SAM",
+   "divisao": "D",
+   "fama": 3,
+   "capacidade": 40000,
+   "cores": [
+    "#F8D820",
+    "#D01818"
+   ],
+   "jogadores": [
+    {
+     "nome": "DAVI BORGES",
+     "pos": "G",
+     "forca": 9,
+     "idade": 31
+    },
+    {
+     "nome": "P. QUEIROZ",
+     "pos": "G",
+     "forca": 3,
+     "idade": 18
+    },
+    {
+     "nome": "MARCOS NUNES",
+     "pos": "G",
+     "forca": 9,
+     "idade": 22
+    },
+    {
+     "nome": "YAGO ROCHA",
+     "pos": "D",
+     "forca": 16,
+     "idade": 32
+    },
+    {
+     "nome": "E. DIAS",
+     "pos": "D",
+     "forca": 13,
+     "idade": 23
+    },
+    {
+     "nome": "KAUÃ NUNES",
+     "pos": "D",
+     "forca": 9,
+     "idade": 22
+    },
+    {
+     "nome": "L. CARDOSO",
+     "pos": "D",
+     "forca": 12,
+     "idade": 34
+    },
+    {
+     "nome": "J. CARDOSO",
+     "pos": "D",
+     "forca": 7,
+     "idade": 25
+    },
+    {
+     "nome": "B. PIRES",
+     "pos": "D",
+     "forca": 4,
+     "idade": 30
+    },
+    {
+     "nome": "I. ALVES",
+     "pos": "D",
+     "forca": 10,
+     "idade": 19
+    },
+    {
+     "nome": "PAULO ROCHA",
+     "pos": "M",
+     "forca": 11,
+     "idade": 33
+    },
+    {
+     "nome": "R. CAMPOS",
+     "pos": "M",
+     "forca": 13,
+     "idade": 33
+    },
+    {
+     "nome": "MÁRCIO PRADO",
+     "pos": "M",
+     "forca": 16,
+     "idade": 23
+    },
+    {
+     "nome": "ANDRÉ LOPES",
+     "pos": "M",
+     "forca": 11,
+     "idade": 26
+    },
+    {
+     "nome": "ALEX FARIAS",
+     "pos": "M",
+     "forca": 11,
+     "idade": 26
+    },
+    {
+     "nome": "V. FONSECA",
+     "pos": "M",
+     "forca": 4,
+     "idade": 24
+    },
+    {
+     "nome": "TÚLIO BRAGA",
+     "pos": "M",
+     "forca": 9,
+     "idade": 31
+    },
+    {
+     "nome": "W. DIAS",
+     "pos": "A",
+     "forca": 13,
+     "idade": 34
+    },
+    {
+     "nome": "L. GOMES",
+     "pos": "A",
+     "forca": 17,
+     "idade": 30
+    },
+    {
+     "nome": "KAUÃ PEREIRA",
+     "pos": "A",
+     "forca": 11,
+     "idade": 18
+    },
+    {
+     "nome": "TÚLIO MELO",
+     "pos": "A",
+     "forca": 4,
+     "idade": 20
+    },
+    {
+     "nome": "V. COSTA",
+     "pos": "A",
+     "forca": 7,
+     "idade": 27
+    }
+   ]
+  },
+  {
+   "nome": "CSA",
+   "sigla": "CSA",
+   "divisao": "D",
+   "fama": 3,
+   "capacidade": 19000,
+   "cores": [
+    "#2878D0",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "RENATO LOPES",
+     "pos": "G",
+     "forca": 13,
+     "idade": 34
+    },
+    {
+     "nome": "E. NUNES",
+     "pos": "G",
+     "forca": 4,
+     "idade": 31
+    },
+    {
+     "nome": "V. PEREIRA",
+     "pos": "G",
+     "forca": 10,
+     "idade": 23
+    },
+    {
+     "nome": "LÉO SANTOS",
+     "pos": "D",
+     "forca": 13,
+     "idade": 30
+    },
+    {
+     "nome": "G. MARTINS",
+     "pos": "D",
+     "forca": 13,
+     "idade": 20
+    },
+    {
+     "nome": "BRENO COSTA",
+     "pos": "D",
+     "forca": 13,
+     "idade": 32
+    },
+    {
+     "nome": "J. BORGES",
+     "pos": "D",
+     "forca": 14,
+     "idade": 23
+    },
+    {
+     "nome": "R. MACEDO",
+     "pos": "D",
+     "forca": 9,
+     "idade": 31
+    },
+    {
+     "nome": "JOÃO VIEIRA",
+     "pos": "D",
+     "forca": 8,
+     "idade": 31
+    },
+    {
+     "nome": "VAGNER MOURA",
+     "pos": "D",
+     "forca": 7,
+     "idade": 26
+    },
+    {
+     "nome": "RAFAEL ROCHA",
+     "pos": "M",
+     "forca": 16,
+     "idade": 34
+    },
+    {
+     "nome": "Y. RIBEIRO",
+     "pos": "M",
+     "forca": 17,
+     "idade": 23
+    },
+    {
+     "nome": "B. CAMPOS",
+     "pos": "M",
+     "forca": 16,
+     "idade": 25
+    },
+    {
+     "nome": "RAUL PEREIRA",
+     "pos": "M",
+     "forca": 8,
+     "idade": 21
+    },
+    {
+     "nome": "Í. TEIXEIRA",
+     "pos": "M",
+     "forca": 11,
+     "idade": 31
+    },
+    {
+     "nome": "NATAN MOURA",
+     "pos": "M",
+     "forca": 7,
+     "idade": 20
+    },
+    {
+     "nome": "PEDRO BRAGA",
+     "pos": "M",
+     "forca": 6,
+     "idade": 21
+    },
+    {
+     "nome": "NATAN MACEDO",
+     "pos": "A",
+     "forca": 15,
+     "idade": 24
+    },
+    {
+     "nome": "D. ALVES",
+     "pos": "A",
+     "forca": 16,
+     "idade": 31
+    },
+    {
+     "nome": "TÚLIO SANTOS",
+     "pos": "A",
+     "forca": 2,
+     "idade": 28
+    },
+    {
+     "nome": "LUCAS LIMA",
+     "pos": "A",
+     "forca": 7,
+     "idade": 26
+    },
+    {
+     "nome": "N. CAMPOS",
+     "pos": "A",
+     "forca": 10,
+     "idade": 19
+    }
+   ]
+  },
+  {
+   "nome": "JOINVILLE",
+   "sigla": "JEC",
+   "divisao": "D",
+   "fama": 3,
+   "capacidade": 22000,
+   "cores": [
+    "#D01818",
+    "#101010"
+   ],
+   "jogadores": [
+    {
+     "nome": "PEDRO LOPES",
+     "pos": "G",
+     "forca": 10,
+     "idade": 30
+    },
+    {
+     "nome": "BRUNO SANTOS",
+     "pos": "G",
+     "forca": 3,
+     "idade": 20
+    },
+    {
+     "nome": "S. FARIAS",
+     "pos": "G",
+     "forca": 10,
+     "idade": 21
+    },
+    {
+     "nome": "G. PRADO",
+     "pos": "D",
+     "forca": 16,
+     "idade": 34
+    },
+    {
+     "nome": "CÉSAR SOUZA",
+     "pos": "D",
+     "forca": 12,
+     "idade": 21
+    },
+    {
+     "nome": "NATAN SILVA",
+     "pos": "D",
+     "forca": 15,
+     "idade": 33
+    },
+    {
+     "nome": "KAUÃ FREITAS",
+     "pos": "D",
+     "forca": 13,
+     "idade": 28
+    },
+    {
+     "nome": "TIAGO BRAGA",
+     "pos": "D",
+     "forca": 7,
+     "idade": 32
+    },
+    {
+     "nome": "ANDRÉ NUNES",
+     "pos": "D",
+     "forca": 9,
+     "idade": 25
+    },
+    {
+     "nome": "É. SALES",
+     "pos": "D",
+     "forca": 10,
+     "idade": 28
+    },
+    {
+     "nome": "DIEGO REIS",
+     "pos": "M",
+     "forca": 13,
+     "idade": 20
+    },
+    {
+     "nome": "C. LOPES",
+     "pos": "M",
+     "forca": 8,
+     "idade": 33
+    },
+    {
+     "nome": "FÁBIO ALVES",
+     "pos": "M",
+     "forca": 14,
+     "idade": 22
+    },
+    {
+     "nome": "YAGO MATOS",
+     "pos": "M",
+     "forca": 11,
+     "idade": 19
+    },
+    {
+     "nome": "W. PRADO",
+     "pos": "M",
+     "forca": 7,
+     "idade": 32
+    },
+    {
+     "nome": "TÚLIO PRADO",
+     "pos": "M",
+     "forca": 8,
+     "idade": 25
+    },
+    {
+     "nome": "YAGO MENDES",
+     "pos": "M",
+     "forca": 2,
+     "idade": 26
+    },
+    {
+     "nome": "S. LOPES",
+     "pos": "A",
+     "forca": 13,
+     "idade": 34
+    },
+    {
+     "nome": "V. SOUZA",
+     "pos": "A",
+     "forca": 16,
+     "idade": 33
+    },
+    {
+     "nome": "V. LOPES",
+     "pos": "A",
+     "forca": 10,
+     "idade": 30
+    },
+    {
+     "nome": "E. MATOS",
+     "pos": "A",
+     "forca": 8,
+     "idade": 32
+    },
+    {
+     "nome": "C. TORRES",
+     "pos": "A",
+     "forca": 4,
+     "idade": 25
+    }
+   ]
+  },
+  {
+   "nome": "BRUSQUE",
+   "sigla": "BRU",
+   "divisao": "D",
+   "fama": 2,
+   "capacidade": 5000,
+   "cores": [
+    "#F8D820",
+    "#107030"
+   ],
+   "jogadores": [
+    {
+     "nome": "T. QUEIROZ",
+     "pos": "G",
+     "forca": 8,
+     "idade": 23
+    },
+    {
+     "nome": "J. XAVIER",
+     "pos": "G",
+     "forca": 2,
+     "idade": 27
+    },
+    {
+     "nome": "SIDNEY PIRES",
+     "pos": "G",
+     "forca": 1,
+     "idade": 27
+    },
+    {
+     "nome": "G. GOMES",
+     "pos": "D",
+     "forca": 14,
+     "idade": 31
+    },
+    {
+     "nome": "ALEX NUNES",
+     "pos": "D",
+     "forca": 14,
+     "idade": 28
+    },
+    {
+     "nome": "MAURO REIS",
+     "pos": "D",
+     "forca": 8,
+     "idade": 20
+    },
+    {
+     "nome": "ÍTALO VIEIRA",
+     "pos": "D",
+     "forca": 14,
+     "idade": 31
+    },
+    {
+     "nome": "É. TEIXEIRA",
+     "pos": "D",
+     "forca": 3,
+     "idade": 29
+    },
+    {
+     "nome": "T. GOMES",
+     "pos": "D",
+     "forca": 9,
+     "idade": 29
+    },
+    {
+     "nome": "LEANDRO REIS",
+     "pos": "D",
+     "forca": 2,
+     "idade": 18
+    },
+    {
+     "nome": "H. PIRES",
+     "pos": "M",
+     "forca": 12,
+     "idade": 26
+    },
+    {
+     "nome": "ALEX REIS",
+     "pos": "M",
+     "forca": 10,
+     "idade": 30
+    },
+    {
+     "nome": "E. PEREIRA",
+     "pos": "M",
+     "forca": 12,
+     "idade": 32
+    },
+    {
+     "nome": "IGOR XAVIER",
+     "pos": "M",
+     "forca": 10,
+     "idade": 23
+    },
+    {
+     "nome": "H. GOMES",
+     "pos": "M",
+     "forca": 6,
+     "idade": 33
+    },
+    {
+     "nome": "MAURO LOPES",
+     "pos": "M",
+     "forca": 5,
+     "idade": 29
+    },
+    {
+     "nome": "É. SOUZA",
+     "pos": "M",
+     "forca": 7,
+     "idade": 23
+    },
+    {
+     "nome": "JORGE PIRES",
+     "pos": "A",
+     "forca": 15,
+     "idade": 20
+    },
+    {
+     "nome": "CAIO ALVES",
+     "pos": "A",
+     "forca": 15,
+     "idade": 27
+    },
+    {
+     "nome": "H. PEREIRA",
+     "pos": "A",
+     "forca": 1,
+     "idade": 34
+    },
+    {
+     "nome": "SAMUEL PIRES",
+     "pos": "A",
+     "forca": 3,
+     "idade": 30
+    },
+    {
+     "nome": "VITOR SALES",
+     "pos": "A",
+     "forca": 3,
+     "idade": 20
+    }
+   ]
+  },
+  {
+   "nome": "BOTAFOGO-PB",
+   "sigla": "BPB",
+   "divisao": "D",
+   "fama": 2,
+   "capacidade": 20000,
+   "cores": [
+    "#101010",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "MARCOS ROCHA",
+     "pos": "G",
+     "forca": 9,
+     "idade": 20
+    },
+    {
+     "nome": "RAFAEL CRUZ",
+     "pos": "G",
+     "forca": 4,
+     "idade": 32
+    },
+    {
+     "nome": "THIAGO MELO",
+     "pos": "G",
+     "forca": 2,
+     "idade": 26
+    },
+    {
+     "nome": "IGOR CRUZ",
+     "pos": "D",
+     "forca": 11,
+     "idade": 18
+    },
+    {
+     "nome": "DAVI VALE",
+     "pos": "D",
+     "forca": 14,
+     "idade": 24
+    },
+    {
+     "nome": "Y. NUNES",
+     "pos": "D",
+     "forca": 6,
+     "idade": 28
+    },
+    {
+     "nome": "NATAN BORGES",
+     "pos": "D",
+     "forca": 14,
+     "idade": 29
+    },
+    {
+     "nome": "CÉSAR CRUZ",
+     "pos": "D",
+     "forca": 6,
+     "idade": 28
+    },
+    {
+     "nome": "S. SILVA",
+     "pos": "D",
+     "forca": 6,
+     "idade": 21
+    },
+    {
+     "nome": "ARTHUR BRAGA",
+     "pos": "D",
+     "forca": 1,
+     "idade": 29
+    },
+    {
+     "nome": "NATAN PIRES",
+     "pos": "M",
+     "forca": 8,
+     "idade": 23
+    },
+    {
+     "nome": "SÉRGIO DIAS",
+     "pos": "M",
+     "forca": 6,
+     "idade": 24
+    },
+    {
+     "nome": "IGOR PRADO",
+     "pos": "M",
+     "forca": 15,
+     "idade": 29
+    },
+    {
+     "nome": "V. MELO",
+     "pos": "M",
+     "forca": 13,
+     "idade": 27
+    },
+    {
+     "nome": "WALLACE DIAS",
+     "pos": "M",
+     "forca": 4,
+     "idade": 33
+    },
+    {
+     "nome": "B. CRUZ",
+     "pos": "M",
+     "forca": 9,
+     "idade": 21
+    },
+    {
+     "nome": "G. NUNES",
+     "pos": "M",
+     "forca": 6,
+     "idade": 25
+    },
+    {
+     "nome": "M. FARIAS",
+     "pos": "A",
+     "forca": 14,
+     "idade": 33
+    },
+    {
+     "nome": "E. MACEDO",
+     "pos": "A",
+     "forca": 6,
+     "idade": 18
+    },
+    {
+     "nome": "JORGE PRADO",
+     "pos": "A",
+     "forca": 1,
+     "idade": 27
+    },
+    {
+     "nome": "K. SALES",
+     "pos": "A",
+     "forca": 9,
+     "idade": 33
+    },
+    {
+     "nome": "THIAGO LOPES",
+     "pos": "A",
+     "forca": 3,
+     "idade": 18
+    }
+   ]
+  },
+  {
+   "nome": "TREZE",
+   "sigla": "TRE",
+   "divisao": "D",
+   "fama": 2,
+   "capacidade": 15000,
+   "cores": [
+    "#101010",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "W. ALVES",
+     "pos": "G",
+     "forca": 12,
+     "idade": 34
+    },
+    {
+     "nome": "É. ROCHA",
+     "pos": "G",
+     "forca": 5,
+     "idade": 27
+    },
+    {
+     "nome": "NILTON MOURA",
+     "pos": "G",
+     "forca": 3,
+     "idade": 30
+    },
+    {
+     "nome": "MARCOS GOMES",
+     "pos": "D",
+     "forca": 7,
+     "idade": 29
+    },
+    {
+     "nome": "ANDRÉ MELO",
+     "pos": "D",
+     "forca": 10,
+     "idade": 23
+    },
+    {
+     "nome": "K. CARDOSO",
+     "pos": "D",
+     "forca": 11,
+     "idade": 31
+    },
+    {
+     "nome": "M. MACEDO",
+     "pos": "D",
+     "forca": 8,
+     "idade": 23
+    },
+    {
+     "nome": "T. LOPES",
+     "pos": "D",
+     "forca": 8,
+     "idade": 19
+    },
+    {
+     "nome": "VAGNER SALES",
+     "pos": "D",
+     "forca": 3,
+     "idade": 32
+    },
+    {
+     "nome": "WALLACE VALE",
+     "pos": "D",
+     "forca": 3,
+     "idade": 31
+    },
+    {
+     "nome": "JORGE CAMPOS",
+     "pos": "M",
+     "forca": 12,
+     "idade": 20
+    },
+    {
+     "nome": "WILLIAN REIS",
+     "pos": "M",
+     "forca": 11,
+     "idade": 19
+    },
+    {
+     "nome": "JOÃO FARIAS",
+     "pos": "M",
+     "forca": 12,
+     "idade": 22
+    },
+    {
+     "nome": "LUCAS VIEIRA",
+     "pos": "M",
+     "forca": 13,
+     "idade": 18
+    },
+    {
+     "nome": "CARLOS COSTA",
+     "pos": "M",
+     "forca": 5,
+     "idade": 28
+    },
+    {
+     "nome": "E. SILVA",
+     "pos": "M",
+     "forca": 2,
+     "idade": 23
+    },
+    {
+     "nome": "LÉO LOPES",
+     "pos": "M",
+     "forca": 2,
+     "idade": 27
+    },
+    {
+     "nome": "M. FREITAS",
+     "pos": "A",
+     "forca": 14,
+     "idade": 32
+    },
+    {
+     "nome": "DIEGO VALE",
+     "pos": "A",
+     "forca": 8,
+     "idade": 23
+    },
+    {
+     "nome": "JOÃO CRUZ",
+     "pos": "A",
+     "forca": 7,
+     "idade": 18
+    },
+    {
+     "nome": "T. TORRES",
+     "pos": "A",
+     "forca": 3,
+     "idade": 32
+    },
+    {
+     "nome": "FÁBIO MOURA",
+     "pos": "A",
+     "forca": 1,
+     "idade": 30
+    }
+   ]
+  },
+  {
+   "nome": "CONFIANÇA",
+   "sigla": "CON",
+   "divisao": "D",
+   "fama": 2,
+   "capacidade": 15000,
+   "cores": [
+    "#1840B0",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "GABRIEL DIAS",
+     "pos": "G",
+     "forca": 7,
+     "idade": 23
+    },
+    {
+     "nome": "RENATO ALVES",
+     "pos": "G",
+     "forca": 5,
+     "idade": 32
+    },
+    {
+     "nome": "MAURO CRUZ",
+     "pos": "G",
+     "forca": 5,
+     "idade": 34
+    },
+    {
+     "nome": "B. LOPES",
+     "pos": "D",
+     "forca": 14,
+     "idade": 18
+    },
+    {
+     "nome": "T. MARTINS",
+     "pos": "D",
+     "forca": 14,
+     "idade": 26
+    },
+    {
+     "nome": "ÍTALO FARIAS",
+     "pos": "D",
+     "forca": 9,
+     "idade": 20
+    },
+    {
+     "nome": "RAUL FONSECA",
+     "pos": "D",
+     "forca": 14,
+     "idade": 29
+    },
+    {
+     "nome": "MAURO FARIAS",
+     "pos": "D",
+     "forca": 2,
+     "idade": 27
+    },
+    {
+     "nome": "ROBSON SILVA",
+     "pos": "D",
+     "forca": 1,
+     "idade": 31
+    },
+    {
+     "nome": "CÉSAR SANTOS",
+     "pos": "D",
+     "forca": 1,
+     "idade": 31
+    },
+    {
+     "nome": "SIDNEY DIAS",
+     "pos": "M",
+     "forca": 7,
+     "idade": 23
+    },
+    {
+     "nome": "FÁBIO BORGES",
+     "pos": "M",
+     "forca": 11,
+     "idade": 31
+    },
+    {
+     "nome": "DANIEL COSTA",
+     "pos": "M",
+     "forca": 11,
+     "idade": 27
+    },
+    {
+     "nome": "TÚLIO PIRES",
+     "pos": "M",
+     "forca": 7,
+     "idade": 29
+    },
+    {
+     "nome": "C. BRAGA",
+     "pos": "M",
+     "forca": 8,
+     "idade": 23
+    },
+    {
+     "nome": "BRENO CAMPOS",
+     "pos": "M",
+     "forca": 3,
+     "idade": 23
+    },
+    {
+     "nome": "ANDRÉ BARROS",
+     "pos": "M",
+     "forca": 3,
+     "idade": 21
+    },
+    {
+     "nome": "RAFAEL SILVA",
+     "pos": "A",
+     "forca": 11,
+     "idade": 31
+    },
+    {
+     "nome": "ARTHUR SOUZA",
+     "pos": "A",
+     "forca": 6,
+     "idade": 33
+    },
+    {
+     "nome": "FELIPE SILVA",
+     "pos": "A",
+     "forca": 8,
+     "idade": 28
+    },
+    {
+     "nome": "TÚLIO SALES",
+     "pos": "A",
+     "forca": 2,
+     "idade": 23
+    },
+    {
+     "nome": "T. SANTOS",
+     "pos": "A",
+     "forca": 5,
+     "idade": 19
+    }
+   ]
+  },
+  {
+   "nome": "YPIRANGA-RS",
+   "sigla": "YPI",
+   "divisao": "D",
+   "fama": 2,
+   "capacidade": 6000,
+   "cores": [
+    "#F8D820",
+    "#107030"
+   ],
+   "jogadores": [
+    {
+     "nome": "JOÃO ROCHA",
+     "pos": "G",
+     "forca": 8,
+     "idade": 30
+    },
+    {
+     "nome": "V. CAMPOS",
+     "pos": "G",
+     "forca": 1,
+     "idade": 18
+    },
+    {
+     "nome": "ANDRÉ LIMA",
+     "pos": "G",
+     "forca": 7,
+     "idade": 28
+    },
+    {
+     "nome": "B. CARDOSO",
+     "pos": "D",
+     "forca": 14,
+     "idade": 26
+    },
+    {
+     "nome": "HUGO TORRES",
+     "pos": "D",
+     "forca": 7,
+     "idade": 31
+    },
+    {
+     "nome": "FELIPE DIAS",
+     "pos": "D",
+     "forca": 6,
+     "idade": 18
+    },
+    {
+     "nome": "TÚLIO REIS",
+     "pos": "D",
+     "forca": 7,
+     "idade": 24
+    },
+    {
+     "nome": "ANDRÉ MATOS",
+     "pos": "D",
+     "forca": 7,
+     "idade": 26
+    },
+    {
+     "nome": "ADRIANO VALE",
+     "pos": "D",
+     "forca": 7,
+     "idade": 18
+    },
+    {
+     "nome": "ÉRICK ALVES",
+     "pos": "D",
+     "forca": 7,
+     "idade": 34
+    },
+    {
+     "nome": "FELIPE MOURA",
+     "pos": "M",
+     "forca": 7,
+     "idade": 22
+    },
+    {
+     "nome": "PEDRO VIEIRA",
+     "pos": "M",
+     "forca": 10,
+     "idade": 32
+    },
+    {
+     "nome": "JOÃO NUNES",
+     "pos": "M",
+     "forca": 10,
+     "idade": 24
+    },
+    {
+     "nome": "RAFAEL PRADO",
+     "pos": "M",
+     "forca": 14,
+     "idade": 26
+    },
+    {
+     "nome": "KAUÃ FARIAS",
+     "pos": "M",
+     "forca": 2,
+     "idade": 19
+    },
+    {
+     "nome": "PEDRO DIAS",
+     "pos": "M",
+     "forca": 8,
+     "idade": 30
+    },
+    {
+     "nome": "LUCAS CRUZ",
+     "pos": "M",
+     "forca": 4,
+     "idade": 31
+    },
+    {
+     "nome": "TÚLIO DIAS",
+     "pos": "A",
+     "forca": 10,
+     "idade": 22
+    },
+    {
+     "nome": "CARLOS ALVES",
+     "pos": "A",
+     "forca": 9,
+     "idade": 26
+    },
+    {
+     "nome": "LUIZ FARIAS",
+     "pos": "A",
+     "forca": 1,
+     "idade": 34
+    },
+    {
+     "nome": "L. SILVA",
+     "pos": "A",
+     "forca": 4,
+     "idade": 28
+    },
+    {
+     "nome": "LEANDRO DIAS",
+     "pos": "A",
+     "forca": 2,
+     "idade": 22
+    }
+   ]
+  },
+  {
+   "nome": "CAXIAS",
+   "sigla": "CAX",
+   "divisao": "D",
+   "fama": 2,
+   "capacidade": 22000,
+   "cores": [
+    "#801830",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "L. XAVIER",
+     "pos": "G",
+     "forca": 9,
+     "idade": 19
+    },
+    {
+     "nome": "G. FREITAS",
+     "pos": "G",
+     "forca": 5,
+     "idade": 22
+    },
+    {
+     "nome": "FÁBIO ARAÚJO",
+     "pos": "G",
+     "forca": 8,
+     "idade": 25
+    },
+    {
+     "nome": "D. ROCHA",
+     "pos": "D",
+     "forca": 12,
+     "idade": 30
+    },
+    {
+     "nome": "C. OLIVEIRA",
+     "pos": "D",
+     "forca": 11,
+     "idade": 33
+    },
+    {
+     "nome": "TIAGO SALES",
+     "pos": "D",
+     "forca": 11,
+     "idade": 24
+    },
+    {
+     "nome": "TÚLIO MENDES",
+     "pos": "D",
+     "forca": 12,
+     "idade": 34
+    },
+    {
+     "nome": "RAFAEL MELO",
+     "pos": "D",
+     "forca": 9,
+     "idade": 22
+    },
+    {
+     "nome": "EDUARDO LIMA",
+     "pos": "D",
+     "forca": 2,
+     "idade": 27
+    },
+    {
+     "nome": "A. PIRES",
+     "pos": "D",
+     "forca": 9,
+     "idade": 22
+    },
+    {
+     "nome": "H. PRADO",
+     "pos": "M",
+     "forca": 11,
+     "idade": 25
+    },
+    {
+     "nome": "B. REIS",
+     "pos": "M",
+     "forca": 9,
+     "idade": 22
+    },
+    {
+     "nome": "TIAGO MELO",
+     "pos": "M",
+     "forca": 14,
+     "idade": 28
+    },
+    {
+     "nome": "M. LIMA",
+     "pos": "M",
+     "forca": 13,
+     "idade": 25
+    },
+    {
+     "nome": "K. LIMA",
+     "pos": "M",
+     "forca": 4,
+     "idade": 26
+    },
+    {
+     "nome": "D. MENDES",
+     "pos": "M",
+     "forca": 1,
+     "idade": 30
+    },
+    {
+     "nome": "S. ARAÚJO",
+     "pos": "M",
+     "forca": 8,
+     "idade": 27
+    },
+    {
+     "nome": "ALEX ROCHA",
+     "pos": "A",
+     "forca": 12,
+     "idade": 32
+    },
+    {
+     "nome": "D. BRAGA",
+     "pos": "A",
+     "forca": 13,
+     "idade": 28
+    },
+    {
+     "nome": "ÍTALO SALES",
+     "pos": "A",
+     "forca": 1,
+     "idade": 28
+    },
+    {
+     "nome": "T. COSTA",
+     "pos": "A",
+     "forca": 5,
+     "idade": 33
+    },
+    {
+     "nome": "MAURO XAVIER",
+     "pos": "A",
+     "forca": 5,
+     "idade": 25
+    }
+   ]
+  },
+  {
+   "nome": "TOMBENSE",
+   "sigla": "TOM",
+   "divisao": "D",
+   "fama": 1,
+   "capacidade": 4000,
+   "cores": [
+    "#D01818",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "A. MARTINS",
+     "pos": "G",
+     "forca": 9,
+     "idade": 32
+    },
+    {
+     "nome": "LUIZ CAMPOS",
+     "pos": "G",
+     "forca": 4,
+     "idade": 25
+    },
+    {
+     "nome": "JORGE MENDES",
+     "pos": "G",
+     "forca": 8,
+     "idade": 22
+    },
+    {
+     "nome": "D. SOUZA",
+     "pos": "D",
+     "forca": 6,
+     "idade": 33
+    },
+    {
+     "nome": "LUCAS MATOS",
+     "pos": "D",
+     "forca": 12,
+     "idade": 31
+    },
+    {
+     "nome": "I. FREITAS",
+     "pos": "D",
+     "forca": 6,
+     "idade": 26
+    },
+    {
+     "nome": "HUGO CAMPOS",
+     "pos": "D",
+     "forca": 8,
+     "idade": 18
+    },
+    {
+     "nome": "NILTON PRADO",
+     "pos": "D",
+     "forca": 5,
+     "idade": 32
+    },
+    {
+     "nome": "LUCAS BRAGA",
+     "pos": "D",
+     "forca": 1,
+     "idade": 18
+    },
+    {
+     "nome": "LUIZ PRADO",
+     "pos": "D",
+     "forca": 1,
+     "idade": 31
+    },
+    {
+     "nome": "K. VIEIRA",
+     "pos": "M",
+     "forca": 6,
+     "idade": 32
+    },
+    {
+     "nome": "H. MOURA",
+     "pos": "M",
+     "forca": 6,
+     "idade": 25
+    },
+    {
+     "nome": "JOÃO QUEIROZ",
+     "pos": "M",
+     "forca": 14,
+     "idade": 31
+    },
+    {
+     "nome": "EDUARDO VALE",
+     "pos": "M",
+     "forca": 8,
+     "idade": 33
+    },
+    {
+     "nome": "L. RIBEIRO",
+     "pos": "M",
+     "forca": 1,
+     "idade": 23
+    },
+    {
+     "nome": "JORGE SANTOS",
+     "pos": "M",
+     "forca": 2,
+     "idade": 19
+    },
+    {
+     "nome": "G. SALES",
+     "pos": "M",
+     "forca": 8,
+     "idade": 32
+    },
+    {
+     "nome": "V. PRADO",
+     "pos": "A",
+     "forca": 9,
+     "idade": 19
+    },
+    {
+     "nome": "RAUL DIAS",
+     "pos": "A",
+     "forca": 8,
+     "idade": 21
+    },
+    {
+     "nome": "ÉRICK MATOS",
+     "pos": "A",
+     "forca": 8,
+     "idade": 30
+    },
+    {
+     "nome": "H. MARTINS",
+     "pos": "A",
+     "forca": 1,
+     "idade": 20
+    },
+    {
+     "nome": "S. PIRES",
+     "pos": "A",
+     "forca": 2,
+     "idade": 28
+    }
+   ]
+  },
+  {
+   "nome": "XV DE PIRA",
+   "sigla": "XVP",
+   "divisao": "D",
+   "fama": 2,
+   "capacidade": 18000,
+   "cores": [
+    "#101010",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "F. SOUZA",
+     "pos": "G",
+     "forca": 9,
+     "idade": 28
+    },
+    {
+     "nome": "F. MELO",
+     "pos": "G",
+     "forca": 7,
+     "idade": 28
+    },
+    {
+     "nome": "IGOR LIMA",
+     "pos": "G",
+     "forca": 1,
+     "idade": 21
+    },
+    {
+     "nome": "S. BRAGA",
+     "pos": "D",
+     "forca": 8,
+     "idade": 20
+    },
+    {
+     "nome": "M. MARTINS",
+     "pos": "D",
+     "forca": 12,
+     "idade": 28
+    },
+    {
+     "nome": "N. FREITAS",
+     "pos": "D",
+     "forca": 14,
+     "idade": 18
+    },
+    {
+     "nome": "RENATO BRAGA",
+     "pos": "D",
+     "forca": 13,
+     "idade": 27
+    },
+    {
+     "nome": "ÍTALO CAMPOS",
+     "pos": "D",
+     "forca": 9,
+     "idade": 22
+    },
+    {
+     "nome": "MÁRCIO DIAS",
+     "pos": "D",
+     "forca": 4,
+     "idade": 20
+    },
+    {
+     "nome": "LUIZ ROCHA",
+     "pos": "D",
+     "forca": 8,
+     "idade": 21
+    },
+    {
+     "nome": "SIDNEY NUNES",
+     "pos": "M",
+     "forca": 12,
+     "idade": 25
+    },
+    {
+     "nome": "Í. SOUZA",
+     "pos": "M",
+     "forca": 11,
+     "idade": 27
+    },
+    {
+     "nome": "IGOR MELO",
+     "pos": "M",
+     "forca": 10,
+     "idade": 23
+    },
+    {
+     "nome": "VAGNER CRUZ",
+     "pos": "M",
+     "forca": 11,
+     "idade": 30
+    },
+    {
+     "nome": "ANDRÉ ALVES",
+     "pos": "M",
+     "forca": 1,
+     "idade": 19
+    },
+    {
+     "nome": "CAIO MACEDO",
+     "pos": "M",
+     "forca": 5,
+     "idade": 25
+    },
+    {
+     "nome": "WALLACE LIMA",
+     "pos": "M",
+     "forca": 9,
+     "idade": 24
+    },
+    {
+     "nome": "P. SANTOS",
+     "pos": "A",
+     "forca": 9,
+     "idade": 22
+    },
+    {
+     "nome": "HUGO PIRES",
+     "pos": "A",
+     "forca": 10,
+     "idade": 31
+    },
+    {
+     "nome": "B. FREITAS",
+     "pos": "A",
+     "forca": 7,
+     "idade": 26
+    },
+    {
+     "nome": "J. QUEIROZ",
+     "pos": "A",
+     "forca": 4,
+     "idade": 30
+    },
+    {
+     "nome": "RAUL VIEIRA",
+     "pos": "A",
+     "forca": 3,
+     "idade": 30
+    }
+   ]
+  },
+  {
+   "nome": "INTER LIMEIR",
+   "sigla": "ILI",
+   "divisao": "D",
+   "fama": 2,
+   "capacidade": 18000,
+   "cores": [
+    "#101010",
+    "#F8F8F8"
+   ],
+   "jogadores": [
+    {
+     "nome": "ARTHUR ALVES",
+     "pos": "G",
+     "forca": 6,
+     "idade": 20
+    },
+    {
+     "nome": "KAUÃ BRAGA",
+     "pos": "G",
+     "forca": 4,
+     "idade": 26
+    },
+    {
+     "nome": "F. NUNES",
+     "pos": "G",
+     "forca": 1,
+     "idade": 31
+    },
+    {
+     "nome": "M. SANTOS",
+     "pos": "D",
+     "forca": 9,
+     "idade": 23
+    },
+    {
+     "nome": "R. SANTOS",
+     "pos": "D",
+     "forca": 12,
+     "idade": 33
+    },
+    {
+     "nome": "C. BORGES",
+     "pos": "D",
+     "forca": 8,
+     "idade": 33
+    },
+    {
+     "nome": "RODRIGO VALE",
+     "pos": "D",
+     "forca": 6,
+     "idade": 31
+    },
+    {
+     "nome": "O. SOUZA",
+     "pos": "D",
+     "forca": 8,
+     "idade": 25
+    },
+    {
+     "nome": "BRUNO ALVES",
+     "pos": "D",
+     "forca": 5,
+     "idade": 28
+    },
+    {
+     "nome": "J. MELO",
+     "pos": "D",
+     "forca": 5,
+     "idade": 28
+    },
+    {
+     "nome": "VAGNER PRADO",
+     "pos": "M",
+     "forca": 14,
+     "idade": 32
+    },
+    {
+     "nome": "W. TORRES",
+     "pos": "M",
+     "forca": 10,
+     "idade": 20
+    },
+    {
+     "nome": "THIAGO BRAGA",
+     "pos": "M",
+     "forca": 12,
+     "idade": 28
+    },
+    {
+     "nome": "MARCOS SOUZA",
+     "pos": "M",
+     "forca": 12,
+     "idade": 29
+    },
+    {
+     "nome": "D. BARROS",
+     "pos": "M",
+     "forca": 1,
+     "idade": 26
+    },
+    {
+     "nome": "CAIO RIBEIRO",
+     "pos": "M",
+     "forca": 1,
+     "idade": 26
+    },
+    {
+     "nome": "Í. REIS",
+     "pos": "M",
+     "forca": 7,
+     "idade": 18
+    },
+    {
+     "nome": "VAGNER MELO",
+     "pos": "A",
+     "forca": 11,
+     "idade": 31
+    },
+    {
+     "nome": "DAVI MELO",
+     "pos": "A",
+     "forca": 6,
+     "idade": 25
+    },
+    {
+     "nome": "THIAGO REIS",
+     "pos": "A",
+     "forca": 4,
+     "idade": 20
+    },
+    {
+     "nome": "V. MENDES",
+     "pos": "A",
+     "forca": 1,
+     "idade": 27
+    },
+    {
+     "nome": "CÉSAR ROCHA",
+     "pos": "A",
+     "forca": 7,
+     "idade": 22
+    }
+   ]
+  }
+ ],
+ "nomesBase": [
+  "MAURO BORGES",
+  "RICARDO MELO",
+  "IGOR BORGES",
+  "N. CRUZ",
+  "T. LIMA",
+  "ALEX RIBEIRO",
+  "SIDNEY SALES",
+  "LUCAS CAMPOS",
+  "JORGE MACEDO",
+  "GABRIEL CRUZ",
+  "TIAGO GOMES",
+  "CÉSAR NUNES",
+  "W. BRAGA",
+  "SÉRGIO MOURA",
+  "NATAN ALVES",
+  "ELIAS MELO",
+  "J. SOUZA",
+  "FÁBIO XAVIER",
+  "E. MENDES",
+  "WALLACE MELO",
+  "G. MOURA",
+  "L. TORRES",
+  "GABRIEL VALE",
+  "S. RIBEIRO",
+  "N. CARDOSO",
+  "N. MARTINS",
+  "T. RIBEIRO",
+  "OTÁVIO DIAS",
+  "LUCAS MACEDO",
+  "P. LOPES",
+  "OTÁVIO VALE",
+  "A. SOUZA",
+  "RAUL MACEDO",
+  "ÉRICK FARIAS",
+  "YAGO SANTOS",
+  "V. ROCHA",
+  "FÁBIO SOUZA",
+  "CAIO TORRES",
+  "PAULO VALE",
+  "S. PEREIRA",
+  "MATHEUS DIAS",
+  "R. CARDOSO",
+  "BRUNO CRUZ",
+  "I. LIMA",
+  "O. CAMPOS",
+  "B. NUNES",
+  "O. XAVIER",
+  "PAULO ARAÚJO",
+  "S. CAMPOS",
+  "LÉO VIEIRA",
+  "DANIEL DIAS",
+  "OTÁVIO MATOS",
+  "MARCOS SALES",
+  "DAVI SOUZA",
+  "HUGO ALVES",
+  "ALEX COSTA",
+  "V. QUEIROZ 9",
+  "B. SILVA",
+  "L. CAMPOS",
+  "É. PEREIRA 8",
+  "HUGO ROCHA",
+  "K. TEIXEIRA",
+  "BRUNO ROCHA",
+  "T. MACEDO 3",
+  "CARLOS SILVA",
+  "S. MELO 9",
+  "LUIZ VALE",
+  "D. ALVES 4",
+  "O. BRAGA 6",
+  "B. BRAGA 8",
+  "T. GOMES 9",
+  "H. LIMA",
+  "K. COSTA",
+  "ARTHUR PIRES",
+  "RAFAEL MATOS",
+  "J. RIBEIRO 4",
+  "V. BARROS 1",
+  "T. VIEIRA 7",
+  "O. LIMA 4",
+  "J. TORRES 1",
+  "JORGE SILVA",
+  "K. PRADO 4",
+  "D. BARROS 2",
+  "R. TEIXEIRA ",
+  "CARLOS GOMES",
+  "C. PEREIRA 8",
+  "I. TORRES 7",
+  "M. LOPES 1",
+  "C. SALES 2",
+  "M. SILVA 2",
+  "D. MELO 4",
+  "Í. SANTOS 6",
+  "A. MACEDO 8",
+  "S. REIS 9",
+  "M. TEIXEIRA ",
+  "J. SALES 5",
+  "T. OLIVEIRA ",
+  "S. CARDOSO 2",
+  "G. SOUZA 2",
+  "F. VIEIRA 1",
+  "D. TORRES 9",
+  "G. MELO 7",
+  "I. RIBEIRO 5",
+  "ÍTALO BARROS",
+  "T. GOMES 4",
+  "H. BORGES 1",
+  "L. RIBEIRO 5",
+  "TIAGO COSTA",
+  "H. ARAÚJO 5",
+  "T. BORGES",
+  "L. MELO 6",
+  "A. FONSECA 4",
+  "T. MENDES 5",
+  "Y. OLIVEIRA ",
+  "T. NUNES 1",
+  "A. LIMA 1",
+  "Í. CAMPOS 3",
+  "F. FONSECA 7",
+  "Y. ALVES 1",
+  "R. MACEDO 9",
+  "Í. BRAGA 8",
+  "P. FONSECA 6",
+  "F. MARTINS 7",
+  "H. CAMPOS 5",
+  "W. LOPES 9",
+  "S. VALE 7",
+  "G. MENDES 2",
+  "V. REIS 3",
+  "É. TEIXEIRA ",
+  "MÁRCIO CRUZ",
+  "C. PIRES 8",
+  "D. VALE 5",
+  "I. MELO 8",
+  "D. PEREIRA 4",
+  "G. PEREIRA 9",
+  "A. CAMPOS 8",
+  "MATHEUS LIMA",
+  "J. QUEIROZ 3",
+  "H. CARDOSO 1",
+  "R. REIS 6",
+  "W. VALE 3",
+  "A. ALVES 6",
+  "S. SOUZA 9",
+  "F. ROCHA 6",
+  "T. RIBEIRO 4",
+  "O. RIBEIRO 5",
+  "D. PRADO",
+  "S. TEIXEIRA ",
+  "P. XAVIER 8",
+  "CLEITON MELO",
+  "J. CARDOSO 9",
+  "S. PRADO 4",
+  "L. SALES 5",
+  "H. ROCHA 9",
+  "D. SANTOS 5",
+  "LUIZ MATOS",
+  "D. MACEDO 7",
+  "J. NUNES 7",
+  "R. ROCHA 5",
+  "J. TEIXEIRA ",
+  "W. COSTA 6",
+  "S. FONSECA 4",
+  "BRUNO PIRES",
+  "N. BRAGA 8",
+  "H. XAVIER 3",
+  "M. FARIAS 6",
+  "OTÁVIO REIS",
+  "FELIPE BRAGA",
+  "G. BORGES 2",
+  "W. BARROS 9",
+  "B. BORGES 9",
+  "N. PEREIRA 5",
+  "P. MELO 9",
+  "W. MOURA 2",
+  "OTÁVIO COSTA",
+  "J. RIBEIRO 7",
+  "D. PIRES 5",
+  "A. OLIVEIRA ",
+  "R. NUNES 6",
+  "B. CRUZ 7",
+  "D. FARIAS 6",
+  "O. REIS 4",
+  "É. PRADO 6",
+  "W. MENDES 7",
+  "A. SILVA 9",
+  "T. MARTINS 2",
+  "D. XAVIER 2",
+  "J. SALES 4",
+  "H. VIEIRA 4",
+  "S. MOURA 3",
+  "F. NUNES 7",
+  "T. BRAGA 4",
+  "A. FARIAS",
+  "R. ARAÚJO 4",
+  "CÉSAR MATOS",
+  "R. FONSECA 7",
+  "V. ROCHA 3",
+  "R. BORGES 8",
+  "K. FREITAS 7",
+  "A. LOPES 9",
+  "M. SILVA 8",
+  "D. MATOS 3",
+  "W. QUEIROZ 5",
+  "N. QUEIROZ 5",
+  "T. BORGES 7",
+  "R. MELO 5",
+  "L. MARTINS 6",
+  "V. SOUZA 1",
+  "J. PEREIRA 5",
+  "P. REIS 7",
+  "ALEX CAMPOS",
+  "NATAN NUNES",
+  "H. PIRES 8",
+  "M. NUNES 1",
+  "N. SANTOS 9",
+  "D. VALE 9",
+  "S. BRAGA 4",
+  "C. LIMA 3",
+  "H. DIAS 2",
+  "N. MACEDO 6",
+  "É. NUNES 7",
+  "I. VIEIRA 4",
+  "L. MELO 8",
+  "B. MARTINS 9",
+  "F. ROCHA 8",
+  "G. SALES 2",
+  "SIDNEY CRUZ",
+  "I. SALES",
+  "C. CARDOSO 8",
+  "L. ALVES 6",
+  "F. PEREIRA",
+  "DAVI FREITAS",
+  "D. MATOS 2",
+  "T. NUNES 3",
+  "B. PRADO 3",
+  "A. CRUZ 9",
+  "W. TEIXEIRA ",
+  "V. GOMES 6",
+  "B. VALE 4",
+  "R. LIMA 3",
+  "D. XAVIER",
+  "P. SOUZA 6",
+  "Í. MACEDO 2",
+  "N. VALE 1",
+  "I. VALE 2",
+  "S. XAVIER 1",
+  "É. XAVIER 7",
+  "J. CAMPOS 9",
+  "C. XAVIER 7",
+  "V. PRADO 4",
+  "L. FREITAS 2",
+  "A. TEIXEIRA ",
+  "L. BORGES 4",
+  "M. SILVA 5",
+  "G. BARROS 9",
+  "DIEGO MATOS",
+  "R. REIS 3",
+  "Y. MACEDO 6",
+  "M. COSTA 1",
+  "R. NUNES 1",
+  "YAGO RIBEIRO",
+  "C. BARROS 7",
+  "ROBSON BRAGA",
+  "L. OLIVEIRA ",
+  "R. SALES 4",
+  "K. MACEDO 2",
+  "É. ROCHA 3",
+  "E. MATOS 6",
+  "L. CRUZ 6",
+  "D. ALVES 8",
+  "P. BRAGA 2",
+  "F. FREITAS 8",
+  "L. BRAGA 2",
+  "ÍTALO MELO",
+  "L. MACEDO 2",
+  "R. VALE 8",
+  "J. COSTA 4",
+  "A. REIS 7",
+  "V. XAVIER 3",
+  "T. CARDOSO 1",
+  "J. MENDES",
+  "S. TEIXEIRA",
+  "T. BARROS 8",
+  "A. PEREIRA 9",
+  "W. CRUZ 5",
+  "S. MATOS 7",
+  "V. PIRES 9",
+  "D. MACEDO 6",
+  "NILTON SALES",
+  "J. FONSECA 4",
+  "D. CRUZ",
+  "A. LOPES 3",
+  "R. COSTA 2",
+  "É. GOMES",
+  "R. MELO 6",
+  "SAMUEL DIAS",
+  "B. SOUZA 6",
+  "L. NUNES 1",
+  "G. COSTA 9",
+  "A. MARTINS 3",
+  "Y. BRAGA 2",
+  "T. VIEIRA 1",
+  "F. PEREIRA 9",
+  "M. SILVA 7",
+  "B. XAVIER 9",
+  "MAURO VALE",
+  "C. FREITAS 5",
+  "R. PRADO 4",
+  "F. RIBEIRO 3",
+  "M. CARDOSO 6",
+  "J. VALE 5",
+  "F. SANTOS 2",
+  "E. CARDOSO 2",
+  "C. VALE 6",
+  "E. FARIAS 2",
+  "E. ARAÚJO 2",
+  "F. PIRES 5",
+  "A. CRUZ 3",
+  "N. VALE 9",
+  "C. OLIVEIRA ",
+  "E. CRUZ 8",
+  "N. MOURA 7",
+  "C. NUNES 4",
+  "L. MENDES 2",
+  "C. RIBEIRO 8",
+  "A. PIRES 3",
+  "A. RIBEIRO 9",
+  "J. SILVA 5",
+  "L. MOURA 5",
+  "C. VALE 4",
+  "S. LIMA",
+  "K. PEREIRA 7",
+  "L. XAVIER 5",
+  "S. PEREIRA 1",
+  "W. CARDOSO 7",
+  "F. BRAGA 4",
+  "I. LOPES 2",
+  "NILTON SILVA",
+  "C. CRUZ 4",
+  "C. LIMA 1",
+  "T. FARIAS 5",
+  "I. FARIAS 5",
+  "F. MENDES 4",
+  "M. MELO 2",
+  "A. LIMA",
+  "V. MATOS 5",
+  "E. LIMA 6",
+  "E. MELO 6",
+  "C. COSTA 4",
+  "A. ALVES 4",
+  "W. MENDES 1",
+  "Í. PIRES 2",
+  "N. PEREIRA 3",
+  "W. CAMPOS 3",
+  "KAUÃ SILVA",
+  "D. MATOS 6",
+  "F. VIEIRA 3",
+  "M. OLIVEIRA ",
+  "W. SALES 8",
+  "D. RIBEIRO 9",
+  "H. NUNES 5",
+  "É. LIMA 2",
+  "W. VIEIRA 2",
+  "G. MENDES 8",
+  "H. MACEDO 6",
+  "N. PIRES 2",
+  "R. BARROS 2",
+  "A. CAMPOS 7",
+  "É. SOUZA 7",
+  "A. LIMA 2",
+  "V. CAMPOS 5",
+  "R. CRUZ 1",
+  "M. BORGES 5",
+  "L. BRAGA 8",
+  "J. MOURA",
+  "YAGO SALES",
+  "S. QUEIROZ 1",
+  "E. QUEIROZ 3",
+  "R. LOPES 5",
+  "L. MENDES 5",
+  "L. LOPES 5",
+  "C. MOURA 8",
+  "S. GOMES 9",
+  "M. PEREIRA 1",
+  "B. NUNES 8",
+  "K. RIBEIRO 5",
+  "B. PEREIRA 7",
+  "S. SOUZA 1",
+  "L. PRADO 8",
+  "S. MARTINS 7",
+  "KAUÃ BORGES",
+  "V. TEIXEIRA ",
+  "T. PEREIRA 7",
+  "W. PEREIRA 8",
+  "W. ALVES 8",
+  "M. PEREIRA 9",
+  "R. ROCHA 9",
+  "P. SALES 6",
+  "M. VIEIRA 8",
+  "MARCOS VALE",
+  "V. NUNES 2",
+  "E. BRAGA 6",
+  "M. ALVES 2",
+  "É. MOURA 5",
+  "G. ROCHA 5",
+  "R. REIS 7",
+  "L. PEREIRA 4",
+  "D. COSTA 9",
+  "G. SOUZA 9",
+  "J. LOPES 5",
+  "C. SOUZA 4",
+  "F. LIMA 2",
+  "DAVI MACEDO",
+  "L. BORGES 1",
+  "T. BRAGA 7",
+  "F. ALVES 1",
+  "F. QUEIROZ 8",
+  "T. XAVIER 6",
+  "A. GOMES 8",
+  "N. OLIVEIRA ",
+  "L. BARROS 6",
+  "J. PIRES 4",
+  "D. MARTINS 5",
+  "C. MATOS 2",
+  "C. MACEDO 8",
+  "O. FONSECA 4",
+  "F. PIRES",
+  "M. BRAGA 3",
+  "L. FONSECA 9",
+  "A. CARDOSO 7",
+  "É. MACEDO 4",
+  "ARTHUR LIMA",
+  "H. ROCHA 8",
+  "V. PIRES 8",
+  "F. DIAS 7",
+  "R. PIRES 8",
+  "L. RIBEIRO 3",
+  "V. LIMA 5",
+  "J. BARROS 2",
+  "P. FREITAS",
+  "P. XAVIER 4",
+  "RENATO DIAS",
+  "H. OLIVEIRA ",
+  "F. MACEDO 1",
+  "LUIZ SILVA",
+  "C. MELO 8",
+  "L. SILVA 7",
+  "V. SALES 1",
+  "B. RIBEIRO 3",
+  "K. BARROS 5",
+  "D. FONSECA 4",
+  "H. SALES 7",
+  "D. VALE 3",
+  "F. FONSECA 2",
+  "A. PEREIRA 2",
+  "C. MENDES 8",
+  "B. QUEIROZ 1",
+  "E. NUNES 7",
+  "J. VALE 2",
+  "Í. FARIAS 8",
+  "G. MENDES 4",
+  "V. ARAÚJO",
+  "B. RIBEIRO 9",
+  "C. ARAÚJO 2",
+  "N. VALE 4",
+  "K. VIEIRA 6",
+  "Y. COSTA 8",
+  "P. MATOS 9",
+  "C. MENDES 2",
+  "T. CAMPOS 6",
+  "A. MACEDO 2",
+  "G. MACEDO 7",
+  "S. PEREIRA 4",
+  "H. CRUZ 2",
+  "P. FREITAS 5",
+  "J. BARROS 6",
+  "HUGO XAVIER",
+  "E. MATOS 7",
+  "F. CARDOSO 2",
+  "C. LOPES 5",
+  "S. VIEIRA 2",
+  "W. ALVES 9",
+  "T. MATOS 6",
+  "P. VALE 3",
+  "J. RIBEIRO 3",
+  "F. NUNES 4",
+  "O. SOUZA 3",
+  "S. BORGES 2",
+  "C. TEIXEIRA ",
+  "M. FONSECA",
+  "R. QUEIROZ 1",
+  "L. COSTA 6",
+  "É. ARAÚJO",
+  "R. TORRES 7",
+  "N. FONSECA 5",
+  "F. PEREIRA 3",
+  "R. LIMA 1",
+  "C. MELO 6",
+  "C. DIAS 7",
+  "S. TORRES 3",
+  "E. BRAGA 1",
+  "A. SALES 3",
+  "E. PRADO 8",
+  "O. GOMES 1",
+  "W. COSTA 1",
+  "W. VIEIRA 3",
+  "D. RIBEIRO 3",
+  "S. BRAGA 2",
+  "W. PRADO 7",
+  "R. PRADO 6",
+  "V. FARIAS 6",
+  "E. FONSECA 9",
+  "A. XAVIER 2",
+  "C. XAVIER 6",
+  "L. SANTOS 1",
+  "N. COSTA 8",
+  "D. LIMA 2",
+  "R. GOMES 7",
+  "F. MOURA 5",
+  "W. LIMA 8",
+  "E. LOPES 6",
+  "Í. BRAGA 1",
+  "R. SILVA 6",
+  "R. FONSECA 3",
+  "R. MATOS 2",
+  "G. BRAGA",
+  "É. BRAGA 9",
+  "É. GOMES 9",
+  "M. MOURA 3",
+  "E. REIS 9",
+  "G. TORRES 2",
+  "ANDRÉ VALE",
+  "Í. REIS 9",
+  "P. CAMPOS 4",
+  "R. XAVIER 5",
+  "B. NUNES 5",
+  "L. REIS 7",
+  "I. COSTA 7",
+  "D. QUEIROZ 3",
+  "L. ROCHA 5",
+  "W. NUNES 2",
+  "R. SALES 2",
+  "WESLEY VALE",
+  "R. DIAS 1",
+  "C. LOPES 7",
+  "D. ROCHA 9",
+  "B. SOUZA 8",
+  "B. NUNES 1",
+  "F. ALVES",
+  "J. LIMA 8",
+  "L. CAMPOS 7",
+  "G. MACEDO 3",
+  "F. CAMPOS 3",
+  "I. CAMPOS 2",
+  "C. CAMPOS 6",
+  "C. PRADO 3",
+  "M. MARTINS 6",
+  "B. FONSECA 1",
+  "D. COSTA 7",
+  "M. MOURA 4",
+  "V. ALVES 6",
+  "A. FARIAS 9",
+  "H. MENDES 7",
+  "P. VALE 9",
+  "E. REIS 1",
+  "Í. RIBEIRO 9",
+  "E. MACEDO 1",
+  "L. FREITAS 1",
+  "R. PIRES 6",
+  "D. MENDES 3",
+  "B. ALVES 4",
+  "C. MARTINS 2",
+  "P. QUEIROZ 3",
+  "M. NUNES 7",
+  "F. LIMA 8",
+  "A. NUNES 2",
+  "ÉVERTON REIS",
+  "O. SOUZA 5",
+  "E. MENDES 4",
+  "P. BRAGA 4",
+  "PAULO SILVA",
+  "N. QUEIROZ",
+  "E. ALVES 8",
+  "ELIAS MOURA",
+  "K. CRUZ",
+  "I. MATOS 8",
+  "A. LOPES 5",
+  "O. TEIXEIRA ",
+  "C. SANTOS",
+  "M. MOURA",
+  "V. MENDES 7",
+  "R. SILVA 1",
+  "G. BORGES",
+  "L. MENDES 4",
+  "J. SOUZA 7",
+  "P. COSTA 7",
+  "É. RIBEIRO 8",
+  "L. SOUZA 8",
+  "W. COSTA 9",
+  "L. SANTOS 7",
+  "R. PEREIRA 3",
+  "MAURO MATOS",
+  "D. PIRES 3",
+  "K. SILVA 1",
+  "J. NUNES 4",
+  "É. ALVES 5",
+  "V. MARTINS 4",
+  "G. CAMPOS 9",
+  "K. PIRES 8",
+  "A. VIEIRA 7",
+  "P. SALES 5",
+  "I. FARIAS 4",
+  "N. ARAÚJO",
+  "D. ALVES 9",
+  "SAMUEL PRADO",
+  "V. SANTOS 1",
+  "F. CARDOSO 1",
+  "R. FARIAS 6",
+  "B. CRUZ 3",
+  "H. MACEDO 5",
+  "Í. NUNES 5",
+  "H. FREITAS 9",
+  "B. ROCHA 2",
+  "F. NUNES 6",
+  "S. ALVES 5",
+  "F. TORRES 9",
+  "K. ALVES 2",
+  "B. TORRES 4",
+  "B. MARTINS 1",
+  "F. PEREIRA 8",
+  "S. CARDOSO 4",
+  "N. BRAGA 3",
+  "B. FARIAS 4",
+  "M. MELO 5",
+  "É. ROCHA 9",
+  "A. SANTOS 8",
+  "N. BARROS 6",
+  "R. MOURA 5",
+  "P. BARROS 1",
+  "DIEGO PRADO",
+  "D. ARAÚJO 5",
+  "D. CRUZ 9",
+  "G. PRADO 3",
+  "W. CRUZ 3",
+  "K. BRAGA 3",
+  "L. BRAGA 1",
+  "Y. GOMES 2",
+  "S. DIAS 1",
+  "T. TEIXEIRA ",
+  "R. SOUZA",
+  "J. CAMPOS 4",
+  "MÁRCIO LIMA",
+  "F. CARDOSO 4",
+  "L. VALE 9",
+  "P. NUNES 9",
+  "V. SANTOS 3",
+  "W. SALES 2",
+  "N. SOUZA 9",
+  "E. ARAÚJO 8",
+  "P. CAMPOS 2",
+  "A. PRADO",
+  "L. VIEIRA 4",
+  "A. COSTA 5",
+  "W. PRADO 4",
+  "V. COSTA 7",
+  "L. DIAS 4",
+  "A. LIMA 7",
+  "B. FONSECA 8",
+  "L. COSTA 5",
+  "LÉO MENDES",
+  "HUGO BRAGA",
+  "K. MATOS 5",
+  "J. QUEIROZ 2",
+  "R. CARDOSO 8",
+  "T. MOURA 4",
+  "B. CARDOSO 4",
+  "N. ROCHA 5",
+  "N. SALES 5",
+  "F. LOPES 6",
+  "V. SILVA 2",
+  "T. SANTOS 6",
+  "V. BARROS 8",
+  "R. VIEIRA 7",
+  "A. PRADO 6",
+  "F. CAMPOS 1",
+  "W. GOMES 6",
+  "C. GOMES 4",
+  "I. RIBEIRO 7",
+  "V. RIBEIRO 4",
+  "I. LOPES 9",
+  "M. RIBEIRO 1",
+  "J. NUNES 8",
+  "M. COSTA 4",
+  "D. BORGES 1",
+  "C. QUEIROZ 2",
+  "O. LIMA",
+  "M. DIAS 2",
+  "K. FREITAS 1",
+  "W. VIEIRA 5",
+  "I. MATOS",
+  "T. RIBEIRO 6",
+  "O. DIAS 6",
+  "V. TORRES 5",
+  "S. QUEIROZ 8",
+  "V. PEREIRA 7",
+  "J. LOPES 1",
+  "R. SOUZA 4",
+  "R. ROCHA 6",
+  "M. MACEDO 6",
+  "M. RIBEIRO 5",
+  "F. DIAS 5",
+  "L. MATOS 1",
+  "R. LOPES 1",
+  "E. CRUZ 9",
+  "R. XAVIER 7",
+  "HUGO MARTINS",
+  "PAULO ALVES",
+  "É. XAVIER 2",
+  "J. PRADO 6",
+  "D. PRADO 9",
+  "E. FONSECA",
+  "ÍTALO PRADO",
+  "W. ROCHA 6",
+  "H. MELO 6",
+  "V. PEREIRA 5",
+  "H. PEREIRA 6",
+  "W. COSTA 4",
+  "J. ALVES 2",
+  "V. CAMPOS 8",
+  "A. MELO 6",
+  "B. VALE 1",
+  "B. MATOS 9",
+  "D. LIMA 3",
+  "I. SALES 4",
+  "É. SOUZA 3",
+  "Y. TORRES 7",
+  "T. VALE 3",
+  "D. QUEIROZ 6",
+  "N. ARAÚJO 5",
+  "BRENO PRADO",
+  "W. VALE 7",
+  "V. PRADO 7",
+  "F. CRUZ 6",
+  "C. PRADO 1",
+  "V. RIBEIRO 2",
+  "F. MATOS 3",
+  "W. TORRES 9",
+  "R. CRUZ 7",
+  "H. PEREIRA 9",
+  "DAVI CRUZ",
+  "T. ALVES 5",
+  "Í. GOMES 3",
+  "V. ALVES 4",
+  "V. ALVES 5",
+  "M. FARIAS 2",
+  "L. VALE 5",
+  "H. RIBEIRO 9",
+  "J. ROCHA 5",
+  "M. TORRES 1",
+  "G. RIBEIRO 8",
+  "SAMUEL SALES",
+  "A. BARROS 2",
+  "SAMUEL REIS",
+  "M. ALVES 8",
+  "E. FONSECA 4",
+  "L. PRADO 5",
+  "I. ALVES 7",
+  "V. NUNES 7",
+  "M. SOUZA 8",
+  "I. VIEIRA 6",
+  "C. SILVA 4",
+  "R. PIRES 3",
+  "G. NUNES 2",
+  "C. TORRES 6",
+  "R. VIEIRA 5",
+  "E. RIBEIRO 1",
+  "D. GOMES 9",
+  "G. COSTA 2",
+  "P. PIRES 1",
+  "V. VALE 2",
+  "T. PEREIRA 9",
+  "W. NUNES 7",
+  "J. MENDES 3",
+  "M. MENDES 3",
+  "D. RIBEIRO 4",
+  "I. NUNES 4",
+  "G. SANTOS 9",
+  "B. CRUZ 6",
+  "R. XAVIER 2",
+  "N. MACEDO 3",
+  "O. CARDOSO 8",
+  "H. BRAGA 8",
+  "T. MACEDO 5",
+  "M. FREITAS 5",
+  "D. COSTA 3",
+  "R. MENDES 1",
+  "T. REIS 5",
+  "S. XAVIER 9",
+  "W. QUEIROZ 1",
+  "P. LIMA 4",
+  "L. VIEIRA 9",
+  "R. TORRES 5",
+  "H. LOPES 8",
+  "F. REIS 3",
+  "D. PRADO 3",
+  "E. SILVA 9",
+  "É. MARTINS 3",
+  "D. CRUZ 8",
+  "R. SANTOS 2",
+  "A. MOURA 6",
+  "D. TEIXEIRA ",
+  "D. PIRES 4",
+  "D. ARAÚJO 1",
+  "T. MELO 7",
+  "J. QUEIROZ 1",
+  "F. XAVIER 6",
+  "G. SILVA 6",
+  "C. SOUZA 9",
+  "T. QUEIROZ 8",
+  "L. NUNES 4",
+  "L. LIMA 5",
+  "J. REIS 3",
+  "S. LIMA 9",
+  "N. TORRES 4",
+  "V. MELO 1",
+  "G. FARIAS 3",
+  "M. TORRES 4",
+  "FÁBIO BARROS",
+  "B. ROCHA 5",
+  "H. TORRES 1",
+  "L. SOUZA 9",
+  "L. PIRES 1",
+  "B. XAVIER 4",
+  "S. NUNES 7",
+  "M. ARAÚJO 4",
+  "J. FARIAS 4",
+  "S. LIMA 3",
+  "P. TORRES 6",
+  "L. CAMPOS 6",
+  "T. FREITAS 9",
+  "V. RIBEIRO 5",
+  "F. COSTA 4",
+  "E. MARTINS 6",
+  "V. OLIVEIRA ",
+  "RENATO MOURA",
+  "S. MATOS 8",
+  "V. SANTOS 7",
+  "C. MENDES 5",
+  "É. PEREIRA 1",
+  "ÉRICK TORRES",
+  "P. MELO 5",
+  "S. OLIVEIRA ",
+  "R. PRADO 9",
+  "T. SALES 2",
+  "T. QUEIROZ 9",
+  "J. SILVA 9",
+  "M. ROCHA 4",
+  "F. BARROS 6",
+  "R. CRUZ 5",
+  "W. DIAS 7",
+  "A. XAVIER 5",
+  "B. ALVES 7",
+  "R. DIAS 7",
+  "B. MELO 1",
+  "L. SALES 9",
+  "M. VIEIRA 6",
+  "G. ALVES 3",
+  "D. OLIVEIRA ",
+  "G. RIBEIRO 7",
+  "M. PEREIRA 6",
+  "M. GOMES 7",
+  "T. TORRES 1",
+  "NILTON REIS",
+  "H. ALVES 8",
+  "O. FREITAS 8",
+  "E. SALES 1",
+  "Í. SALES 6",
+  "P. GOMES 3",
+  "W. MATOS 5",
+  "F. CARDOSO 3",
+  "Y. COSTA 5",
+  "M. CAMPOS 1",
+  "R. FREITAS 4",
+  "A. FARIAS 8",
+  "R. MACEDO 7",
+  "L. SILVA 8",
+  "É. FONSECA 5",
+  "F. CARDOSO 6",
+  "F. SALES 7",
+  "Í. ARAÚJO 2",
+  "C. MENDES 7",
+  "T. CAMPOS 3",
+  "J. MOURA 2",
+  "F. XAVIER 8",
+  "L. BARROS 5",
+  "R. BRAGA 2",
+  "D. COSTA 1",
+  "T. MENDES 4",
+  "M. RIBEIRO 3",
+  "FÁBIO COSTA",
+  "R. MENDES 5",
+  "C. COSTA 1",
+  "P. GOMES 4",
+  "C. PRADO 4",
+  "A. SANTOS 4",
+  "FELIPE LIMA",
+  "R. SILVA 3",
+  "PEDRO PRADO",
+  "C. CAMPOS 3",
+  "É. COSTA 7",
+  "É. TORRES 7",
+  "O. TORRES 1",
+  "R. MENDES 3",
+  "H. DIAS 5",
+  "G. RIBEIRO 5",
+  "WESLEY MELO",
+  "R. SALES 5",
+  "F. BRAGA 8",
+  "R. GOMES 1",
+  "G. OLIVEIRA ",
+  "Í. FREITAS 3",
+  "A. REIS 1",
+  "M. FREITAS 1",
+  "NATAN VIEIRA",
+  "C. MACEDO 3",
+  "O. MARTINS 7",
+  "L. SOUZA 2",
+  "É. BRAGA 8",
+  "F. GOMES 6",
+  "L. MARTINS 9",
+  "H. SALES",
+  "R. PEREIRA 8",
+  "W. VALE 2",
+  "R. CARDOSO 6",
+  "N. PRADO",
+  "S. LOPES 9",
+  "Í. MELO 8",
+  "T. MARTINS 7",
+  "N. ARAÚJO 4",
+  "W. PIRES 3",
+  "M. ROCHA 9",
+  "W. MARTINS 7",
+  "F. PIRES 7",
+  "S. ALVES 9",
+  "F. GOMES 7",
+  "R. LOPES 9",
+  "L. RIBEIRO 4",
+  "V. LOPES 4",
+  "B. FONSECA 9",
+  "K. QUEIROZ 7",
+  "G. NUNES 6",
+  "H. ROCHA 4",
+  "W. ARAÚJO 4",
+  "CLEITON LIMA",
+  "F. SOUZA 9",
+  "J. ROCHA 8",
+  "V. DIAS 2",
+  "W. GOMES 5",
+  "G. XAVIER 2",
+  "R. BARROS 8",
+  "R. TORRES 3",
+  "J. VIEIRA 8",
+  "T. SILVA 3",
+  "W. TEIXEIRA",
+  "L. LOPES 2",
+  "W. NUNES 5",
+  "N. REIS 8",
+  "M. FONSECA 4",
+  "R. BARROS 3",
+  "A. GOMES 5",
+  "G. ARAÚJO 3",
+  "MARCOS MOURA",
+  "A. SALES 9",
+  "M. MENDES 1",
+  "C. REIS 7",
+  "É. ALVES 6",
+  "Í. QUEIROZ 2",
+  "B. MATOS 6",
+  "W. VALE 9",
+  "B. TORRES 7",
+  "G. BRAGA 4",
+  "V. CRUZ 1",
+  "F. TEIXEIRA ",
+  "W. MELO 5",
+  "W. ROCHA 4",
+  "G. DIAS 6",
+  "C. MELO 3",
+  "A. SILVA 4",
+  "W. PEREIRA 9",
+  "A. TORRES 8",
+  "D. LOPES 6",
+  "J. BRAGA 6",
+  "D. XAVIER 5",
+  "L. VIEIRA 5",
+  "F. QUEIROZ 4",
+  "H. BRAGA 6",
+  "V. MATOS 4",
+  "Y. DIAS 5",
+  "F. LIMA 6",
+  "J. MENDES 7",
+  "Í. MOURA 7",
+  "C. SOUZA 5",
+  "S. CAMPOS 3",
+  "P. QUEIROZ 8",
+  "P. TORRES 1",
+  "R. CRUZ",
+  "L. LOPES 9",
+  "C. SANTOS 1",
+  "V. MENDES 6",
+  "R. PIRES 5",
+  "T. FREITAS 6",
+  "P. MATOS 1",
+  "H. MOURA 6",
+  "V. SILVA 1",
+  "W. BARROS 6",
+  "G. MATOS 5",
+  "E. VALE 9",
+  "V. MENDES 8",
+  "W. RIBEIRO 9",
+  "É. BORGES 3",
+  "B. ARAÚJO 9",
+  "D. MATOS 7",
+  "A. QUEIROZ 3",
+  "C. TORRES 8",
+  "J. OLIVEIRA ",
+  "BRENO REIS",
+  "K. MARTINS 5",
+  "V. CARDOSO 3",
+  "E. NUNES 6",
+  "G. ROCHA 3",
+  "SIDNEY VALE",
+  "T. MENDES 6",
+  "B. TEIXEIRA ",
+  "W. BRAGA 3",
+  "P. ARAÚJO 4",
+  "V. FREITAS 3",
+  "É. SILVA",
+  "I. TEIXEIRA ",
+  "E. FARIAS 1",
+  "G. TEIXEIRA ",
+  "P. QUEIROZ 4",
+  "D. CARDOSO 4",
+  "É. BRAGA 2",
+  "R. ROCHA 7",
+  "BRENO NUNES",
+  "V. FONSECA 6",
+  "G. MARTINS 5",
+  "M. MACEDO 2",
+  "CÉSAR VALE",
+  "V. MARTINS 1",
+  "A. BORGES 1",
+  "C. PRADO 7",
+  "V. MENDES 4",
+  "P. MATOS 6",
+  "C. SILVA 3",
+  "H. PIRES 6",
+  "V. ALVES 3",
+  "N. ALVES 3",
+  "D. MATOS 5",
+  "K. FREITAS 8",
+  "R. FREITAS 7",
+  "T. VALE 2",
+  "M. MOURA 6",
+  "B. OLIVEIRA ",
+  "R. VALE 5",
+  "B. PIRES 5",
+  "L. VIEIRA 2",
+  "S. BARROS 3",
+  "T. SALES 7",
+  "C. MATOS 7",
+  "C. SALES 9",
+  "F. MARTINS 3",
+  "C. QUEIROZ 7",
+  "T. PIRES 9",
+  "D. MELO 8",
+  "V. ALVES 2",
+  "D. BARROS 7",
+  "F. MELO 1",
+  "V. SOUZA 9",
+  "B. PIRES 8",
+  "F. OLIVEIRA ",
+  "V. CARDOSO 5",
+  "MAURO ARAÚJO",
+  "D. CAMPOS 9",
+  "W. LOPES 5",
+  "O. NUNES 9",
+  "R. OLIVEIRA ",
+  "S. MACEDO 8",
+  "M. CAMPOS 9",
+  "L. BARROS 9",
+  "M. MATOS 8",
+  "E. REIS 4",
+  "A. REIS 8",
+  "É. LIMA 1",
+  "K. ROCHA 2",
+  "S. CRUZ 1",
+  "S. MATOS 1",
+  "J. ALVES 4",
+  "W. MELO 2",
+  "N. MACEDO 7"
+ ]
+}
